@@ -22,6 +22,7 @@ Skill especialista no ecossistema de desenvolvimento do ERP **Sankhya OM**, comp
 sankhya-ecosystem/
 ├── SKILL.md                          # Definição principal e roteador da skill
 ├── README.md                         # Guia de instalação e compartilhamento
+├── fontes.json                       # Configuração de URLs/portais a serem extraídos
 ├── references/                       # Guias modulares com progressive disclosure
 │   ├── arquitetura/                  # Addon Studio, Módulo Java, JAPE, ModuleConnect, Logging
 │   ├── integracao-apis/              # Autenticação, REST, service.sbr, Webhooks
@@ -40,23 +41,28 @@ sankhya-ecosystem/
 │   └── requirements.txt              # Dependências
 └── scripts/                          # Utilitários executáveis
     ├── search_help.py                # Localizador rápido (<20ms) de telas e APIs
-    ├── atualizar_acervo.py           # Atualizador incremental de manuais e APIs
-    ├── gerar_catalogo.py             # Gerador/atualizador do índice de telas e APIs
+    ├── atualizar_acervo.py           # Atualizador incremental multi-fontes
+    ├── gerar_catalogo.py             # Gerador/atualizador dinâmico de índices
     ├── catalogo_telas.json           # Catálogo pré-indexado de 9.600+ telas
     └── catalogo_apis.json            # Catálogo pré-indexado de endpoints e receitas
 ```
 
 ---
 
-## 🔄 Como Atualizar os Dados (Incremental)
+## 🔄 Como Atualizar ou Adicionar Novas Fontes
 
-Para baixar novidades ou atualizações dos manuais e APIs oficiais da Sankhya:
-
+### 1. Atualizar todas as fontes cadastradas (padrão):
 ```bash
 python scripts/atualizar_acervo.py
 ```
+O script lê `fontes.json`, baixa apenas o que foi alterado em cada portal, reconstrói o catálogo e sincroniza com o Claude, Codex e AGY.
 
-O script baixa apenas os artigos que foram criados ou alterados (via cursor e etag) e reconstrói automaticamente os catálogos de busca `catalogo_telas.json` e `catalogo_apis.json`.
+### 2. Adicionar uma nova fonte de documentação:
+Você pode editar diretamente o arquivo `fontes.json` ou rodar via terminal:
+```bash
+python scripts/atualizar_acervo.py --url "https://outro-portal.sankhya.com.br" --nome "Portal X" --adicionar
+```
+Isso baixa a nova documentação, salva em `fontes.json` para atualizações futuras e indexa no catálogo de busca imediatamente.
 
 ---
 

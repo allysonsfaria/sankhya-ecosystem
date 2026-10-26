@@ -1,0 +1,16 @@
+[
+  {
+    "nome": "Ajuda Sankhya (Manual do Produto)",
+    "url": "https://ajuda.sankhya.com.br",
+    "pasta": "ajuda-sankhya-com-br",
+    "tipo": "zendesk",
+    "ativo": true
+  },
+  {
+    "nome": "Portal do Desenvolvedor Sankhya",
+    "url": "https://developer.sankhya.com.br",
+    "pasta": "developer-sankhya-com-br",
+    "tipo": "auto",
+    "ativo": true
+  }
+]

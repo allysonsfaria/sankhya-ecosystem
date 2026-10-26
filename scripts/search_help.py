@@ -30,7 +30,7 @@ def get_base_dirs():
     for cand in candidatos:
         if cand:
             p = Path(cand).resolve()
-            if p.exists() and (p / "ajuda-sankhya-com-br").exists():
+            if p.exists() and p.is_dir() and any(p.iterdir()):
                 help_dir = p
                 break
 
@@ -39,7 +39,7 @@ def get_base_dirs():
         curr = skill_dir
         for _ in range(5):
             tentativa = curr / "saida_help"
-            if tentativa.exists() and (tentativa / "ajuda-sankhya-com-br").exists():
+            if tentativa.exists() and tentativa.is_dir() and any(tentativa.iterdir()):
                 help_dir = tentativa.resolve()
                 break
             if curr.parent == curr:

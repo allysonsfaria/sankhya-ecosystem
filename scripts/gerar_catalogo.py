@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Gera catálogo indexado de telas e APIs do acervo extraído do Sankhya Help.
-Produz arquivos JSON compactos para busca instantânea sem varredura em 10k arquivos.
+Gera catálogo indexado de telas e APIs de todas as fontes do acervo Sankhya Help.
+Totalmente dinâmico: varre qualquer subpasta em saida_help sem nomes fixos.
 """
 import os
 import sys
@@ -13,7 +13,7 @@ def extrair_metadados_md(caminho_arquivo):
     """Lê o frontmatter YAML de um arquivo Markdown extraído."""
     try:
         with open(caminho_arquivo, "r", encoding="utf-8", errors="ignore") as f:
-            conteudo = f.read(2048) # Lê apenas o início para pegar o frontmatter
+            conteudo = f.read(2048)
     except Exception:
         return None
 
@@ -27,7 +27,6 @@ def extrair_metadados_md(caminho_arquivo):
     yaml_texto = partes[1]
     meta = {}
     
-    # Extração simples de campos comuns sem precisar de PyYAML externo
     for linha in yaml_texto.splitlines():
         linha = linha.strip()
         if ":" in linha:
@@ -37,9 +36,8 @@ def extrair_metadados_md(caminho_arquivo):
             if chave in ("id", "titulo", "url", "trilha", "atualizado_em"):
                 meta[chave] = valor
             elif chave == "rotulos" and valor.startswith("["):
-                # Captura tags
                 tags = [t.strip().strip('"').strip("'") for t in valor.strip("[]").split(",") if t.strip()]
-                meta["rotulos"] = tags[:15] # Limita a 15 tags principais
+                meta["rotulos"] = tags[:15]
 
     return meta
 
@@ -51,41 +49,52 @@ def indexar_acervo(help_dir, output_dir):
     telas = []
     apis = []
 
-    ajuda_dir = help_path / "ajuda-sankhya-com-br"
-    dev_dir = help_path / "developer-sankhya-com-br"
+    if not help_path.exists():
+        print(f"[AVISO] Pasta de acervo {help_path} não encontrada.")
+        return
 
-    print(f"Indexando ajuda em {ajuda_dir}...")
-    if ajuda_dir.exists():
-        for root, _, files in os.walk(ajuda_dir):
-            for file in files:
-                if file.endswith(".md") and not file.startswith("_"):
-                    full_p = Path(root) / file
-                    meta = extrair_metadados_md(full_p)
-                    if meta and meta.get("titulo"):
-                        rel_path = str(full_p.relative_to(help_path)).replace("\\", "/")
-                        telas.append({
-                            "id": meta.get("id", ""),
-                            "titulo": meta.get("titulo", ""),
-                            "trilha": meta.get("trilha", ""),
-                            "rotulos": meta.get("rotulos", []),
-                            "arquivo": rel_path
-                        })
+    subpastas = [p for p in help_path.iterdir() if p.is_dir() and not p.name.startswith(".")]
+    print(f"Indexando {len(subpastas)} fontes encontradas em {help_path}...")
 
-    print(f"Indexando developer em {dev_dir}...")
-    if dev_dir.exists():
-        for root, _, files in os.walk(dev_dir):
+    for subpasta in subpastas:
+        nome_pasta = subpasta.name.lower()
+        eh_portal_dev = any(k in nome_pasta for k in ("developer", "dev", "api", "doc", "recipe"))
+
+        print(f" -> Processando acervo: {subpasta.name}...")
+        for root, _, files in os.walk(subpasta):
             for file in files:
                 if file.endswith(".md") and not file.startswith("_"):
                     full_p = Path(root) / file
                     meta = extrair_metadados_md(full_p)
                     rel_path = str(full_p.relative_to(help_path)).replace("\\", "/")
-                    titulo = meta.get("titulo", file.replace(".md", "")) if meta else file.replace(".md", "")
-                    apis.append({
-                        "id": meta.get("id", "") if meta else "",
-                        "titulo": titulo,
-                        "url": meta.get("url", "") if meta else "",
-                        "arquivo": rel_path
-                    })
+                    
+                    titulo = (meta.get("titulo") if meta else "") or file.replace(".md", "")
+                    
+                    # Se tiver trilha ou for manual de produto -> catálogo de telas
+                    if meta and meta.get("trilha"):
+                        telas.append({
+                            "id": meta.get("id", ""),
+                            "titulo": titulo,
+                            "trilha": meta.get("trilha", ""),
+                            "rotulos": meta.get("rotulos", []),
+                            "arquivo": rel_path
+                        })
+                    elif eh_portal_dev or any(k in rel_path.lower() for k in ("reference", "recipe", "api", "docs")):
+                        apis.append({
+                            "id": meta.get("id", "") if meta else "",
+                            "titulo": titulo,
+                            "url": meta.get("url", "") if meta else "",
+                            "arquivo": rel_path
+                        })
+                    else:
+                        # Conteúdo geral
+                        telas.append({
+                            "id": meta.get("id", "") if meta else "",
+                            "titulo": titulo,
+                            "trilha": subpasta.name,
+                            "rotulos": meta.get("rotulos", []) if meta else [],
+                            "arquivo": rel_path
+                        })
 
     # Grava catálogos
     telas_json = out_path / "catalogo_telas.json"
@@ -96,10 +105,14 @@ def indexar_acervo(help_dir, output_dir):
     with open(apis_json, "w", encoding="utf-8") as f:
         json.dump(apis, f, ensure_ascii=False, separators=(',', ':'))
 
-    print(f"Sucesso: {len(telas)} telas indexadas em {telas_json}")
-    print(f"Sucesso: {len(apis)} itens de API/Doc indexados em {apis_json}")
+    print(f"\n[OK] Sucesso: {len(telas)} telas/manuais indexados em {telas_json}")
+    print(f"[OK] Sucesso: {len(apis)} itens de API/Docs indexados em {apis_json}")
 
 if __name__ == "__main__":
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
     script_dir = Path(__file__).resolve().parent
     skill_dir = script_dir.parent
     default_help = skill_dir / "saida_help"

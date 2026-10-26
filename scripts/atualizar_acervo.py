@@ -1,58 +1,120 @@
 #!/usr/bin/env python3
 """
 atualizar_acervo.py - Sincronização e Atualização do Acervo Sankhya.
+Configurável via fontes.json e aceita URLs avulsas pela linha de comando.
 Executa extração incremental (apenas o que mudou) e reconstrói os catálogos de busca.
 """
 import sys
 import os
+import json
+import argparse
 import subprocess
 from pathlib import Path
+from urllib.parse import urlparse
 
-def atualizar():
+def slug_url(url: str) -> str:
+    """Gera nome de pasta padronizado para uma URL."""
+    dominio = urlparse(url).netloc or urlparse(url).path
+    return dominio.replace(".", "-").replace(":", "-").lower()
+
+def carregar_fontes(caminho_json: Path) -> list:
+    if caminho_json.exists():
+        try:
+            with open(caminho_json, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"[AVISO] Erro ao ler fontes.json: {e}")
+    # Fontes padrão fallback
+    return [
+        {
+            "nome": "Ajuda Sankhya",
+            "url": "https://ajuda.sankhya.com.br",
+            "pasta": "ajuda-sankhya-com-br",
+            "ativo": True
+        },
+        {
+            "nome": "Portal do Desenvolvedor",
+            "url": "https://developer.sankhya.com.br",
+            "pasta": "developer-sankhya-com-br",
+            "ativo": True
+        }
+    ]
+
+def salvar_fontes(caminho_json: Path, fontes: list):
+    try:
+        with open(caminho_json, "w", encoding="utf-8") as f:
+            json.dump(fontes, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"[AVISO] Falha ao salvar fontes.json: {e}")
+
+def atualizar(url_especifica=None, nome_especifico=None, pasta_especifica=None, forcar=False, adicionar=False):
     script_dir = Path(__file__).resolve().parent
     skill_dir = script_dir.parent
     extractor_dir = skill_dir / "extractor"
     extrator_py = extractor_dir / "extrator_help.py"
     saida_help = skill_dir / "saida_help"
     catalogo_py = script_dir / "gerar_catalogo.py"
+    fontes_json = skill_dir / "fontes.json"
 
     if not extrator_py.exists():
         print(f"[ERRO] Extrator não encontrado em: {extrator_py}")
         sys.exit(1)
 
-    print("=== [1/3] Atualizando artigos do Ajuda Sankhya (ajuda.sankhya.com.br) ===")
-    cmd_ajuda = [
-        sys.executable,
-        str(extrator_py),
-        "--base", "https://ajuda.sankhya.com.br",
-        "--saida", str(saida_help / "ajuda-sankhya-com-br")
-    ]
-    res1 = subprocess.run(cmd_ajuda)
-    if res1.returncode != 0:
-        print("[AVISO] Extração do Ajuda retornou código diferente de zero.")
+    lista_fontes = carregar_fontes(fontes_json)
 
-    print("\n=== [2/3] Atualizando Portal do Desenvolvedor (developer.sankhya.com.br) ===")
-    cmd_dev = [
-        sys.executable,
-        str(extrator_py),
-        "--base", "https://developer.sankhya.com.br",
-        "--saida", str(saida_help / "developer-sankhya-com-br")
-    ]
-    res2 = subprocess.run(cmd_dev)
-    if res2.returncode != 0:
-        print("[AVISO] Extração do Developer retornou código diferente de zero.")
+    # Se o usuário passou uma URL avulsa no comando
+    if url_especifica:
+        pasta = pasta_especifica or slug_url(url_especifica)
+        nome = nome_especifico or url_especifica
+        fontes_a_processar = [{
+            "nome": nome,
+            "url": url_especifica,
+            "pasta": pasta,
+            "ativo": True
+        }]
+        
+        if adicionar:
+            # Verifica se já existe na lista
+            existente = next((f for f in lista_fontes if f["url"].rstrip("/") == url_especifica.rstrip("/")), None)
+            if not existente:
+                lista_fontes.append(fontes_a_processar[0])
+                salvar_fontes(fontes_json, lista_fontes)
+                print(f"[OK] Nova fonte adicionada permanentemente a fontes.json: {url_especifica}")
+    else:
+        fontes_a_processar = [f for f in lista_fontes if f.get("ativo", True)]
 
-    print("\n=== [3/3] Reconstruindo catálogos indexados de busca ===")
+    print(f"=== Iniciando atualização de {len(fontes_a_processar)} fonte(s) ===")
+
+    for idx, fonte in enumerate(fontes_a_processar, 1):
+        nome = fonte.get("nome", fonte["url"])
+        url = fonte["url"]
+        pasta = fonte.get("pasta") or slug_url(url)
+        destino = saida_help / pasta
+
+        print(f"\n[{idx}/{len(fontes_a_processar)}] Atualizando: {nome} ({url})")
+        cmd = [
+            sys.executable,
+            str(extrator_py),
+            "--base", url,
+            "--saida", str(destino)
+        ]
+        if forcar:
+            cmd.append("--forcar")
+
+        res = subprocess.run(cmd)
+        if res.returncode != 0:
+            print(f"[AVISO] Extração de '{nome}' finalizou com código {res.returncode}")
+
+    print("\n=== Reconstruindo catálogos indexados de busca ===")
     cmd_cat = [
         sys.executable,
         str(catalogo_py),
         str(saida_help),
         str(script_dir)
     ]
-    res3 = subprocess.run(cmd_cat)
+    res_cat = subprocess.run(cmd_cat)
 
-    # Propagar para as outras IAs locais caso existam e não sejam a pasta atual
-    print("\n=== [4/4] Sincronizando com as IAs instaladas (Claude, Codex, AGY) ===")
+    print("\n=== Sincronizando com as IAs instaladas (Claude, Codex, AGY) ===")
     user_home = Path.home()
     destinos = [
         user_home / ".claude" / "skills" / "sankhya-ecosystem",
@@ -63,17 +125,37 @@ def atualizar():
     for dest in destinos:
         if dest.exists() and dest.resolve() != skill_dir.resolve():
             try:
-                # Usa robocopy no Windows ou shutil
                 if os.name == "nt":
                     subprocess.run(["robocopy", str(skill_dir), str(dest), "/E", "/NFL", "/NDL", "/NJH", "/NJS"], capture_output=True)
-                print(f"✔ Sincronizado com: {dest}")
+                print(f"[OK] Sincronizado com: {dest}")
             except Exception as e:
                 print(f"[AVISO] Falha ao sincronizar com {dest}: {e}")
 
-    if res3.returncode == 0:
-        print("\n✔ Atualização, reindexação e sincronização concluídas com sucesso!")
+    if res_cat.returncode == 0:
+        print("\n[OK] Atualizacao, reindexacao e sincronizacao concluidas com sucesso!")
     else:
-        print("\n❌ Falha ao reconstruir catálogo de busca.")
+        print("\n[ERRO] Falha ao reconstruir catalogo de busca.")
+
+def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
+    parser = argparse.ArgumentParser(description="Atualiza acervo do Sankhya Ecosystem de forma incremental")
+    parser.add_argument("--url", help="URL base de um site ou portal específico para extrair")
+    parser.add_argument("--nome", help="Nome identificador da fonte")
+    parser.add_argument("--pasta", help="Nome da subpasta de destino em saida_help/")
+    parser.add_argument("--forcar", action="store_true", help="Regrava tudo, mesmo artigos não alterados")
+    parser.add_argument("--adicionar", action="store_true", help="Salva a nova --url permanentemente no fontes.json")
+
+    args = parser.parse_args()
+    atualizar(
+        url_especifica=args.url,
+        nome_especifico=args.nome,
+        pasta_especifica=args.pasta,
+        forcar=args.forcar,
+        adicionar=args.adicionar
+    )
 
 if __name__ == "__main__":
-    atualizar()
+    main()

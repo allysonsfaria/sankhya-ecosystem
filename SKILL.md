@@ -83,12 +83,16 @@ O script consulta o catálogo indexado dos ~10.000 artigos oficiais do Sankhya H
 Quando o usuário pedir para **atualizar o acervo**, **rodar update**, **sincronizar manuais** ou **baixar novidades do Sankhya**, execute o script de atualização incremental embutido:
 
 ```bash
+# Atualiza todas as fontes ativas cadastradas em fontes.json:
 python scripts/atualizar_acervo.py
+
+# Ou extrai e adiciona uma nova URL de help/documentação:
+python scripts/atualizar_acervo.py --url "<url-do-portal>" --adicionar
 ```
 
 ### O que o comando faz automaticamente:
-1. Conecta na API pública do Zendesk (`ajuda.sankhya.com.br`) e no Portal do Desenvolvedor (`developer.sankhya.com.br`).
-2. Compara `_estado.json` e baixa **somente** artigos criados ou modificados desde a última execução (operação leve e rápida).
-3. Atualiza os arquivos Markdown na pasta interna `saida_help/`.
-4. Reconstrói os catálogos indexados `catalogo_telas.json` e `catalogo_apis.json`.
-5. Propaga automaticamente os novos arquivos para as IAs locais instaladas (Claude, Codex, AGY).
+1. Lê `fontes.json` (ou URL avulsa passada via `--url`).
+2. Conecta nas fontes oficiais e compara o `_estado.json` de cada uma para baixar **somente** artigos criados ou modificados desde a última execução.
+3. Atualiza os arquivos Markdown na pasta interna `saida_help/<pasta-do-site>/`.
+4. Varre todas as subpastas de `saida_help/` e reconstrói os catálogos indexados `catalogo_telas.json` e `catalogo_apis.json`.
+5. Propaga automaticamente as atualizações para as IAs locais instaladas (Claude, Codex, AGY).
