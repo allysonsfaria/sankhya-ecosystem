@@ -1,0 +1,1379 @@
+{
+ "paginas": {
+  "https://developer.sankhya.com.br/docs/conhecendo-o-portal": {
+   "versao": "2025-11-10T23:34:27.000Z",
+   "hash": "eb908a588f62a84ac5b69b6d18559dfd03333bde",
+   "arquivo": "docs/conhecendo-o-portal-0191f460.md"
+  },
+  "https://developer.sankhya.com.br/docs/comunidade": {
+   "versao": "2025-11-10T23:34:36.000Z",
+   "hash": "fc00525cb312864621038d141befbd7ffb704dd8",
+   "arquivo": "docs/comunidade-4da564ba.md"
+  },
+  "https://developer.sankhya.com.br/docs/portal-do-desenvolvedor": {
+   "versao": "2025-11-10T23:34:41.000Z",
+   "hash": "c96b70ebf770ba221acbe9da69ae95662abc3f76",
+   "arquivo": "docs/portal-do-desenvolvedor-25cc02f8.md"
+  },
+  "https://developer.sankhya.com.br/docs/como-obter-acesso-como-desenvolvedor-externo": {
+   "versao": "2025-11-21T17:44:31.000Z",
+   "hash": "d92c0829aa5e3281ba28dea5d9a0cb8c54e2c516",
+   "arquivo": "docs/como-obter-acesso-como-desenvolvedor-ext-20cfbe70.md"
+  },
+  "https://developer.sankhya.com.br/docs/cliente-sankhya-como-obter-acesso-ao-portal-do-desenvolvedor": {
+   "versao": "2026-02-11T20:20:52.000Z",
+   "hash": "6eb319c9077c731952507e532592490418368d1e",
+   "arquivo": "docs/cliente-sankhya-como-obter-acesso-ao-por-174ecdcc.md"
+  },
+  "https://developer.sankhya.com.br/docs/criar-uma-solucao-de-uso-exclusivo-do-cliente": {
+   "versao": "2026-03-06T14:31:17.000Z",
+   "hash": "a55c6a14b86c89b324aded45c06943604390d3cf",
+   "arquivo": "docs/criar-uma-solucao-de-uso-exclusivo-do-cl-9584fa32.md"
+  },
+  "https://developer.sankhya.com.br/docs/versoes-de-um-add-on": {
+   "versao": "2025-11-10T23:34:45.000Z",
+   "hash": "8fe7f369aea3129eb28f6d851b8e5cd87952518d",
+   "arquivo": "docs/versoes-de-um-add-on-04cae780.md"
+  },
+  "https://developer.sankhya.com.br/docs/minhas-solucoes": {
+   "versao": "2025-11-21T17:41:07.000Z",
+   "hash": "a003da2536f3a88f7c3da31fa13f4f98ec6e3d8e",
+   "arquivo": "docs/minhas-solucoes-f91c5dac.md"
+  },
+  "https://developer.sankhya.com.br/docs/marketplace": {
+   "versao": "2026-04-10T10:39:07.000Z",
+   "hash": "7ac6c7e5abc2db79d7a237009a84a39d82db4681",
+   "arquivo": "docs/marketplace-ea479492.md"
+  },
+  "https://developer.sankhya.com.br/docs/como-cadastrar-uma-solucao-no-marketplace-via-portal-do-desenvolvedor": {
+   "versao": "2025-11-10T23:34:49.000Z",
+   "hash": "d630a090cfedbe89533a6d9432ef5453d94dfb4a",
+   "arquivo": "docs/como-cadastrar-uma-solucao-no-marketplac-e8980560.md"
+  },
+  "https://developer.sankhya.com.br/docs/specialist-extensões": {
+   "versao": "2026-01-12T20:17:27.000Z",
+   "hash": "7ed8db1b26e2ced5ba35ebc6354501cb360e29ba",
+   "arquivo": "docs/specialist-extensoes-5b8d9310.md"
+  },
+  "https://developer.sankhya.com.br/docs/specialist-relatorios-formatados": {
+   "versao": "2025-11-10T23:34:57.000Z",
+   "hash": "cc77747134d0e962d695a98c17ea70aebd7484fa",
+   "arquivo": "docs/specialist-relatorios-formatados-3cb26af2.md"
+  },
+  "https://developer.sankhya.com.br/docs/specialist-dashboards": {
+   "versao": "2025-11-10T23:34:58.000Z",
+   "hash": "a79863820217f65d35290c8da8ae5b01aa11a778",
+   "arquivo": "docs/specialist-dashboards-6d94762b.md"
+  },
+  "https://developer.sankhya.com.br/docs/specialist-plataforma-de-personalizacoes": {
+   "versao": "2025-11-10T23:34:59.000Z",
+   "hash": "003b49358a4b8964537ef69a9e7dff3a88bf741c",
+   "arquivo": "docs/specialist-plataforma-de-personalizacoes-d6507769.md"
+  },
+  "https://developer.sankhya.com.br/docs/add-on-studio": {
+   "versao": "2025-11-10T23:35:43.000Z",
+   "hash": "596d76ec08f41bbc4087807784e777d0637ed01d",
+   "arquivo": "docs/add-on-studio-c4ed43c1.md"
+  },
+  "https://developer.sankhya.com.br/docs/configuracao-inicial": {
+   "versao": "2025-11-10T23:35:47.000Z",
+   "hash": "d0c2c02ad4593bc24b868bb678b0b4fc58296964",
+   "arquivo": "docs/configuracao-inicial-1c4159a6.md"
+  },
+  "https://developer.sankhya.com.br/docs/01_ambiente": {
+   "versao": "2025-11-10T23:35:47.000Z",
+   "hash": "b378d226284cd2cc92b38225c5d8606733018fed",
+   "arquivo": "docs/01-ambiente-e9845560.md"
+  },
+  "https://developer.sankhya.com.br/docs/03_conf_addonstudio": {
+   "versao": "2025-11-17T19:17:01.000Z",
+   "hash": "a0cc6b661d02c105780fc0bfaad9e44fb60dca39",
+   "arquivo": "docs/03-conf-addonstudio-eb1b02c6.md"
+  },
+  "https://developer.sankhya.com.br/docs/04_deploy_testes_locais": {
+   "versao": "2025-11-10T23:35:51.000Z",
+   "hash": "138440ad897e13735496eae8af7d6948e634d80e",
+   "arquivo": "docs/04-deploy-testes-locais-f85dcaa6.md"
+  },
+  "https://developer.sankhya.com.br/docs/03_estrutura-do-projeto": {
+   "versao": "2025-11-10T23:35:52.000Z",
+   "hash": "993c74285aa6cb09a5251145f65cfc36e090d8c8",
+   "arquivo": "docs/03-estrutura-do-projeto-d9517408.md"
+  },
+  "https://developer.sankhya.com.br/docs/01_dicionario-de-dados": {
+   "versao": "2026-09-28T16:20:11.000Z",
+   "hash": "63a94fd95304923732ac33f7300aa00ad8c05cf6",
+   "arquivo": "docs/01-dicionario-de-dados-34244cf4.md"
+  },
+  "https://developer.sankhya.com.br/docs/02_autoddl": {
+   "versao": "2026-09-28T16:20:50.000Z",
+   "hash": "0b4204868a264eb2962da907cd8874226e253fdd",
+   "arquivo": "docs/02-autoddl-7d1e3077.md"
+  },
+  "https://developer.sankhya.com.br/docs/03_dynamicform": {
+   "versao": "2025-11-10T23:35:57.000Z",
+   "hash": "8f57a2728bc8414fb60f63468988344272403ec9",
+   "arquivo": "docs/03-dynamicform-21c8b17d.md"
+  },
+  "https://developer.sankhya.com.br/docs/04_tabela_hierarquica": {
+   "versao": "2025-11-10T23:35:58.000Z",
+   "hash": "f854fd49a5da48c65331df6a123bf79fa29e410c",
+   "arquivo": "docs/04-tabela-hierarquica-1ef78600.md"
+  },
+  "https://developer.sankhya.com.br/docs/05_filtros": {
+   "versao": "2025-11-10T23:35:59.000Z",
+   "hash": "5c8cfc1e08f6c726db6019da4a4e4576371131df",
+   "arquivo": "docs/05-filtros-7da33adf.md"
+  },
+  "https://developer.sankhya.com.br/docs/06_menu": {
+   "versao": "2025-11-10T23:36:01.000Z",
+   "hash": "f1e91c217b2051b7386a7e3c318eb6e2f574c785",
+   "arquivo": "docs/06-menu-670c0121.md"
+  },
+  "https://developer.sankhya.com.br/docs/07_telas": {
+   "versao": "2025-11-10T23:36:02.000Z",
+   "hash": "70f631601495e156b99a49a6347f772b7bb2f33d",
+   "arquivo": "docs/07-telas-80caf7ed.md"
+  },
+  "https://developer.sankhya.com.br/docs/02_scripts": {
+   "versao": "2026-09-28T16:22:38.000Z",
+   "hash": "bd6f939a4897a84d4790710bc942546cf250c396",
+   "arquivo": "docs/02-scripts-0e494c8e.md"
+  },
+  "https://developer.sankhya.com.br/docs/03_parameter": {
+   "versao": "2025-11-10T23:36:18.000Z",
+   "hash": "e0d9914999b5c42c43425940f19bbe47e4372d31",
+   "arquivo": "docs/03-parameter-80774cd9.md"
+  },
+  "https://developer.sankhya.com.br/docs/04_dashboard": {
+   "versao": "2025-11-10T23:36:28.000Z",
+   "hash": "e41f6d0d4df7beaf57807516e5dddb328df03a8f",
+   "arquivo": "docs/04-dashboard-23cd8d5d.md"
+  },
+  "https://developer.sankhya.com.br/docs/05_action_button": {
+   "versao": "2025-11-10T23:36:29.000Z",
+   "hash": "6b8b2b08eddd46b127121794f23ed75a12cece0e",
+   "arquivo": "docs/05-action-button-87bcb63f.md"
+  },
+  "https://developer.sankhya.com.br/docs/06_business_rules": {
+   "versao": "2025-11-10T23:36:30.000Z",
+   "hash": "5341e5c10ab45f966c1ac124370aee225e092d5c",
+   "arquivo": "docs/06-business-rules-e45844eb.md"
+  },
+  "https://developer.sankhya.com.br/docs/07_listeners": {
+   "versao": "2025-11-10T23:36:31.000Z",
+   "hash": "627c3828e3447488b99c5fc503045a92befde122",
+   "arquivo": "docs/07-listeners-0ba3ecd1.md"
+  },
+  "https://developer.sankhya.com.br/docs/08_callback": {
+   "versao": "2025-11-17T19:28:15.000Z",
+   "hash": "682feb7dbfc617957cfb2dadc9ce727e8acd585f",
+   "arquivo": "docs/08-callback-a0cc0e44.md"
+  },
+  "https://developer.sankhya.com.br/docs/09_service": {
+   "versao": "2026-04-15T02:01:03.000Z",
+   "hash": "e17f1fb1c24826357d181b02a6fa3017d37b3e2e",
+   "arquivo": "docs/09-service-7184c733.md"
+  },
+  "https://developer.sankhya.com.br/docs/jobs-agendados-com-job": {
+   "versao": "2026-02-24T20:34:37.000Z",
+   "hash": "b1792ee56cbf0fce30abd45ef2e0b34c1b5ef9f1",
+   "arquivo": "docs/jobs-agendados-com-job-5b9bcb92.md"
+  },
+  "https://developer.sankhya.com.br/docs/introducao-sdk-sankhya": {
+   "versao": "2026-09-08T19:10:41.000Z",
+   "hash": "5d8fa20ec1f66c23b3e27c6ff62181540cc88fe3",
+   "arquivo": "docs/introducao-sdk-sankhya-2758e633.md"
+  },
+  "https://developer.sankhya.com.br/docs/conceitos-fundamentais": {
+   "versao": "2026-09-08T19:10:52.000Z",
+   "hash": "5d99ef3a6dd944c5ab96aeba9274773a3892a06c",
+   "arquivo": "docs/conceitos-fundamentais-756af592.md"
+  },
+  "https://developer.sankhya.com.br/docs/iniciando": {
+   "versao": "2026-09-08T19:11:04.000Z",
+   "hash": "b09994a5cc7f6e402ce783e63bd603d0f031eb7c",
+   "arquivo": "docs/iniciando-a0f76d32.md"
+  },
+  "https://developer.sankhya.com.br/docs/camada-de-controller-controller": {
+   "versao": "2026-09-08T19:11:32.000Z",
+   "hash": "41088c8dfad5115adcf194b2430ec56ec240a927",
+   "arquivo": "docs/camada-de-controller-controller-079a029b.md"
+  },
+  "https://developer.sankhya.com.br/docs/job": {
+   "versao": "2026-09-08T19:12:07.000Z",
+   "hash": "0eac1ed8f4f1106dce15acc32c60b30f0840af1c",
+   "arquivo": "docs/job-6845309a.md"
+  },
+  "https://developer.sankhya.com.br/docs/bean-validation": {
+   "versao": "2026-09-08T19:12:38.000Z",
+   "hash": "ea9f09da7e958dacda02c847ca732b871a704a92",
+   "arquivo": "docs/bean-validation-cdb54f87.md"
+  },
+  "https://developer.sankhya.com.br/docs/injecao-de-dependencias": {
+   "versao": "2026-09-08T19:13:16.000Z",
+   "hash": "23771a02032af2ac1860362932a6dfd6a118a9a0",
+   "arquivo": "docs/injecao-de-dependencias-317e2860.md"
+  },
+  "https://developer.sankhya.com.br/docs/controle-transacional": {
+   "versao": "2026-09-08T19:13:34.000Z",
+   "hash": "fb719fd1851055019fda88be944401223366a2aa",
+   "arquivo": "docs/controle-transacional-54ae539e.md"
+  },
+  "https://developer.sankhya.com.br/docs/mapeamento-relacional": {
+   "versao": "2026-09-08T19:13:49.000Z",
+   "hash": "cbc6c0d5e89ca07f1e2c8ddef560670f6aa46e20",
+   "arquivo": "docs/mapeamento-relacional-305284cc.md"
+  },
+  "https://developer.sankhya.com.br/docs/repositorio-dados": {
+   "versao": "2026-09-08T19:13:48.000Z",
+   "hash": "90465298cba425e481c5c67cb7a9d72d5f16e4ce",
+   "arquivo": "docs/repositorio-dados-8af7fb73.md"
+  },
+  "https://developer.sankhya.com.br/docs/️mapeamento-de-objetos-com-mapstruct": {
+   "versao": "2026-09-08T19:13:40.000Z",
+   "hash": "f93b928cdbd172dbe3e8dd43c4b85aa1ec0fcede",
+   "arquivo": "docs/mapeamento-de-objetos-com-mapstruct-0c2c755b.md"
+  },
+  "https://developer.sankhya.com.br/docs/️-adaptadores-de-tipos": {
+   "versao": "2026-09-08T19:13:33.000Z",
+   "hash": "ce46aed5025e2f04f40d221509e4632fa6de86c0",
+   "arquivo": "docs/adaptadores-de-tipos-7bb2be5c.md"
+  },
+  "https://developer.sankhya.com.br/docs/serviço-de-logs-remotos": {
+   "versao": "2026-02-24T18:50:41.000Z",
+   "hash": "d1725f9d120f2ba355297c09dd95a0c2871cc209",
+   "arquivo": "docs/servico-de-logs-remotos-5e607859.md"
+  },
+  "https://developer.sankhya.com.br/docs/injeção-de-valores-value": {
+   "versao": "2026-09-08T19:13:15.000Z",
+   "hash": "815300a4fef307920f9b842448a8a9275087d14f",
+   "arquivo": "docs/injecao-de-valores-value-bd92a837.md"
+  },
+  "https://developer.sankhya.com.br/docs/11_controller_advice": {
+   "versao": "2026-09-08T19:13:08.000Z",
+   "hash": "a2c4aa56560a2a3c719a4ea33e0afe3d1eb5ea0c",
+   "arquivo": "docs/11-controller-advice-af0aaad0.md"
+  },
+  "https://developer.sankhya.com.br/docs/autodd-geração-automática-do-dicionário-de-dados-data-dictionary": {
+   "versao": "2026-09-28T16:24:06.000Z",
+   "hash": "dcd3207e14cbc784692bb78bd52c809edabeb9c5",
+   "arquivo": "docs/autodd-geracao-automatica-do-dicionario-19c61360.md"
+  },
+  "https://developer.sankhya.com.br/docs/foreign-keys-compostas": {
+   "versao": "2026-09-08T19:12:52.000Z",
+   "hash": "1a4cc42d60d55a903904eb0a69b826a5e229dbde",
+   "arquivo": "docs/foreign-keys-compostas-2d4a9c3c.md"
+  },
+  "https://developer.sankhya.com.br/docs/macrotranslator-documentação-de-macros-sankhya": {
+   "versao": "2026-02-24T18:48:54.000Z",
+   "hash": "38c6bb42ce9bc84eafc7ebb1e207837c8b50851f",
+   "arquivo": "docs/macrotranslator-documentacao-de-macros-s-17be160a.md"
+  },
+  "https://developer.sankhya.com.br/docs/interceptando-buscas-com-beforeloadlistener": {
+   "versao": "2026-09-08T19:12:29.000Z",
+   "hash": "3d08ce19774cb79250a6f19645c0dd837801c191",
+   "arquivo": "docs/interceptando-buscas-com-beforeloadliste-3d40bc8b.md"
+  },
+  "https://developer.sankhya.com.br/docs/merge-on-root-estendendo-uma-tabela-sem-adicionar-campos-nela": {
+   "versao": "2026-09-28T16:17:10.000Z",
+   "hash": "062736c52b56a89115d061b248603411a6a72f77",
+   "arquivo": "docs/merge-on-root-estendendo-uma-tabela-sem-320e1f11.md"
+  },
+  "https://developer.sankhya.com.br/docs/boas-práticas-de-logging": {
+   "versao": "2026-04-04T00:01:39.000Z",
+   "hash": "4a1293cbefbba392407804323284797e459caa5a",
+   "arquivo": "docs/boas-praticas-de-logging-c0f1f86a.md"
+  },
+  "https://developer.sankhya.com.br/docs/migrando-extensoes-que-usam-o-dwf-para-o-add-on-studio": {
+   "versao": "2026-03-09T12:03:12.000Z",
+   "hash": "af4d6e67f64f8b4609b99069f0c897181d7ba373",
+   "arquivo": "docs/migrando-extensoes-que-usam-o-dwf-para-o-4fd816b7.md"
+  },
+  "https://developer.sankhya.com.br/docs/guia-de-boas-praticas": {
+   "versao": "2026-04-15T01:55:39.000Z",
+   "hash": "5503fdbc66a35f2cfa0793f41e3003f110484756",
+   "arquivo": "docs/guia-de-boas-praticas-3cb22a24.md"
+  },
+  "https://developer.sankhya.com.br/docs/faq": {
+   "versao": "2025-11-10T23:37:04.000Z",
+   "hash": "ed949a0a45b29cb6ba7f92c5fd7ca42b14218736",
+   "arquivo": "docs/faq-f04c5fad.md"
+  },
+  "https://developer.sankhya.com.br/docs/tipos_de_personalizacao": {
+   "versao": "2025-11-10T23:37:22.000Z",
+   "hash": "0978e0c74fcca16c6a9f9494ddf58cc3e196749b",
+   "arquivo": "docs/tipos-de-personalizacao-8e527192.md"
+  },
+  "https://developer.sankhya.com.br/docs/propriedades-de-parametros-do-ireport": {
+   "versao": "2025-11-10T23:37:34.000Z",
+   "hash": "940fe2cf4ebb310ee23b9c14d4b2cbed7fcf066e",
+   "arquivo": "docs/propriedades-de-parametros-do-ireport-b3ce9412.md"
+  },
+  "https://developer.sankhya.com.br/docs/dicionário-de-dados": {
+   "versao": "2025-11-10T23:37:42.000Z",
+   "hash": "2b37308c5ab05cd216ead9ddb1f2b3c5f61e10c7",
+   "arquivo": "docs/dicionario-de-dados-062886d2.md"
+  },
+  "https://developer.sankhya.com.br/docs/sankhya-js": {
+   "versao": "2025-11-10T23:37:47.000Z",
+   "hash": "831776d8f165f7e80e60b49e9ee756f9b7b61173",
+   "arquivo": "docs/sankhya-js-bfe05cbb.md"
+  },
+  "https://developer.sankhya.com.br/docs/operacoes-comerciais": {
+   "versao": "2025-11-10T23:38:23.000Z",
+   "hash": "f343f347727a38ab86eb28d6873361e1d9a9d7c2",
+   "arquivo": "docs/operacoes-comerciais-f9754a7c.md"
+  },
+  "https://developer.sankhya.com.br/reference/guia-integracao": {
+   "versao": "2025-11-10T23:38:53.000Z",
+   "hash": "4b770c0ef8690eb6bb732ee33dbe7164a343669d",
+   "arquivo": "reference/guia-integracao-b80aa828.md"
+  },
+  "https://developer.sankhya.com.br/reference/api-de-integrações-sankhya": {
+   "versao": "2025-11-10T23:38:54.000Z",
+   "hash": "72c4f0ae60df0d31e42c9c234fb5a4e428ab6105",
+   "arquivo": "reference/api-de-integracoes-sankhya-fa55e9f9.md"
+  },
+  "https://developer.sankhya.com.br/reference/camada-de-autorização-para-api": {
+   "versao": "2025-11-10T23:38:59.000Z",
+   "hash": "00850843c188d8429f8db697ab7b3017406d800a",
+   "arquivo": "reference/camada-de-autorizacao-para-api-b9e6ae8b.md"
+  },
+  "https://developer.sankhya.com.br/reference/requisições-via-gateway": {
+   "versao": "2025-11-10T23:39:00.000Z",
+   "hash": "69400063585e204a18065ac1cf28f86694d34896",
+   "arquivo": "reference/requisicoes-via-gateway-9093461f.md"
+  },
+  "https://developer.sankhya.com.br/reference/mapeamento-de-serviço": {
+   "versao": "2025-11-10T23:39:01.000Z",
+   "hash": "249a8f93aec985cd70b862b8a62cd0595c6447e7",
+   "arquivo": "reference/mapeamento-de-servico-c0470773.md"
+  },
+  "https://developer.sankhya.com.br/reference/boas-práticas-para-integração": {
+   "versao": "2025-11-10T23:39:02.000Z",
+   "hash": "6c3c0b8439106f21fe30baafa8b3fc072b3b6661",
+   "arquivo": "reference/boas-praticas-para-integracao-b7de0df6.md"
+  },
+  "https://developer.sankhya.com.br/reference/códigos-de-retorno-da-api": {
+   "versao": "2025-11-10T23:39:03.000Z",
+   "hash": "ccd5b348702d6cbc886007250d26f81928410c0d",
+   "arquivo": "reference/codigos-de-retorno-da-api-6f9edc1d.md"
+  },
+  "https://developer.sankhya.com.br/reference/faq-1": {
+   "versao": "2026-09-23T14:59:43.000Z",
+   "hash": "27b1bf3e9d1ee89b6c5ed815a7983b531b04feee",
+   "arquivo": "reference/faq-1-d81fb740.md"
+  },
+  "https://developer.sankhya.com.br/reference/como-iniciar-uma-integracao-com-a-sankhya": {
+   "versao": "2025-11-10T23:39:07.000Z",
+   "hash": "8a5327fcfa09d1d0b7352c890bd3fcffcc4b418d",
+   "arquivo": "reference/como-iniciar-uma-integracao-com-a-sankhy-2d890bb6.md"
+  },
+  "https://developer.sankhya.com.br/reference/concedendo-acesso-a-colaboradores": {
+   "versao": "2025-11-10T23:39:08.000Z",
+   "hash": "f23d1ab1bbbe3df6cbc8c9171fe4724b66a6850c",
+   "arquivo": "reference/concedendo-acesso-a-colaboradores-115a1d94.md"
+  },
+  "https://developer.sankhya.com.br/reference/gerando-tokens-de-integração-no-sankhyaom": {
+   "versao": "2025-11-10T23:39:09.000Z",
+   "hash": "9f9f8d949ac39bbb258dcc438432c9ca07ca25a1",
+   "arquivo": "reference/gerando-tokens-de-integracao-no-sankhyao-5efb2aef.md"
+  },
+  "https://developer.sankhya.com.br/reference/guia-de-conversao-do-componente-de-integracao-appkey-oauth2": {
+   "versao": "2026-03-02T13:55:44.000Z",
+   "hash": "d8419982332f4b21b65179f116df92908b4b2cc0",
+   "arquivo": "reference/guia-de-conversao-do-componente-de-integ-2c3bfc5f.md"
+  },
+  "https://developer.sankhya.com.br/reference/post_login-1": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "48778c31881f2eb95489bf523127687bc3023aa1",
+   "arquivo": "reference/post-login-1-9e39ac11.md"
+  },
+  "https://developer.sankhya.com.br/reference/post_authenticate": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "3e5ba3095702041c3c974fd6dc01bbb2bdecec45",
+   "arquivo": "reference/post-authenticate-7facbc3e.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-naturezas": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "c640b7bfc6ff96cd34be7768e45bef6bc80ddb96",
+   "arquivo": "reference/get-v1-naturezas-71a0110d.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-centros-resultado": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "3f42e47a19c297591c73efd7053fcae9f607f33d",
+   "arquivo": "reference/get-v1-centros-resultado-a083486e.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-naturezas-codigonatureza": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "d08a2a58c5a228c0d96bf48cf3129c5765688e26",
+   "arquivo": "reference/get-v1-naturezas-codigonatureza-88459f7f.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-tipos-operacao": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "b5ca851490ee835cfaf4c5bcd49e5b826a69f8e3",
+   "arquivo": "reference/get-v1-tipos-operacao-964c5bca.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-centros-resultado-codigocentroresultado": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "3f2bdd12361106c3f2ea1d04cdbc670157042282",
+   "arquivo": "reference/get-v1-centros-resultado-codigocentrores-d977e780.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-projetos": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "29126e7df1d7e75c529752091b195055039a49d3",
+   "arquivo": "reference/get-v1-projetos-157d67d5.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-projetos-codigoprojeto": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "d255d17e43051ff159599bf69346dec7a6ab2427",
+   "arquivo": "reference/get-v1-projetos-codigoprojeto-81a16ad6.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-tipos-operacao-codigotipooperacao": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "f4fa8cc3abb2b4059532c6cbaa38966fcad18326",
+   "arquivo": "reference/get-v1-tipos-operacao-codigotipooperacao-dbeadffd.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-vendedores": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "76eb784f753bc775b8d65c513e72f9f486e10dd6",
+   "arquivo": "reference/get-v1-vendedores-e519d81a.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-vendedores-codigovendedor": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "f3d75f7a02faf19d574230d9e2618289d2531074",
+   "arquivo": "reference/get-v1-vendedores-codigovendedor-412918f9.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-usuarios": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "773c8b3bef8725f8bf8b439c775caacd73c82fdc",
+   "arquivo": "reference/get-v1-usuarios-47284df7.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-usuarios-codigousuario": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "f7c32775b0421ec349430c7d674757c0d2ff47d1",
+   "arquivo": "reference/get-v1-usuarios-codigousuario-efeac154.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-regioes": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "45ffd149d969c8eca8c4a44309cb219e820e08b1",
+   "arquivo": "reference/get-v1-regioes-ea928ee9.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-regioes-codigoregiao": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "16b95ccccebe87b10a7b95e843419543fe187c26",
+   "arquivo": "reference/get-v1-regioes-codigoregiao-347063b4.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-cidades": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "51439959f0baeea09c07753aa36c2dd67dfb248b",
+   "arquivo": "reference/get-v1-cidades-f3c6d54c.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-cidades-codigocidade": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "f326dc38304690b54abda6411c30059ffe67f28e",
+   "arquivo": "reference/get-v1-cidades-codigocidade-ba1413c5.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-logradouros": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "3371f32a524f845b761a6ac3ebb15251088acbf1",
+   "arquivo": "reference/get-v1-logradouros-2896d7f5.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-logradouros-codigologradouro": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "fc09f5064f3ed59bf254003ef324b23ddbc79b9b",
+   "arquivo": "reference/get-v1-logradouros-codigologradouro-86ea4c32.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-bairros": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "bda235eb6b7f9aa70ad2c32bc71aafe1b46593c1",
+   "arquivo": "reference/get-v1-bairros-de462d96.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-bairros-codigobairro": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "f5198c3d909969632909663122bbcaf3b9de8de2",
+   "arquivo": "reference/get-v1-bairros-codigobairro-8f9e0df7.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-veiculos": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "55e8e19454df34e43e87b080e60825ce7bbf4e60",
+   "arquivo": "reference/get-v1-veiculos-a9429381.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-veiculos-codigoveiculo": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "9ce506eab13e3efddb88ca877acc226374981cde",
+   "arquivo": "reference/get-v1-veiculos-codigoveiculo-deb4b95d.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-empresas": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "06f4dd6a124ea06c5c499db0bfce93b2797fd57c",
+   "arquivo": "reference/get-v1-empresas-ed320993.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-empresas-codigoempresa": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "4dbf6d84d72d3bfd80b8668ffcd28fc6dd06076b",
+   "arquivo": "reference/get-v1-empresas-codigoempresa-a5504274.md"
+  },
+  "https://developer.sankhya.com.br/reference/getcliente": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "2d8be2e242b618bb7981b7474f69dfcc89585ca2",
+   "arquivo": "reference/getcliente-5c624893.md"
+  },
+  "https://developer.sankhya.com.br/reference/postcliente": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "79123b6fe82714bbb98f31ff6ac8e6a35f5bcb41",
+   "arquivo": "reference/postcliente-a6b58055.md"
+  },
+  "https://developer.sankhya.com.br/reference/postcontato": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "8afecf50e201e9e34c89dfc32b40addb24bbd3c6",
+   "arquivo": "reference/postcontato-85b3e5ab.md"
+  },
+  "https://developer.sankhya.com.br/reference/putcliente": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "f4d834799d25e059b0a09b1e9365a56bd7b68b2b",
+   "arquivo": "reference/putcliente-df3533e5.md"
+  },
+  "https://developer.sankhya.com.br/reference/putcontatocliente": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "36c7400018fddd41bed00ba4a710962802c24708",
+   "arquivo": "reference/putcontatocliente-8981ad30.md"
+  },
+  "https://developer.sankhya.com.br/reference/getestoqueporproduto": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "f0278ffeeb228c6ad44cfb3dce6cad29e0343356",
+   "arquivo": "reference/getestoqueporproduto-983db0b1.md"
+  },
+  "https://developer.sankhya.com.br/reference/getestoqueprodutos": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "569dde5eefe3adc2e9de6cc80715a9f01b2d0437",
+   "arquivo": "reference/getestoqueprodutos-88392693.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-estoque-locais": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "d9d3aba75bec135e63ee84c50151808314b41e66",
+   "arquivo": "reference/get-v1-estoque-locais-c8946002.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-estoque-locais-codigolocal": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "47507bc2c738a92e9f3ea7ef7cbb13cda04041de",
+   "arquivo": "reference/get-v1-estoque-locais-codigolocal-b2fae501.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-financeiros-tipos-pagamento": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "9bfa9547041968b9002ae707fb563400e69e0b07",
+   "arquivo": "reference/get-v1-financeiros-tipos-pagamento-aa922e2a.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-financeiros-tipos-pagamento-codigotipopagamento": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "7f146337096e51d9f92a474e98bf3e7174b8307e",
+   "arquivo": "reference/get-v1-financeiros-tipos-pagamento-codig-dbd30d9d.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-financeiros-moedas": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "f963a3399f70bbf7fbdae5ad73a4bb0f7b95bf6e",
+   "arquivo": "reference/get-v1-financeiros-moedas-c3cce352.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-financeiros-moedas-codigomoeda": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "58d530bb4c2ad0727a5f3c9356acab903217733a",
+   "arquivo": "reference/get-v1-financeiros-moedas-codigomoeda-14f92d04.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-financeiros-moedas-codigomoeda-cotacoes": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "5455feaa47d92a2e56a92b96fef0ea1c774c89b0",
+   "arquivo": "reference/get-v1-financeiros-moedas-codigomoeda-co-9d7f6d0b.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-financeiros-bandeiras-tef": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "8639f653df3ddb83336074a432b4f338be980ce2",
+   "arquivo": "reference/get-v1-financeiros-bandeiras-tef-729c5350.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-financeiros-redes-tef": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "275563e2d6d02467af1ef2901b9be8d68f4f0d27",
+   "arquivo": "reference/get-v1-financeiros-redes-tef-3fdb4115.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-financeiros-contas-bancaria": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "473d8827ff3138fab373de7c266935860467819d",
+   "arquivo": "reference/get-v1-financeiros-contas-bancaria-eeff587d.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-financeiros-contas-bancaria-codigocontabancaria": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "67295bbd8226ccd7cf4374a33d03632ba2272b16",
+   "arquivo": "reference/get-v1-financeiros-contas-bancaria-codig-ca14de67.md"
+  },
+  "https://developer.sankhya.com.br/reference/getfinanceiros": {
+   "versao": "2026-05-27T21:17:01.000Z",
+   "hash": "da9cf6193c0864d614b177447305f035efd5aada",
+   "arquivo": "reference/getfinanceiros-813bd501.md"
+  },
+  "https://developer.sankhya.com.br/reference/incluirfinanceiroreceita": {
+   "versao": "2026-05-27T21:17:01.000Z",
+   "hash": "2cbe7b04a53f6a25e0fa0dcf4c280d1f94879557",
+   "arquivo": "reference/incluirfinanceiroreceita-72820ab9.md"
+  },
+  "https://developer.sankhya.com.br/reference/atualizarfinanceiroreceita": {
+   "versao": "2026-05-27T21:17:01.000Z",
+   "hash": "a84519b746c938ea98432747109eccf93af7a73e",
+   "arquivo": "reference/atualizarfinanceiroreceita-7cfa569a.md"
+  },
+  "https://developer.sankhya.com.br/reference/baixarfinanceiroreceita": {
+   "versao": "2026-05-27T21:17:01.000Z",
+   "hash": "290dcce58f8566181f08923dda5b7d8cde216fe9",
+   "arquivo": "reference/baixarfinanceiroreceita-e649809b.md"
+  },
+  "https://developer.sankhya.com.br/reference/getfinanceirosdespesas": {
+   "versao": "2026-05-27T21:17:01.000Z",
+   "hash": "94f4030b11aa70634cd51a294033182d57b4082e",
+   "arquivo": "reference/getfinanceirosdespesas-5ceef9c1.md"
+  },
+  "https://developer.sankhya.com.br/reference/incluirfinanceirodespesa": {
+   "versao": "2026-05-27T21:17:01.000Z",
+   "hash": "f267cf70ccd72422a0003bceced082caa4732765",
+   "arquivo": "reference/incluirfinanceirodespesa-1e4c29ed.md"
+  },
+  "https://developer.sankhya.com.br/reference/atualizarfinanceirodespesa": {
+   "versao": "2026-05-27T21:17:01.000Z",
+   "hash": "296f4f5fde5000176809e2402d5f19c5493309b1",
+   "arquivo": "reference/atualizarfinanceirodespesa-a4b60eaa.md"
+  },
+  "https://developer.sankhya.com.br/reference/baixarfinanceirodespesa": {
+   "versao": "2026-05-27T21:14:04.000Z",
+   "hash": "907f1d7172d0f01d7993a1a4252e58fd51ea585c",
+   "arquivo": "reference/baixarfinanceirodespesa-cc59b8e3.md"
+  },
+  "https://developer.sankhya.com.br/reference/downloadarquivofinanceiro": {
+   "versao": "2026-06-22T19:53:08.000Z",
+   "hash": "30c460a285bf378aa08fd8f62e6ebb884eb30333",
+   "arquivo": "reference/downloadarquivofinanceiro-e7400d37.md"
+  },
+  "https://developer.sankhya.com.br/reference/post_v1-fiscal-servicos-tomados-nfse": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "4b2fdc2d885209e677a623f2753089a8e5f64506",
+   "arquivo": "reference/post-v1-fiscal-servicos-tomados-nfse-6ef7e501.md"
+  },
+  "https://developer.sankhya.com.br/reference/post_v1-fiscal-impostos-calculo": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "957b9a36bf93660074c374d84cff5cf6af8b9c0e",
+   "arquivo": "reference/post-v1-fiscal-impostos-calculo-2763b6c2.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-cargos": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "bbd3ff611b1b814a03b93dc8c0b3b9c81b10e683",
+   "arquivo": "reference/get-v1-pessoal-cargos-f947e3f6.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-sindicatos": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "f88a96b26eef74165da2e6960df489bb407f0dc0",
+   "arquivo": "reference/get-v1-pessoal-sindicatos-31739bfa.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-identificacao-carga-horaria": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "fe4f6fdd7d3b8c990159fc2ce745552ac576b5b2",
+   "arquivo": "reference/get-v1-pessoal-identificacao-carga-horar-f4b033c6.md"
+  },
+  "https://developer.sankhya.com.br/reference/post_v2-funcionarios-admissao": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "fc6e076d6c9460f7415d7a629221072ec0306182",
+   "arquivo": "reference/post-v2-funcionarios-admissao-d816997f.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-cargos-codigocargo": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "939237cf813a1800a49085f919b08a91d035ae2c",
+   "arquivo": "reference/get-v1-pessoal-cargos-codigocargo-4a7332ad.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v2-funcionarios-admissao-codigorequisicaoadmissao": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "fb9249e635ca95bc1985418833b1b8b65f0b8bb6",
+   "arquivo": "reference/get-v2-funcionarios-admissao-codigorequi-d100359c.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-sindicatos-codigosindicato": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "692f6e2fa0875a7700d7499fa5956fffdf644982",
+   "arquivo": "reference/get-v1-pessoal-sindicatos-codigosindicat-7190475f.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-funcoes": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "d1516cbe7a4061a7fc6095bc851315b7759d9b56",
+   "arquivo": "reference/get-v1-pessoal-funcoes-e80a3192.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-faltas": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "a59f3409af27c731ed23cc29224f89c1a5d8b1f6",
+   "arquivo": "reference/get-v1-pessoal-faltas-feddcef0.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-funcoes-codigofuncao": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "f9ae30b198fce1f9804d9958d3f847caa8d40425",
+   "arquivo": "reference/get-v1-pessoal-funcoes-codigofuncao-928508be.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-departamentos": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "d4b9d4243e0b82789253426da122cdaaace0c445",
+   "arquivo": "reference/get-v1-pessoal-departamentos-f04c4b02.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-atrasos": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "9c271d37b4000929fc7b3aee98e356cb748ffa5d",
+   "arquivo": "reference/get-v1-pessoal-atrasos-b0dc04f7.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-departamentos-codigodepartamento": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "7f3ae2a21fd652ed400e717b56191cb4673775b2",
+   "arquivo": "reference/get-v1-pessoal-departamentos-codigodepar-87352336.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-locais-ponto": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "1f7047dd08405781b2ce9d7606ca8cd0a8a8c560",
+   "arquivo": "reference/get-v1-pessoal-locais-ponto-33247b68.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-carga-horaria": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "5eff3eff2464d92cac75e5e25194c872f1270771",
+   "arquivo": "reference/get-v1-pessoal-carga-horaria-f94c2393.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-locais-ponto-codigolocalponto": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "b1e440639ce5def13e8e091757996b1569817751",
+   "arquivo": "reference/get-v1-pessoal-locais-ponto-codigolocalp-8158f5e5.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-carga-horaria-historica": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "eda43870500aecc85becc7ec5682eb7afbfe2a22",
+   "arquivo": "reference/get-v1-pessoal-carga-horaria-historica-30833767.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-historicos-ocorrencia": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "52625ccc02fa761aa1272eefd3ad40d4e313dec4",
+   "arquivo": "reference/get-v1-pessoal-historicos-ocorrencia-e0ff90f9.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-historicos-ocorrencia-codigohistoricoocorrencia": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "72194ef29a065da37b5c8e1a7b6b36c5d69e7346",
+   "arquivo": "reference/get-v1-pessoal-historicos-ocorrencia-cod-872cfb8d.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-identificacao-carga-horaria-codigocargahoraria": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "0635047eb8b7db1d14ebaac54eaafdfd0ef3802a",
+   "arquivo": "reference/get-v1-pessoal-identificacao-carga-horar-e7f8c144.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-ferias": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "21f0b283fa393fd99de25ad85a599dc5eadc5d9f",
+   "arquivo": "reference/get-v1-pessoal-ferias-35666396.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-ocorrencias": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "f02d591b9cac255a78440b31e1c3aa4fb138d8e0",
+   "arquivo": "reference/get-v1-pessoal-ocorrencias-d22258c1.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-movimentos": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "9859c864a4d73cf3a72249f719bfbb162a1569ec",
+   "arquivo": "reference/get-v1-pessoal-movimentos-820a18df.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-empresas": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "d67a7ec4d1398023e970fd8867c9dd0b7780e120",
+   "arquivo": "reference/get-v1-pessoal-empresas-980ca480.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-empresas-codigoempresa": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "d9f211c03a40e411db6b6ba664d7cebb8123e548",
+   "arquivo": "reference/get-v1-pessoal-empresas-codigoempresa-44114d17.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-tomadores": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "f34dbd39b632bb6270a7c9b3ea0195d73c76b5ad",
+   "arquivo": "reference/get-v1-pessoal-tomadores-d1093888.md"
+  },
+  "https://developer.sankhya.com.br/reference/post_v1-pessoal-funcionarios-requisicoes-ferias": {
+   "versao": "2026-06-30T15:07:56.000Z",
+   "hash": "d81eee9d1e9be7dd8ad9899510f80a4f61ed777f",
+   "arquivo": "reference/post-v1-pessoal-funcionarios-requisicoes-d1eb5066.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-requisicoes-ferias-codigosolicitacao": {
+   "versao": "2026-06-30T15:07:56.000Z",
+   "hash": "87d24c80874e7f4fa0d50ac536950fa1c767acb0",
+   "arquivo": "reference/get-v1-pessoal-funcionarios-requisicoes-ef05b82d.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-periodos-aquisitivos-ferias": {
+   "versao": "2026-06-30T15:07:56.000Z",
+   "hash": "c11f6c3333b1653c3afd4514a2147e54df0adb54",
+   "arquivo": "reference/get-v1-pessoal-periodos-aquisitivos-feri-b1ee5402.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-funcionarios-metadados-campos-adicionais": {
+   "versao": "2026-08-18T12:42:37.000Z",
+   "hash": "8dc138add63b0abc0d09afc6d28dd1ce5ae690a5",
+   "arquivo": "reference/get-v1-funcionarios-metadados-campos-adi-5195f258.md"
+  },
+  "https://developer.sankhya.com.br/reference/post_v1-funcionarios-admissao": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "70e6f91ca417278104b1f536c83e0e8c7a8ef00e",
+   "arquivo": "reference/post-v1-funcionarios-admissao-805676e0.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "c7a1f1786cb67e9c815ff70530a75c3c9b4cd2bf",
+   "arquivo": "reference/get-v1-pessoal-funcionarios-f94d318e.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-funcionarios-admissao-codigorequisicaoadmissao": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "d47d6e5a55b17d56331d8cf5918759e378b33143",
+   "arquivo": "reference/get-v1-funcionarios-admissao-codigorequi-a9704eb5.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresa-codigoempresa": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "f0d81de2d64302569fb8e5ad1c61d5d3317685e8",
+   "arquivo": "reference/get-v1-pessoal-funcionarios-codigofuncio-3a05916d.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresas-codigoempresa-faltas": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "e27b27af515db15a7b599e77731ee8ef71783962",
+   "arquivo": "reference/get-v1-pessoal-funcionarios-codigofuncio-15b2fa8e.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresas-codigoempresa-atrasos": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "ecc4be6f66eaacc44f2e7c14c83451dffee5d3f0",
+   "arquivo": "reference/get-v1-pessoal-funcionarios-codigofuncio-e5de9fea.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresas-codigoempresa-tomadores": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "ad41fc3bac73995685462cef1e4fd71a19aa5c5a",
+   "arquivo": "reference/get-v1-pessoal-funcionarios-codigofuncio-e0ba37c1.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresas-codigoempresa-carga-horaria-historica": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "09b910054528b8d36bb812eeb29cd52f4c3521e0",
+   "arquivo": "reference/get-v1-pessoal-funcionarios-codigofuncio-9b9018db.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresas-codigoempresa-ocorrencias": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "1976993bbedc7ba9c28130658cdab6ccd0849648",
+   "arquivo": "reference/get-v1-pessoal-funcionarios-codigofuncio-caa9dada.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresas-codigoempresa-ferias": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "a9b208cb1c0e63fe85090211913f42e8840a5c0c",
+   "arquivo": "reference/get-v1-pessoal-funcionarios-codigofuncio-63c663a1.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-codigofuncionario-empresas-codigoempresa-movimentos": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "f0e1e56abce5adde198b0f757b39f496fae42f64",
+   "arquivo": "reference/get-v1-pessoal-funcionarios-codigofuncio-6ae270cc.md"
+  },
+  "https://developer.sankhya.com.br/reference/put_v1-pessoal-funcionarios-codigofuncionario-empresa-codigoempresa-recibos-esocial": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "0500be624722b02616f505f13140e1b1ed709c07",
+   "arquivo": "reference/put-v1-pessoal-funcionarios-codigofuncio-cd196442.md"
+  },
+  "https://developer.sankhya.com.br/reference/post_v1-pessoal-funcionarios": {
+   "versao": "2026-10-22T11:38:21.000Z",
+   "hash": "1112e680ae2a548bb9f14f9cbba56534ef7e16fa",
+   "arquivo": "reference/post-v1-pessoal-funcionarios-ea4c1367.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-funcionarios-detalhados": {
+   "versao": "2026-10-22T11:38:21.000Z",
+   "hash": "b34740a8b68faa21592e106dc5004d8d8fdef86f",
+   "arquivo": "reference/get-v1-pessoal-funcionarios-detalhados-51191276.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-pessoal-inconsistencias": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "1da8cbe27890af34ccca74bfc6c30fc17b244268",
+   "arquivo": "reference/get-v1-pessoal-inconsistencias-d9bb7792.md"
+  },
+  "https://developer.sankhya.com.br/reference/getmotoristas": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "a346759c9790b28c3b8effaa5356cbe399a2cdec",
+   "arquivo": "reference/getmotoristas-d652edb8.md"
+  },
+  "https://developer.sankhya.com.br/reference/postmotorista": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "d6f84de892e375c586c0ea9a3a84f2d51fc44f93",
+   "arquivo": "reference/postmotorista-d64bd220.md"
+  },
+  "https://developer.sankhya.com.br/reference/getmotoristabyid": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "c953cd6aae8a0c872de666b02642f6082c1e1908",
+   "arquivo": "reference/getmotoristabyid-4890a196.md"
+  },
+  "https://developer.sankhya.com.br/reference/putmotorista": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "e29caa88f8d33e4c98fe02779f886bba1d96db26",
+   "arquivo": "reference/putmotorista-1c495734.md"
+  },
+  "https://developer.sankhya.com.br/reference/getordenscarga": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "e1ae9f032c1815e3c9b53306596b11a294097649",
+   "arquivo": "reference/getordenscarga-cf792daf.md"
+  },
+  "https://developer.sankhya.com.br/reference/postordemcarga": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "2a0c99a733ac69f423bf685da52e2b43803a9a4f",
+   "arquivo": "reference/postordemcarga-961cfab5.md"
+  },
+  "https://developer.sankhya.com.br/reference/getordemcargaporcodigo": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "820111fab18ba0ac9435314e3f4fe6217e1204f8",
+   "arquivo": "reference/getordemcargaporcodigo-045fb990.md"
+  },
+  "https://developer.sankhya.com.br/reference/putordemcarga": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "8b6c520e36dff6e24844e61bd31bd66fd35d3a77",
+   "arquivo": "reference/putordemcarga-86298a83.md"
+  },
+  "https://developer.sankhya.com.br/reference/gettransportadoras": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "0000871f4694820f321c1b6fe4acbe8b8a4443a8",
+   "arquivo": "reference/gettransportadoras-ae156a61.md"
+  },
+  "https://developer.sankhya.com.br/reference/posttransportadora": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "8f1b6286e6b3b976c70f7b08c324046b16a78700",
+   "arquivo": "reference/posttransportadora-8bbcf461.md"
+  },
+  "https://developer.sankhya.com.br/reference/gettransportadorabyid": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "0bb34b6203e1808365618cc3d6ab3a0cf7c28e53",
+   "arquivo": "reference/gettransportadorabyid-c3c03d78.md"
+  },
+  "https://developer.sankhya.com.br/reference/puttransportadora": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "d20903761a3a8ec52c9ebafa590f1902cbf38786",
+   "arquivo": "reference/puttransportadora-78cf863f.md"
+  },
+  "https://developer.sankhya.com.br/reference/getpedidosbyordemcarga": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "48fa6217c50d3bc0a34bda79975c0765e2b71887",
+   "arquivo": "reference/getpedidosbyordemcarga-eb882f0a.md"
+  },
+  "https://developer.sankhya.com.br/reference/addpedidostoordemcarga": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "6ae3e769afc7bd9739cdf5b57fb0ce7e83a1f435",
+   "arquivo": "reference/addpedidostoordemcarga-7333e53d.md"
+  },
+  "https://developer.sankhya.com.br/reference/removepedidofromordemcarga": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "731d73673f553c40f4eba5c51bb4da03091e6598",
+   "arquivo": "reference/removepedidofromordemcarga-b770f018.md"
+  },
+  "https://developer.sankhya.com.br/reference/getnotasordemcarga": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "a2c95ecf5f317d31ff27592a251e2fbb22423b94",
+   "arquivo": "reference/getnotasordemcarga-802d0df2.md"
+  },
+  "https://developer.sankhya.com.br/reference/getprecoprodutotabela": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "2fb7f6290f36b087de023435888e6d4b6895cd06",
+   "arquivo": "reference/getprecoprodutotabela-91bdafae.md"
+  },
+  "https://developer.sankhya.com.br/reference/getprecoproduto": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "3525709bdb26ac053ca3559063828e0eb13541e1",
+   "arquivo": "reference/getprecoproduto-e3b97262.md"
+  },
+  "https://developer.sankhya.com.br/reference/getprecotabela": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "cf6930ff3b26aa420d6e00ad4737d370da80a8af",
+   "arquivo": "reference/getprecotabela-03871c06.md"
+  },
+  "https://developer.sankhya.com.br/reference/getprecocontexto": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "dfa7dc032757ee1a2d092e081bf785f1f504b0f1",
+   "arquivo": "reference/getprecocontexto-2785c102.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-produtos": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "7ed8a3a6490400b1aa28a97a6f5ef4a8a77a59bd",
+   "arquivo": "reference/get-v1-produtos-a45776e3.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-produtos-codigoproduto": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "9460bd5afc9d717aa1c4ecfff31db17b544f817c",
+   "arquivo": "reference/get-v1-produtos-codigoproduto-a4ca89e3.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-produtos-codigoproduto-componentes": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "1fdd3eeffd7ab243dcd6a1ac4e1d49aaa9840cfd",
+   "arquivo": "reference/get-v1-produtos-codigoproduto-componente-7013972c.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-produtos-codigoproduto-volumes": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "4710a3471385f6aa243fade7d2619a34f9962ce6",
+   "arquivo": "reference/get-v1-produtos-codigoproduto-volumes-b9625bac.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-produtos-codigoproduto-alternativos": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "8448a4742e024f18752fae0fcb822f83ae7c9e7e",
+   "arquivo": "reference/get-v1-produtos-codigoproduto-alternativ-6220d867.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-grupos-produto": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "fb238b2a111b381f342a441d85de199755a70d3a",
+   "arquivo": "reference/get-v1-grupos-produto-a51a397a.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-grupos-produto-codigogrupoproduto": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "a609c1bad56eeb9671b70813c75ee6ccfd9f57bc",
+   "arquivo": "reference/get-v1-grupos-produto-codigogrupoproduto-706a52e8.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-volumes-produtos": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "1d1c5778a1fb73d28bbc94ae6380829287d87b8c",
+   "arquivo": "reference/get-v1-volumes-produtos-06807899.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_v1-volumes-produtos-codigovolume": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "02677ab4556fe5420d0e280f5f7fae79494e7eb6",
+   "arquivo": "reference/get-v1-volumes-produtos-codigovolume-cc7310cf.md"
+  },
+  "https://developer.sankhya.com.br/reference/buscarrecomendacoesmarketbasket": {
+   "versao": "2026-06-22T19:53:08.000Z",
+   "hash": "c4ae0ed6924a978e1d6019086fc3740daa8a41b0",
+   "arquivo": "reference/buscarrecomendacoesmarketbasket-a3fb2dfa.md"
+  },
+  "https://developer.sankhya.com.br/reference/buscarrecomendacoesperfilcliente": {
+   "versao": "2026-06-22T19:53:08.000Z",
+   "hash": "193f484559d4089c3316444b2b363a2175b99e14",
+   "arquivo": "reference/buscarrecomendacoesperfilcliente-f675d1ff.md"
+  },
+  "https://developer.sankhya.com.br/reference/addpedido": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "2e6a8fa75682f07e45296455909f780f11032871",
+   "arquivo": "reference/addpedido-2eb20045.md"
+  },
+  "https://developer.sankhya.com.br/reference/putpedido": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "bd3c02df4089ee79bb0fc2733ccd4afac780792c",
+   "arquivo": "reference/putpedido-3bcce7ea.md"
+  },
+  "https://developer.sankhya.com.br/reference/postcancelapedido": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "7e10980823c3d587238ecdcbaf190160c325a174",
+   "arquivo": "reference/postcancelapedido-c65e4879.md"
+  },
+  "https://developer.sankhya.com.br/reference/getpedidos": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "823fbfe6045768c3a5ae2b8ea5d98e022249d310",
+   "arquivo": "reference/getpedidos-1d55f702.md"
+  },
+  "https://developer.sankhya.com.br/reference/getpedidovendaporcodigo": {
+   "versao": "2026-10-22T11:38:21.000Z",
+   "hash": "e88ceb47300a040921ea036ecc71060e84900be4",
+   "arquivo": "reference/getpedidovendaporcodigo-cbad6111.md"
+  },
+  "https://developer.sankhya.com.br/reference/addcfesat": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "4a93619bd42e0872640f3c40b82141cf6a59d605",
+   "arquivo": "reference/addcfesat-464a2838.md"
+  },
+  "https://developer.sankhya.com.br/reference/cancelacfesat": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "55b6c6256a8c158dfbebfdb9163063eb4d792aa9",
+   "arquivo": "reference/cancelacfesat-2e34c1e5.md"
+  },
+  "https://developer.sankhya.com.br/reference/inutilizacfesat": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "8a3360a3f7d8f83d11dc8bab3c81f0c7a740e6af",
+   "arquivo": "reference/inutilizacfesat-5ef14892.md"
+  },
+  "https://developer.sankhya.com.br/reference/addnfce": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "e4a0545035d111780c590c0c0468b4538fa2dfa7",
+   "arquivo": "reference/addnfce-3f869d03.md"
+  },
+  "https://developer.sankhya.com.br/reference/autorizacfesat": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "04e768658f7bba3390f79e673451091e2d3379aa",
+   "arquivo": "reference/autorizacfesat-1034bbf4.md"
+  },
+  "https://developer.sankhya.com.br/reference/cancelanfce": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "a74d181fe06d791638040a4dc096bc08ad90bed1",
+   "arquivo": "reference/cancelanfce-f69ae8f9.md"
+  },
+  "https://developer.sankhya.com.br/reference/inutilizanfce": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "e2a61c58bf865db19568c50eeb37e61a67267fbe",
+   "arquivo": "reference/inutilizanfce-164b0e0e.md"
+  },
+  "https://developer.sankhya.com.br/reference/addabrecaixapdv": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "aaa1b7602877de85163b04f2f3cc6c6e4da3dc41",
+   "arquivo": "reference/addabrecaixapdv-14d9a60a.md"
+  },
+  "https://developer.sankhya.com.br/reference/getcaixaaberto": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "e2b2c3f60ac82dc90da335bd22fad508508bd438",
+   "arquivo": "reference/getcaixaaberto-9eb48521.md"
+  },
+  "https://developer.sankhya.com.br/reference/addfechacaixapdv": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "c835285b910415bd04a7ade88452ea0381091c95",
+   "arquivo": "reference/addfechacaixapdv-d4cc56da.md"
+  },
+  "https://developer.sankhya.com.br/reference/addsangriacaixapdv": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "35584a8a68c2e7cefe1107da4f6e1a7997be58fe",
+   "arquivo": "reference/addsangriacaixapdv-3fe0542b.md"
+  },
+  "https://developer.sankhya.com.br/reference/addsuprimentocaixapdv": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "ee30b58c7490fd6923bc5fe8a134777c2192974f",
+   "arquivo": "reference/addsuprimentocaixapdv-8fb671d0.md"
+  },
+  "https://developer.sankhya.com.br/reference/addrecebimentocaixapdvinc": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "11003b021d7e04be4bdec1c0136c87e707e52730",
+   "arquivo": "reference/addrecebimentocaixapdvinc-4ea1b3b8.md"
+  },
+  "https://developer.sankhya.com.br/reference/addrecebimentocaixapdvbaixa": {
+   "versao": "2026-05-27T21:06:58.000Z",
+   "hash": "52277d98adc85b0a03018dcd358145f94b2b8496",
+   "arquivo": "reference/addrecebimentocaixapdvbaixa-656866fd.md"
+  },
+  "https://developer.sankhya.com.br/reference/getnfe": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "9ca7bff199a3afef0f00e67a25de6828f28bf2f9",
+   "arquivo": "reference/getnfe-f6cf9a55.md"
+  },
+  "https://developer.sankhya.com.br/reference/getnfebycodigo": {
+   "versao": "2026-05-13T12:41:23.000Z",
+   "hash": "b8f076dd657de7f0c693a6859632beb77a103b60",
+   "arquivo": "reference/getnfebycodigo-9b115a55.md"
+  },
+  "https://developer.sankhya.com.br/reference/getdanfebycodigonota": {
+   "versao": "2026-08-20T20:02:33.000Z",
+   "hash": "a2eaddb3d2ee2f3225dec1e22ea3c5c3b98f39cb",
+   "arquivo": "reference/getdanfebycodigonota-0b8e8d9d.md"
+  },
+  "https://developer.sankhya.com.br/reference/postnfe": {
+   "versao": "2026-10-22T11:38:21.000Z",
+   "hash": "970bb4d145680f2c745285b0fc741eab0b6e86ad",
+   "arquivo": "reference/postnfe-81e87197.md"
+  },
+  "https://developer.sankhya.com.br/reference/getnfedevolucoes": {
+   "versao": "2026-10-22T11:38:21.000Z",
+   "hash": "4cacf949950cf86d84be0379b17e02db620fc94c",
+   "arquivo": "reference/getnfedevolucoes-e6251d0b.md"
+  },
+  "https://developer.sankhya.com.br/reference/getnferetornos": {
+   "versao": "2026-10-22T11:38:21.000Z",
+   "hash": "d2b342c6c250a19a16e078c9bb47d36fbd96fa3d",
+   "arquivo": "reference/getnferetornos-48459993.md"
+  },
+  "https://developer.sankhya.com.br/reference/getnferemessas": {
+   "versao": "2026-10-22T11:38:21.000Z",
+   "hash": "286d146a7a9177996a8d612d9cfe9603e2c48657",
+   "arquivo": "reference/getnferemessas-4ea11243.md"
+  },
+  "https://developer.sankhya.com.br/reference/getnfecanceladas": {
+   "versao": "2026-10-22T11:38:21.000Z",
+   "hash": "002ea7a4c2fea80a10f26d0a24c5615aef8615d3",
+   "arquivo": "reference/getnfecanceladas-c8b83056.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_loadrecords": {
+   "versao": "2026-05-13T15:12:48.000Z",
+   "hash": "656dd7f725b0d2e1f9181fae0453a91592ebfb3b",
+   "arquivo": "reference/get-loadrecords-9433a4fb.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_loadrecord": {
+   "versao": "2026-05-13T15:12:48.000Z",
+   "hash": "dd67b221732aef6ffdac0b301f7843536706782b",
+   "arquivo": "reference/get-loadrecord-a329baf4.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_criteriosloadrecords": {
+   "versao": "2026-05-13T15:12:48.000Z",
+   "hash": "5206058114b8fa0633468183aa4769624f154c5a",
+   "arquivo": "reference/get-criteriosloadrecords-055f34f4.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_loadview": {
+   "versao": "2026-05-13T15:12:48.000Z",
+   "hash": "7c2d5301aa1f055a875d52b2da1f8c40e3d82341",
+   "arquivo": "reference/get-loadview-d087bef1.md"
+  },
+  "https://developer.sankhya.com.br/reference/post_salve": {
+   "versao": "2026-05-13T15:12:48.000Z",
+   "hash": "d7141a6fb6bb5598510723fc34ad1bb4535324a1",
+   "arquivo": "reference/post-salve-74122405.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_logalteracoestabelas": {
+   "versao": "2026-05-13T15:12:48.000Z",
+   "hash": "53cfa1975b529e48a58aeb34df8e88da5405ced8",
+   "arquivo": "reference/get-logalteracoestabelas-96996864.md"
+  },
+  "https://developer.sankhya.com.br/reference/post_incluimovimentos": {
+   "versao": "2026-05-13T15:12:48.000Z",
+   "hash": "02b14f5481a64dc6a5359ad8f6a901266c3943e4",
+   "arquivo": "reference/post-incluimovimentos-8a5e1cdf.md"
+  },
+  "https://developer.sankhya.com.br/reference/post_incaltitemmovimento": {
+   "versao": "2026-05-13T15:12:48.000Z",
+   "hash": "1c5613a9391e70e267b9424b7ac97f52dbae1443",
+   "arquivo": "reference/post-incaltitemmovimento-1f1610a1.md"
+  },
+  "https://developer.sankhya.com.br/reference/post_excluiitemmovimento": {
+   "versao": "2026-05-13T15:12:48.000Z",
+   "hash": "35f07297e7be98805621e294ca272267de459269",
+   "arquivo": "reference/post-excluiitemmovimento-61a598b1.md"
+  },
+  "https://developer.sankhya.com.br/reference/post_cancelamovimento": {
+   "versao": "2026-05-13T15:12:48.000Z",
+   "hash": "7caa9d5729b8f72fa0c48128718787bee65d83b7",
+   "arquivo": "reference/post-cancelamovimento-785611d4.md"
+  },
+  "https://developer.sankhya.com.br/reference/post_faturamovimento": {
+   "versao": "2026-05-13T15:12:48.000Z",
+   "hash": "f53365a667b88c150c5ba320b8bb1ca49ebff4ce",
+   "arquivo": "reference/post-faturamovimento-407da56e.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_precoproduto": {
+   "versao": "2026-05-13T15:12:48.000Z",
+   "hash": "ac5e6c6bd0a47b178ff91bc6f26caff2aa92a3c8",
+   "arquivo": "reference/get-precoproduto-a9540c22.md"
+  },
+  "https://developer.sankhya.com.br/reference/get_anexaarquivos": {
+   "versao": "2026-05-13T15:12:48.000Z",
+   "hash": "50f10b53b4b75d901b9f77b76d55c4101c4aba82",
+   "arquivo": "reference/get-anexaarquivos-d62d5006.md"
+  },
+  "https://developer.sankhya.com.br/recipes/api-gateway-login": {
+   "versao": "2025-11-10T23:38:32.000Z",
+   "hash": "ed8bdcd926ea87850e05c9b9bbe772e9169de152",
+   "arquivo": "recipes/api-gateway-login-10c9c5f7.md"
+  },
+  "https://developer.sankhya.com.br/recipes/api-gateway-logout": {
+   "versao": "2025-11-10T23:38:47.000Z",
+   "hash": "7094b43ce8450e82e3f6a2d635487872af054eb4",
+   "arquivo": "recipes/api-gateway-logout-681d5172.md"
+  },
+  "https://developer.sankhya.com.br/recipes/customizações-confirmar-nota": {
+   "versao": "2025-11-10T23:38:47.000Z",
+   "hash": "52e12964c8b7325cd3b0a459bbe2014ba610d0be",
+   "arquivo": "recipes/customizacoes-confirmar-nota-1ec61cf6.md"
+  },
+  "https://developer.sankhya.com.br/recipes/customizações-faturar-nota": {
+   "versao": "2025-11-10T23:38:48.000Z",
+   "hash": "44d1c93b09853092e7c453803849f3310aae8605",
+   "arquivo": "recipes/customizacoes-faturar-nota-b8c8c2f5.md"
+  },
+  "https://developer.sankhya.com.br/recipes/jape-buscar-coleção-pelo-finder": {
+   "versao": "2025-11-10T23:38:33.000Z",
+   "hash": "9ec199176afddc9b92713ba0f5692ea5bd4c798b",
+   "arquivo": "recipes/jape-buscar-colecao-pelo-finder-dd7dfe3d.md"
+  },
+  "https://developer.sankhya.com.br/recipes/jape-date-to-string": {
+   "versao": "2025-11-10T23:38:33.000Z",
+   "hash": "28680cce951283668016b30855f6c27656b8f04f",
+   "arquivo": "recipes/jape-date-to-string-a6b0092c.md"
+  },
+  "https://developer.sankhya.com.br/recipes/jape-nativesql": {
+   "versao": "2025-11-10T23:38:33.000Z",
+   "hash": "fdd1e68b90be58b1d4176a7356fe9f7f6d6773b9",
+   "arquivo": "recipes/jape-nativesql-69557cc7.md"
+  },
+  "https://developer.sankhya.com.br/recipes/jape-nativesqlwithbatch-1": {
+   "versao": "2025-11-10T23:38:32.000Z",
+   "hash": "39b3987e617c76f64151650ed6791caecfa51a69",
+   "arquivo": "recipes/jape-nativesqlwithbatch-1-6cc79009.md"
+  },
+  "https://developer.sankhya.com.br/recipes/jape-string-to-timestamp": {
+   "versao": "2025-11-10T23:38:33.000Z",
+   "hash": "13db5d10fc187fafc52b5a58ed928f28734945f2",
+   "arquivo": "recipes/jape-string-to-timestamp-7d61e218.md"
+  },
+  "https://developer.sankhya.com.br/recipes/jape-transação-automática": {
+   "versao": "2025-11-10T23:38:34.000Z",
+   "hash": "485152a2172560ca9218a5d1ce8cf7c346ce52e6",
+   "arquivo": "recipes/jape-transacao-automatica-7794b6bd.md"
+  },
+  "https://developer.sankhya.com.br/recipes/jape-transação-manual": {
+   "versao": "2025-11-10T23:38:34.000Z",
+   "hash": "9b6ab3c9f9ec19dfe2cd731a5510916c84f03a5a",
+   "arquivo": "recipes/jape-transacao-manual-4f592056.md"
+  },
+  "https://developer.sankhya.com.br/recipes/japewrapper-atualizar-um-registro-pk": {
+   "versao": "2025-11-10T23:38:35.000Z",
+   "hash": "50c6df857e5ef152c6de2ad1dcb98b54ac8e3de7",
+   "arquivo": "recipes/japewrapper-atualizar-um-registro-pk-26ddd998.md"
+  },
+  "https://developer.sankhya.com.br/recipes/japewrapper-buscar-coleção-pelo-find": {
+   "versao": "2025-11-10T23:38:34.000Z",
+   "hash": "baeebc542f15d561533d8aa8566c3f55a6d2fdb9",
+   "arquivo": "recipes/japewrapper-buscar-colecao-pelo-find-3be51fe6.md"
+  },
+  "https://developer.sankhya.com.br/recipes/japewrapper-buscar-um-registro-pela-pk": {
+   "versao": "2025-11-10T23:38:34.000Z",
+   "hash": "7dd22f5079e1d5917361ad98ec0be55778fa75e5",
+   "arquivo": "recipes/japewrapper-buscar-um-registro-pela-pk-f547dd18.md"
+  },
+  "https://developer.sankhya.com.br/recipes/japewrapper-buscar-um-registro-pelo-find": {
+   "versao": "2025-11-10T23:38:34.000Z",
+   "hash": "fe01e1f1c45b0ad6a7f655a16d0ed14b279c8fd2",
+   "arquivo": "recipes/japewrapper-buscar-um-registro-pelo-find-155f12c5.md"
+  },
+  "https://developer.sankhya.com.br/recipes/japewrapper-remover-um-registro-pela-pk": {
+   "versao": "2025-11-10T23:38:35.000Z",
+   "hash": "14103713a9381e3e28c71a11975815ecd43e1f5b",
+   "arquivo": "recipes/japewrapper-remover-um-registro-pela-pk-673d08ae.md"
+  },
+  "https://developer.sankhya.com.br/recipes/japewrapper-remover-um-registro-pelo-finder": {
+   "versao": "2025-11-10T23:38:35.000Z",
+   "hash": "24dd144f83457cf9c348010686cb6aef39bf2784",
+   "arquivo": "recipes/japewrapper-remover-um-registro-pelo-fin-4a936c6a.md"
+  },
+  "https://developer.sankhya.com.br/recipes/japewrapper-salvar-um-registro": {
+   "versao": "2025-11-10T23:38:35.000Z",
+   "hash": "3d94fd1ec9a6691b3e92b8722596a9e104eaac8a",
+   "arquivo": "recipes/japewrapper-salvar-um-registro-f543f180.md"
+  },
+  "https://developer.sankhya.com.br/recipes/snippet-java-chamando-uma-procedure-do-java": {
+   "versao": "2025-11-10T23:38:36.000Z",
+   "hash": "8ee1d6eb19fedf551a95a4ca96e319b220ccb1b1",
+   "arquivo": "recipes/snippet-java-chamando-uma-procedure-do-j-2a061996.md"
+  },
+  "https://developer.sankhya.com.br/recipes/snippet-java-gerar-log-exception": {
+   "versao": "2025-11-10T23:38:36.000Z",
+   "hash": "9142e2ccd65328a9982b64dfadbea7b9a7865d26",
+   "arquivo": "recipes/snippet-java-gerar-log-exception-3151a3ca.md"
+  },
+  "https://developer.sankhya.com.br/changelog/lançada-nova-versão-do-sdk-230": {
+   "versao": null,
+   "hash": "053cc9c2600bcfd84f7360e8daf97fa904237326",
+   "arquivo": "changelog/lancada-nova-versao-do-sdk-230-26cdb1cb.md"
+  },
+  "https://developer.sankhya.com.br/changelog/novas-apis": {
+   "versao": null,
+   "hash": "b22329e9c87423d50ca615b647d8a0bd6b1afdfd",
+   "arquivo": "changelog/novas-apis-9fec8a51.md"
+  },
+  "https://developer.sankhya.com.br/changelog/lancado-nova-versao-do-sdk": {
+   "versao": null,
+   "hash": "7e08d3115645cca429404279fc92c3181964163e",
+   "arquivo": "changelog/lancado-nova-versao-do-sdk-a721b1ca.md"
+  },
+  "https://developer.sankhya.com.br/changelog/novo-fluxo-de-autenticacao-com-oauth-20": {
+   "versao": null,
+   "hash": "209a355b271a203639c306220c35033892e8b599",
+   "arquivo": "changelog/novo-fluxo-de-autenticacao-com-oauth-20-d76e2541.md"
+  },
+  "https://developer.sankhya.com.br/changelog/melhoria-na-experiência-de-gestão-de-versões-de-add-ons": {
+   "versao": null,
+   "hash": "c280175e72a518ccfadbb708cd83cc3a668d3621",
+   "arquivo": "changelog/melhoria-na-experiencia-de-gestao-de-ver-7dc4867c.md"
+  },
+  "https://developer.sankhya.com.br/changelog/lancamento-versao-20": {
+   "versao": null,
+   "hash": "ecc0442a3540770beea0024b5cd1efcb4cda630d",
+   "arquivo": "changelog/lancamento-versao-20-216ef70f.md"
+  },
+  "https://developer.sankhya.com.br/changelog/revisao-documentacao-addon-studio": {
+   "versao": null,
+   "hash": "bb8f48e336d372f02e6ee94cf762ba272961eaed",
+   "arquivo": "changelog/revisao-documentacao-addon-studio-2e87e7c1.md"
+  }
+ }
+}

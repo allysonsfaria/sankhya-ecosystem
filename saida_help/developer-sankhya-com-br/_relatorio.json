@@ -1,0 +1,16 @@
+{
+ "status": "concluido",
+ "inicio": "2026-10-22T22:09:26+00:00",
+ "fim": "2026-10-22T22:13:39+00:00",
+ "total_previsto": 275,
+ "contadores": {
+  "novos": 0,
+  "atualizados": 0,
+  "inalterados": 275,
+  "removidos": 0,
+  "ignorados": 0,
+  "erros": 0
+ },
+ "erros": [],
+ "ignorados": []
+}

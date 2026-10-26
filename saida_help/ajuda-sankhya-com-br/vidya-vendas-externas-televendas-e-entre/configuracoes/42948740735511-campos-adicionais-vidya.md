@@ -1,0 +1,52 @@
+---
+id: "42948740735511"
+titulo: "Campos Adicionais - Vidya"
+url: "https://ajuda.sankhya.com.br/hc/pt-br/articles/42948740735511-Campos-Adicionais-Vidya"
+trilha: "VIDYA: Vendas externas, televendas e entregas > Central de ajuda > Configurações"
+atualizado_em: "2026-08-24T15:41:31Z"
+rotulos: ["sync_hc", "vidya", "vidya_526167", "sync_hash_4819efba19a5"]
+---
+
+# Campos Adicionais - Vidya
+
+Segue listagem com Todos os campos adicionais criados na Sankhya pela equipe Vidya:
+
+| Tabela | Campo |
+| --- | --- |
+| TSIUSU | AD\_CHCKOBG |
+| TGFNTA | AD\_MOBILIDADE |
+| TGFNTA | AD\_PERMITENOPRIMEIROCADASTRO |
+| TGFPAR | AD\_VIDYA |
+| TGFPAR | AD\_ANALISE |
+| TGFPAR | AD\_PROSPECT |
+| TGFTOP | AD\_MOBILIDADE |
+| TGFTOP | AD\_VENDAPPERFORMANCE |
+| TGFTOP | AD\_BONIFPPERFORMANCE |
+| TGFTOP | AD\_DEVPPERFORMANCE |
+| TGFTOP | AD\_PERMITEFATURAR |
+| TGFTOP | AD\_PULARCONFIRMACAO |
+| TGFPRO | AD\_MOBILIDADE |
+| TGFPRO | AD\_CODBALANCA |
+| TGFPRO | AD\_CODVOLBALANCA |
+| TSIEMP | AD\_MOBILIDADE |
+| TSIEMP | AD\_CODTIPOPERPAD |
+| TSIEMP | AD\_UTILIZAMULTTAB |
+| TSIEMP | AD\_CALCDESCPROMO |
+| TGFTPV | AD\_UTILINTCARD |
+| TGFTPV | AD\_MOBILIDADE |
+| TGFTPV | AD\_PERMITENOPRIMEIROCADASTRO |
+| TGFEMP | AD\_LOCALPADVIDYA |
+| TGFEMP | AD\_CODCENCUSPADVIDYA |
+| TGFCAB | AD\_VDYORIG |
+| TGFCAB | AD\_LATITUDE |
+| TGFCAB | AD\_LONGITUDE |
+| TGFCAB | AD\_OFFLINE |
+| TGFCAB | AD\_NUVIDYA |
+| TGFCAB | AD\_DHCRIACAOVDY |
+| TGFCAB | AD\_DHCONFIRMVDY |
+| TGFLOC | AD\_MOBILIDADE |
+| TGFNAT | AD\_MOBILIDADE |
+| TGFCPL | AD\_TELRECEB |
+| TGFCPL | AD\_TELENTREGA |
+| TGFVOA | AD\_BLOQVDY |
+| TGFVOL | AD\_BLOQVDY |
