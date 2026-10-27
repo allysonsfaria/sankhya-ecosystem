@@ -56,3 +56,17 @@ unit.loadRecords({
 ## 3. Diretrizes de Layout e Estilo (Acorde)
 - Utilize as classes utilitárias de espaçamento e flexbox do Design System para respeitar a densidade de pixels do ERP.
 - Mantenha conformidade com temas claro e escuro fornecidos pela casca do Sankhya OM.
+
+---
+
+## 4. Documentação Completa Local e Busca
+
+O acervo completo extraído do portal do Sankhya Design System (287 artigos e componentes com todas as subabas de Componentes, Utilitários, API Java, Onboarding, Blog e Release Notes) está disponível em `saida_help/sankhya-design-system/` e indexado nos catálogos de busca rápida:
+
+```bash
+# Consultar documentação técnica detalhada de qualquer componente:
+python scripts/search_help.py "ez-button" -d
+python scripts/search_help.py "ez-grid" -d
+python scripts/search_help.py "dataunit" -d
+python scripts/search_help.py "sankhya-bff" -d
+```

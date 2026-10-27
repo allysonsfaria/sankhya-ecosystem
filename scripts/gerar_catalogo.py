@@ -58,7 +58,7 @@ def indexar_acervo(help_dir, output_dir):
 
     for subpasta in subpastas:
         nome_pasta = subpasta.name.lower()
-        eh_portal_dev = any(k in nome_pasta for k in ("developer", "dev", "api", "doc", "recipe"))
+        eh_portal_dev = any(k in nome_pasta for k in ("developer", "dev", "api", "doc", "recipe", "design-system", "design"))
 
         print(f" -> Processando acervo: {subpasta.name}...")
         for root, _, files in os.walk(subpasta):

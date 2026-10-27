@@ -56,6 +56,9 @@ class Pagina:
     markdown: str | None = None     # Markdown oficial do site (.md do llms.txt); dispensa conversão
     erro: str | None = None
     ignorada: str | None = None     # motivo, quando não é página de conteúdo (ex.: PDF)
+    nao_modificado: bool = False    # HTTP 304 ou conteúdo comprovadamente inalterado
+    etag: str | None = None         # ETag HTTP do servidor
+    ultimo_modificado: str | None = None  # Last-Modified HTTP do servidor
 
 
 # ---------- utilitários ----------
@@ -70,15 +73,35 @@ def registrar(mensagem: str):
     print(f"[{time.strftime('%H:%M:%S')}] {mensagem}", flush=True)
 
 
-def obter(url: str, aceitar: str = "*/*") -> tuple[bytes, str]:
-    """GET com retentativa para falhas de rede, 429 (respeitando Retry-After) e 5xx. Devolve (corpo, content-type)."""
+def obter(url: str, aceitar: str = "*/*", etag: str | None = None, modificado_desde: str | None = None) -> tuple[bytes | None, str, dict]:
+    """GET com retentativa para falhas de rede, 429 (respeitando Retry-After) e 5xx.
+    Suporta condicionais HTTP (If-None-Match, If-Modified-Since).
+    Devolve (corpo, content_type, metadados_http). Se 304 Not Modified, corpo é None e status == 304."""
     url = urllib.parse.quote(url, safe=CARACTERES_SEGUROS_URL)  # acentos na URL ('serviço') viram %C3%A7
-    requisicao = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": aceitar})
+    cabecalhos = {"User-Agent": USER_AGENT, "Accept": aceitar}
+    if etag:
+        cabecalhos["If-None-Match"] = etag
+    if modificado_desde:
+        cabecalhos["If-Modified-Since"] = modificado_desde
+
+    requisicao = urllib.request.Request(url, headers=cabecalhos)
     for tentativa in range(1, TENTATIVAS_HTTP + 1):
         try:
             with urllib.request.urlopen(requisicao, timeout=TIMEOUT_HTTP_S) as resposta:
-                return resposta.read(), resposta.headers.get("Content-Type", "")
+                meta = {
+                    "status": 200,
+                    "etag": resposta.headers.get("ETag"),
+                    "last_modified": resposta.headers.get("Last-Modified"),
+                }
+                return resposta.read(), resposta.headers.get("Content-Type", ""), meta
         except urllib.error.HTTPError as erro:
+            if erro.code == 304:
+                meta = {
+                    "status": 304,
+                    "etag": erro.headers.get("ETag") or etag,
+                    "last_modified": erro.headers.get("Last-Modified") or modificado_desde,
+                }
+                return None, "", meta
             if erro.code not in CODIGOS_RETENTAVEIS or tentativa == TENTATIVAS_HTTP:
                 raise
             espera = int(erro.headers.get("Retry-After") or ESPERA_BASE_S ** tentativa)
@@ -129,7 +152,7 @@ class FonteZendesk:
     def total(self) -> int:
         return obter_json(f"{self.base_api}/articles.json?per_page=1")["count"]
 
-    def paginas(self, ja_atualizada: Callable[[str, str | None], bool]) -> Iterator[Pagina]:
+    def paginas(self, ja_atualizada: Callable[[str, str | None], bool], estado_anterior: Callable[[str], dict | None] | None = None) -> Iterator[Pagina]:
         secoes = {s["id"]: s for s in listar_tudo(f"{self.base_api}/sections.json", "sections")}
         categorias = {c["id"]: c for c in listar_tudo(f"{self.base_api}/categories.json", "categories")}
         for lote in iterar_paginas_api(f"{self.base_api}/articles.json", "articles"):
@@ -168,19 +191,23 @@ class Buscador:
         self._playwright = self._navegador = self._aba = None
         self._visivel = False
 
-    def obter_html(self, url: str) -> tuple[bytes | str | None, str, bool]:
-        """Devolve (html, motivo_para_ignorar, veio_do_navegador). html None quando o recurso não é página HTML."""
+    def obter_html(self, url: str, etag: str | None = None, modificado_desde: str | None = None) -> tuple[bytes | str | None, str, bool, dict]:
+        """Devolve (html, motivo_para_ignorar, veio_do_navegador, meta_http).
+        html None quando o recurso não é página HTML ou retornou 304."""
         time.sleep(self.intervalo_s)
         try:
-            corpo, tipo = obter(url, "text/html,application/xhtml+xml")
+            corpo, tipo, meta = obter(url, "text/html,application/xhtml+xml", etag=etag, modificado_desde=modificado_desde)
+            if meta.get("status") == 304:
+                return None, "não modificado (304)", False, meta
             if "html" not in tipo.lower():
-                return None, f"não é HTML ({tipo or 'tipo desconhecido'})", False
+                return None, f"não é HTML ({tipo or 'tipo desconhecido'})", False, meta
             if not parece_bloqueada_ou_vazia(corpo):
-                return corpo, "", False
+                return corpo, "", False, meta
         except urllib.error.HTTPError as erro:
             if erro.code not in CODIGOS_DE_BLOQUEIO:
                 raise
-        return self.obter_com_navegador(url), "", True
+        html_nav = self.obter_com_navegador(url)
+        return html_nav, "", True, {"status": 200, "etag": None, "last_modified": None}
 
     def obter_com_navegador(self, url: str) -> str:
         html = self._carregar(url)
@@ -360,6 +387,13 @@ class FonteGenerica:
         for candidato in candidatos:
             for url, lastmod in ler_sitemap(candidato, visitados):
                 url = normalizar_url(url)
+                # Docusaurus / Netlify / SSG fix:
+                # Se sitemap vem do site alvo mas links apontam para host teste/dummy (ex: your-docusaurus-test-site.com ou localhost), rebaseia para self.base
+                partes_url = urllib.parse.urlparse(url)
+                if partes_url.netloc.lower() != self.escopo.host:
+                    partes_base = urllib.parse.urlparse(self.base)
+                    url = urllib.parse.urlunparse((partes_base.scheme, partes_base.netloc, partes_url.path, partes_url.params, partes_url.query, ""))
+                    url = normalizar_url(url)
                 if url not in vistos and self.escopo.contem(url) and self.permitida(url):
                     vistos.add(url)
                     entradas.append((url, lastmod))
@@ -371,25 +405,33 @@ class FonteGenerica:
     def total(self) -> int | None:
         return len(self.llms) or len(self.sitemap) or None  # varredura por links não sabe o total antes
 
-    def paginas(self, ja_atualizada: Callable[[str, str | None], bool]) -> Iterator[Pagina]:
+    def paginas(self, ja_atualizada: Callable[[str, str | None], bool], estado_anterior: Callable[[str], dict | None] | None = None) -> Iterator[Pagina]:
         if self.llms:
             for link in self.llms:
                 yield self.baixar_markdown(link)
             return
         if self.sitemap:
             for url, lastmod in self.sitemap:
-                yield self.baixar(url, lastmod, ja_atualizada)
+                yield self.baixar(url, lastmod, ja_atualizada, estado_anterior)
             return
-        yield from self.varrer_links()
+        yield from self.varrer_links(ja_atualizada, estado_anterior)
 
-    def varrer_links(self) -> Iterator[Pagina]:
+    def varrer_links(self, ja_atualizada: Callable[[str, str | None], bool], estado_anterior: Callable[[str], dict | None] | None = None) -> Iterator[Pagina]:
         """Sem sitemap: varredura em largura a partir da URL base, dentro do escopo."""
         fila, vistos = deque([normalizar_url(self.base)]), {normalizar_url(self.base)}
         while fila and len(vistos) - len(fila) < self.max_paginas:
             url = fila.popleft()
-            pagina, html = self.baixar_com_html(url, None)
+            info = estado_anterior(url) if estado_anterior else None
+            etag = info.get("etag") if info else None
+            modificado_desde = info.get("last_modified") if info else None
+            pagina, html = self.baixar_com_html(url, None, etag=etag, modificado_desde=modificado_desde)
             yield pagina
-            for link in links_da_pagina(html, url) if html is not None else []:
+            novos_links = []
+            if html is not None:
+                novos_links = links_da_pagina(html, url)
+            elif pagina.nao_modificado and info and info.get("links"):
+                novos_links = info.get("links")
+            for link in novos_links:
                 if link not in vistos and self.escopo.contem(link) and self.permitida(link):
                     vistos.add(link)
                     fila.append(link)
@@ -401,8 +443,8 @@ class FonteGenerica:
         pagina = self.pagina_vazia(url_canonica(link), None)
         try:
             time.sleep(self.buscador.intervalo_s)
-            corpo, tipo = obter(link, "text/markdown,text/plain")
-            texto = corpo.decode("utf-8", "replace")
+            corpo, tipo, _ = obter(link, "text/markdown,text/plain")
+            texto = corpo.decode("utf-8", "replace") if corpo else ""
             if "html" in tipo.lower() or texto.lstrip().startswith("<"):
                 return self.baixar_com_html(pagina.url, None)[0]
             pagina.markdown, pagina.versao, pagina.titulo = separar_markdown(texto)
@@ -410,18 +452,30 @@ class FonteGenerica:
             pagina.erro = repr(erro)
         return pagina
 
-    def baixar(self, url: str, lastmod: str | None, ja_atualizada) -> Pagina:
+    def baixar(self, url: str, lastmod: str | None, ja_atualizada: Callable[[str, str | None], bool], estado_anterior: Callable[[str], dict | None] | None = None) -> Pagina:
         if lastmod and ja_atualizada(url, lastmod):
             return self.pagina_vazia(url, lastmod)
-        return self.baixar_com_html(url, lastmod)[0]
+        info = estado_anterior(url) if estado_anterior else None
+        etag = info.get("etag") if info else None
+        modificado_desde = info.get("last_modified") if info else None
+        return self.baixar_com_html(url, lastmod, etag=etag, modificado_desde=modificado_desde)[0]
 
-    def baixar_com_html(self, url: str, lastmod: str | None) -> tuple[Pagina, bytes | str | None]:
+    def baixar_com_html(self, url: str, lastmod: str | None, etag: str | None = None, modificado_desde: str | None = None) -> tuple[Pagina, bytes | str | None]:
         pagina = self.pagina_vazia(url, lastmod)
+        pagina.etag = etag
+        pagina.ultimo_modificado = modificado_desde
         try:
-            html, motivo, do_navegador = self.buscador.obter_html(url)
+            html, motivo, do_navegador, meta = self.buscador.obter_html(url, etag=etag, modificado_desde=modificado_desde)
+            if meta.get("status") == 304:
+                pagina.nao_modificado = True
+                pagina.etag = meta.get("etag") or etag
+                pagina.ultimo_modificado = meta.get("last_modified") or modificado_desde
+                return pagina, None
             if html is None:
                 pagina.ignorada = motivo
                 return pagina, None
+            pagina.etag = meta.get("etag")
+            pagina.ultimo_modificado = meta.get("last_modified")
             pagina.html, pagina.titulo, achou_conteiner = extrair_conteudo_principal(html, url, self.seletor)
             if not do_navegador and (not achou_conteiner or conteudo_curto(pagina.html)):
                 # o menu engana a checagem do HTML bruto; sem contêiner de conteúdo, pode ser página montada por JS
@@ -436,7 +490,21 @@ class FonteGenerica:
 
     def pagina_vazia(self, url: str, lastmod: str | None) -> Pagina:
         segmentos = [s for s in urllib.parse.unquote(urllib.parse.urlparse(url).path).split("/") if s]
-        pasta = criar_slug(segmentos[0]) if len(segmentos) > 1 else "inicio"
+        if not segmentos:
+            pasta = "inicio"
+            nome_base = "index"
+            trilha = ["Início"]
+        elif len(segmentos) == 1:
+            pasta = criar_slug(segmentos[0])
+            nome_base = criar_slug(segmentos[0])
+            trilha = [segmentos[0].replace("-", " ").title()]
+        else:
+            pastas = [criar_slug(s) for s in segmentos[:-1][:2]]
+            pasta = "/".join(pastas)
+            nome_base = criar_slug(segmentos[-1])
+            trilha = [s.replace("-", " ").title() for s in segmentos]
+
         resumo = hashlib.sha1(url.encode()).hexdigest()[:TAMANHO_HASH_NOME]  # evita colisão de nomes iguais
-        nome = f"{criar_slug(segmentos[-1]) if segmentos else 'index'}-{resumo}"
-        return Pagina(chave=url, url=url, pasta=pasta, nome=nome, versao=lastmod)
+        nome = f"{nome_base}-{resumo}"
+        titulo = trilha[-1] if trilha else ""
+        return Pagina(chave=url, url=url, pasta=pasta, nome=nome, versao=lastmod, trilha=trilha, titulo=titulo)

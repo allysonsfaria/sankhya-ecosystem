@@ -96,16 +96,17 @@ def buscar(query, tipo="all", limite=5, detalhe=False):
             titulo = item.get("titulo", "").lower()
             trilha = item.get("trilha", "").lower()
             rotulos = " ".join(item.get("rotulos", [])).lower()
-            texto_busca = f"{titulo} {trilha} {rotulos}"
+            arquivo = item.get("arquivo", "").lower()
+            texto_busca = f"{titulo} {trilha} {rotulos} {arquivo} {arquivo.replace('-', ' ')} {trilha.replace('>', ' ')}"
 
             score = 0
-            if all(t in texto_busca for t in termos):
+            if all(t in texto_busca or t.replace("-", " ") in texto_busca for t in termos):
                 # Pontuação de relevância
-                if all(t in titulo for t in termos):
+                if any(t in titulo for t in termos):
                     score += 10
-                if query.lower() in titulo:
+                if query.lower() in titulo or query.lower() in arquivo:
                     score += 20
-                score += sum(2 for t in termos if t in rotulos)
+                score += sum(2 for t in termos if t in rotulos or t in arquivo)
                 
                 item_copia = dict(item)
                 item_copia["score"] = score

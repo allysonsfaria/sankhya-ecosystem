@@ -117,7 +117,8 @@ sankhya-ecosystem/
 │   └── documentacao/                 # Escopo técnico, documento de entrega
 ├── saida_help/                       # Acervo 100% autocontido (~10.000 arquivos markdown)
 │   ├── ajuda-sankhya-com-br/         # Manuais de todas as telas e rotinas do ERP
-│   └── developer-sankhya-com-br/     # Referências de APIs e receitas técnicas
+│   ├── developer-sankhya-com-br/     # Referências de APIs e receitas técnicas
+│   └── sankhya-design-system/        # Documentação completa do Sankhya Design System (ez-*)
 ├── extractor/                        # Motor de extração incremental embutido
 │   ├── extrator_help.py              # Extrator Zendesk API e web crawler
 │   ├── fontes.py                     # Módulos de conexão e seletores

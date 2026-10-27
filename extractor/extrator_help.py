@@ -36,6 +36,17 @@ PAGINAS_POR_PROGRESSO = 100
 # ---------- arquivos ----------
 
 def pasta_saida_do_site(base: str) -> Path:
+    # Se a URL estiver configurada em fontes.json com pasta específica, usa ela
+    for cand in (Path(__file__).resolve().parent.parent / "fontes.json", Path(__file__).resolve().parent / "fontes.json"):
+        if cand.exists():
+            try:
+                fontes = json.loads(cand.read_text(encoding="utf-8"))
+                base_norm = base.rstrip("/").lower()
+                for f in fontes:
+                    if f.get("url", "").rstrip("/").lower() == base_norm and f.get("pasta"):
+                        return PASTA_SAIDAS / f["pasta"]
+            except Exception:
+                pass
     return PASTA_SAIDAS / criar_slug(raiz_do_site(base).split("://", 1)[1])
 
 
@@ -95,10 +106,13 @@ class Extracao:
             "erros": [], "ignorados": [],
         }
 
+    def obter_estado_anterior(self, chave: str) -> dict | None:
+        return self.estado["paginas"].get(chave)
+
     def executar(self) -> int:
         self.salvar_progresso()
         self.relatorio["total_previsto"] = self.fonte.total()
-        for pagina in self.fonte.paginas(self.ja_atualizada):
+        for pagina in self.fonte.paginas(self.ja_atualizada, self.obter_estado_anterior):
             if self.limite is not None and len(self.vistos) >= self.limite:
                 return self.finalizar(completa=False)
             self.processar(pagina)
@@ -109,7 +123,7 @@ class Extracao:
 
     def ja_atualizada(self, chave: str, versao: str | None) -> bool:
         anterior = self.estado["paginas"].get(chave)
-        return (not self.forcar and versao is not None and anterior is not None and anterior["versao"] == versao
+        return (not self.forcar and versao is not None and anterior is not None and anterior.get("versao") == versao
                 and (self.pasta / anterior["arquivo"]).exists())
 
     def processar(self, pagina: Pagina):
@@ -117,10 +131,19 @@ class Extracao:
         if pagina.erro or pagina.ignorada:
             self.registrar_problema(pagina)
             return
-        nada_baixado = pagina.html is None and pagina.markdown is None
-        if nada_baixado or self.ja_atualizada(pagina.chave, pagina.versao):
+
+        anterior = self.estado["paginas"].get(pagina.chave)
+        arquivo_existe = anterior and (self.pasta / anterior.get("arquivo", "")).exists()
+
+        if pagina.nao_modificado and arquivo_existe:
             self.relatorio["contadores"]["inalterados"] += 1
             return
+
+        nada_baixado = pagina.html is None and pagina.markdown is None
+        if (nada_baixado or self.ja_atualizada(pagina.chave, pagina.versao)) and arquivo_existe:
+            self.relatorio["contadores"]["inalterados"] += 1
+            return
+
         try:
             self.gravar(pagina)
         except Exception as erro:  # uma página com problema não pode derrubar as outras milhares
@@ -132,14 +155,25 @@ class Extracao:
         resumo = hashlib.sha1(corpo.encode()).hexdigest()
         relativo = f"{pagina.pasta}/{pagina.nome}.md"
         anterior = self.estado["paginas"].get(pagina.chave)
-        if (not self.forcar and anterior and anterior["hash"] == resumo and anterior["arquivo"] == relativo
+
+        dados_estado = {
+            "versao": pagina.versao,
+            "hash": resumo,
+            "arquivo": relativo,
+            "etag": pagina.etag or (anterior.get("etag") if anterior else None),
+            "last_modified": pagina.ultimo_modificado or (anterior.get("last_modified") if anterior else None),
+        }
+
+        if (not self.forcar and anterior and anterior.get("hash") == resumo and anterior.get("arquivo") == relativo
                 and (self.pasta / relativo).exists()):
+            self.estado["paginas"][pagina.chave] = dados_estado
             self.relatorio["contadores"]["inalterados"] += 1
             return
+
         gravar_atomico(self.pasta / relativo, montar_markdown(pagina, corpo))
-        if anterior and anterior["arquivo"] != relativo:
+        if anterior and anterior.get("arquivo") != relativo:
             (self.pasta / anterior["arquivo"]).unlink(missing_ok=True)
-        self.estado["paginas"][pagina.chave] = {"versao": pagina.versao, "hash": resumo, "arquivo": relativo}
+        self.estado["paginas"][pagina.chave] = dados_estado
         self.relatorio["contadores"]["atualizados" if anterior else "novos"] += 1
 
     def registrar_problema(self, pagina: Pagina):

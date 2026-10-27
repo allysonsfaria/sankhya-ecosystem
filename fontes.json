@@ -12,5 +12,12 @@
     "pasta": "developer-sankhya-com-br",
     "tipo": "auto",
     "ativo": true
+  },
+  {
+    "nome": "Sankhya Design System",
+    "url": "https://gilded-nasturtium-6b64dd.netlify.app",
+    "pasta": "sankhya-design-system",
+    "tipo": "auto",
+    "ativo": true
   }
 ]

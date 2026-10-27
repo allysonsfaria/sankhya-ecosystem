@@ -1,0 +1,250 @@
+---
+id: "https://gilded-nasturtium-6b64dd.netlify.app/blog/guias-personalizadas-no-crud"
+titulo: "Como utilizar guias personalizados no CRUD"
+url: "https://gilded-nasturtium-6b64dd.netlify.app/blog/guias-personalizadas-no-crud"
+trilha: "Blog > Guias Personalizadas No Crud"
+---
+
+# Como utilizar guias personalizados no CRUD
+
+17 de outubro de 2025 · 5 min para ler
+
+![Nilson Neto](https://gilded-nasturtium-6b64dd.netlify.app/img/authors/NilsonNeto.png)
+
+Nilson Neto
+
+Developer
+
+## Introdução
+
+É possível personalizar as guias (tabs) do **snk-crud** utilizando o componente **snk-custom-slot-guide**.
+Isso permite que o desenvolvedor adicione guias com funcionalidades específicas, como exibir gráficos, listas relacionadas ou qualquer outro conteúdo que fuja do padrão de CRUD, grades e formulários.
+
+![alt text](https://gilded-nasturtium-6b64dd.netlify.app/assets/images/chartExample-917a0d5b4ba61f6ce2b52d9b5b86a67a.png "Image Example Custom Guide")
+
+## Como utilizar
+
+```
+import React from 'react';
+import SallesBySeller from './customGuides/SallesBySeller';
+import ProductsList from './customGuides/ProductsList';
+import { SnkApplication, SnkDataUnit, SnkCrud, SnkCustomSlotGuide } from "@sankhyalabs/sankhyablocks/react/components";
+
+const Demo = ({duPortal}) => (
+    <SnkApplication configName="PortalVendas">
+        <SnkDataUnit
+            entityName="PortalVendasParceiro"
+            dataUnitName="duPortal"
+        >
+            <SnkCrud
+                customGuidesConfig={[
+                    {id: 'SELLERS_CHART', label: 'Vendas por Vendedor', tooltip: 'Gráfico de vendas por Vendedor'},
+                    {id: 'PRODUCTS_LIST', label: 'Lista de Produtos'},
+                ]}
+            >
+                <SnkCustomSlotGuide slotName="SELLERS_CHART">
+                    <SallesBySeller dataUnit={duPortal}/>
+                </SnkCustomSlotGuide>
+
+                <SnkCustomSlotGuide slotName="SELLERS_CHART">
+                    <ProductsList selectedRecord={duPortal.getSelectedRecord()}/>
+                </SnkCustomSlotGuide>
+
+            </ SnkCrud>
+        </SnkDataUnit>
+    </SnkApplication>
+);
+
+export default Demo;
+```
+
+Perceba que no exemplo acima, o componente **SnkCrud** possui a propriedade **customGuidesConfig**, que é um array de objetos que definem as guias personalizadas.
+Além disso, dentro do componente **SnkCrud** são utilizados dois componentes **SnkCustomSlotGuide**, que recebem a propriedade **slotName** correspondente ao id definido na configuração das guias personalizadas.
+
+Cada componente **SnkCustomSlotGuide** encapsula o conteúdo que será exibido na guia personalizada. No exemplo, o componente **SallesBySeller** exibe um gráfico de vendas por vendedor, enquanto o componente **ProductsList** exibe uma lista de produtos relacionados ao registro selecionado.
+
+Observação:
+
+O valor de **customGuidesConfig** é um array de objetos com a seguinte interface:
+
+```
+interface CustomGuideConfig {
+    /**
+     * ID único da guia personalizada.
+     */
+    id: string,
+
+    /**
+     * Rótulo (label) da guia personalizada.
+     */
+	label: string,
+
+    /**
+    * Tooltip da guia personalizada.
+    */
+	tooltip?: string,
+
+    /**
+     * Informa se o rótulo da guia deve estar em negrito.
+     */
+	bold?: boolean,
+
+    /**
+     * Informa se a guia personalizada deve estar desabilitada.
+     */
+	disabled?: boolean,
+
+    /**
+     * Badge exibida na guia personalizada.
+     * Pode ser uma string com os valores "error", "warning" ou "success",
+     * ou um objeto da interface ITreeItemBadge para personalização.
+     */
+	badge?: "error" | "warning" | "success"| ITreeItemBadge | null;
+
+    /**
+     * Propriedades adicionais que podem ser utilizadas pelo desenvolvedor.
+     */
+	props?: any;
+}
+```
+
+## Ordenação e visibilidade
+
+Perceba que é possível definir a ordem e visibilidade das guias personalizadas como qualquer outra guia do **snk-crud**.
+
+![alt text](https://gilded-nasturtium-6b64dd.netlify.app/assets/images/configExample-75c20c6546d4d5b6d148a658b2f0d623.png "Image Example Config Custom Guide")
+
+![alt text](https://gilded-nasturtium-6b64dd.netlify.app/assets/images/formExample-522c7a1694ba710533f5de9b87acbd70.png "Image Example Form Custom Guide")
+
+Porém, **não é possível exclui-las ou adicionar campos de formulário à elas**, pois seu conteúdo é totalmente personalizado pelo **desenvolvedor**.
+
+![alt text](https://gilded-nasturtium-6b64dd.netlify.app/assets/images/cantDeleteExample-de558758780ce397acd63ce385c753a8.png "Image Example Can&#39;t Delete Guide")
+
+![alt text](https://gilded-nasturtium-6b64dd.netlify.app/assets/images/cantEditExample-1b5fc90da1b41383a8fcb8cb8ac8f8bf.png "Image Example Can&#39;t Edit Guide")
+
+### Desabilitando guias personalizadas
+
+É importante ressaltar que por padrão as guias personalizadas sempre estarão **habilitadas**.
+Para desabilitá-las, é necessário utilizar a propriedade **disabled** na configuração da guia personalizada dentro do array **customGuidesConfig**.
+
+Dessa forma, ficando como responsabilidade do desenvolvedor habilitar ou desabilitar a guia personalizada conforme a necessidade da aplicação.
+
+![alt text](https://gilded-nasturtium-6b64dd.netlify.app/assets/images/disabledExample-744b0366b33ee6758f6260531832707c.png "Image Example Disabled Custom Guide")
+
+```
+import React from 'react';
+import Avatars from './customGuides/Avatars';
+import FormExample from './customGuides/FormExample';
+import { SnkApplication, SnkDataUnit, SnkCrud, SnkCustomSlotGuide } from "@sankhyalabs/sankhyablocks/react/components";
+
+const Demo = ({selectedItems = []}) => (
+    <SnkApplication configName="PortalVendas">
+        <SnkDataUnit
+            entityName="PortalVendasParceiro"
+            dataUnitName="duPortal"
+        >
+            <SnkCrud
+                customGuidesConfig={[
+                    {id: 'AVATARS', label: 'Avatares', disabled: selectedItems.length === 0},
+                    {id: 'FORM_EXAMPLE', label: 'Formulário', tooltip: 'Exemplo de componente com formulário'},
+                ]}
+            >
+                <SnkCustomSlotGuide slotName="AVATARS">
+                    <Avatars/>
+                </SnkCustomSlotGuide>
+
+                <SnkCustomSlotGuide slotName="FORM_EXAMPLE">
+                    <FormExample/>
+                </SnkCustomSlotGuide>
+
+            </ SnkCrud>
+        </SnkDataUnit>
+    </SnkApplication>
+);
+
+export default Demo;
+```
+
+No exemplo acima, a guia personalizada **Avatares** estará desabilitada quando o array de itens selecionados estiver vazio.
+
+## Execuções em background
+
+A arquitetura como o mecanismo de guias personalizadas é implementado, faz com que o conteúdo das guias personalizadas seja carregado assim que o snk-crud for carregado na tela,
+**mesmo que a guia não esteja sendo exibida no momento!**
+
+Para que os desenvolvedores possam otimizar o desempenho de suas aplicações e ter um controle maior sobre quando o conteúdo das guias personalizadas deve ser carregado,
+o componente **snk-crud** emite o evento **snkShowGuide** sempre que uma guia é selecionada para ser renderizada.
+Como argumento, o evento retorna o id da guia que será exibida.
+
+```
+import React, {useState} from 'react';
+import ControlledLoadExample from './customGuides/ControlledLoadExample';
+import { SnkApplication, SnkDataUnit, SnkCrud, SnkCustomSlotGuide } from "@sankhyalabs/sankhyablocks/react/components";
+
+const Demo = () => {
+    const [canLoadData, setCanLoadData] = useState(false)
+
+    return (
+        <SnkApplication configName="PortalVendas">
+            <SnkDataUnit
+                entityName="PortalVendasParceiro"
+                dataUnitName="duPortal"
+            >
+                <SnkCrud
+                    onSnkShowGuide={(guideId) => {
+                        // Só deve permitir o carregamento dos dados do gráfico pesado
+                        // quando a guia selecionada for a HEAVY_CHART
+                        setCanLoadData(guideId === 'HEAVY_CHART');
+                    }}
+
+                    customGuidesConfig={[
+                        {id: 'HEAVY_CHART', label: 'Gráfico Pesado', tooltip: 'Exemplo de gráfico que carrega muitos dados'},
+                    ]}
+                >
+                    <SnkCustomSlotGuide slotName="HEAVY_CHART">
+                        <ControlledLoadExample canLoad={canLoadData}/>
+                    </SnkCustomSlotGuide>
+
+                </ SnkCrud>
+            </SnkDataUnit>
+        </SnkApplication>
+    )
+}
+
+export default Demo;
+```
+
+O evento **snkShowGuide** se propaga por toda DOM, então é possível captura-lo utilizando bibliotecas como o React ou através de event listeners nativos do JavaScript.
+
+```
+import React, {useEffect, useState} from 'react';
+import ChartExample from '@/components/Chart';
+import fetchHeavyChartData from '@/services';
+
+const HeavyChartExample = ({selectedId}) => {
+
+    const [data, setData] = useState([]);
+    const [canFetch, setCanFetch] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener('snkShowGuide', (event) => {
+            const guideId = event.detail;
+            setCanFetch(guideId === 'HEAVY_CHART');
+        });
+    }, []);
+
+    useEffect(() => {
+        if (selectedId && canFetch) {
+            fetchHeavyChartData(selectedId).then(response => {
+                setData(response);
+            });
+        }
+
+    }, [selectedId, canFetch]);
+
+    return (
+        <ChartExample data={data}/>
+    )
+
+}
+```

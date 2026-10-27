@@ -17,6 +17,25 @@ def slug_url(url: str) -> str:
     dominio = urlparse(url).netloc or urlparse(url).path
     return dominio.replace(".", "-").replace(":", "-").lower()
 
+def obter_executavel_python() -> str:
+    """Detecta o interpretador Python com as dependências instaladas (bs4, playwright)."""
+    try:
+        import bs4  # noqa: F401
+        return sys.executable
+    except ImportError:
+        pass
+    script_dir = Path(__file__).resolve().parent
+    skill_dir = script_dir.parent
+    candidatos = [
+        skill_dir.parent / "GIT" / ".venv" / "Scripts" / "python.exe",
+        skill_dir / ".venv" / "Scripts" / "python.exe",
+        Path.home() / ".venv" / "Scripts" / "python.exe",
+    ]
+    for c in candidatos:
+        if c.exists():
+            return str(c)
+    return sys.executable
+
 def carregar_fontes(caminho_json: Path) -> list:
     if caminho_json.exists():
         try:
@@ -36,6 +55,12 @@ def carregar_fontes(caminho_json: Path) -> list:
             "nome": "Portal do Desenvolvedor",
             "url": "https://developer.sankhya.com.br",
             "pasta": "developer-sankhya-com-br",
+            "ativo": True
+        },
+        {
+            "nome": "Sankhya Design System",
+            "url": "https://gilded-nasturtium-6b64dd.netlify.app",
+            "pasta": "sankhya-design-system",
             "ativo": True
         }
     ]
@@ -85,6 +110,7 @@ def atualizar(url_especifica=None, nome_especifico=None, pasta_especifica=None, 
 
     print(f"=== Iniciando atualização de {len(fontes_a_processar)} fonte(s) ===")
 
+    py_bin = obter_executavel_python()
     for idx, fonte in enumerate(fontes_a_processar, 1):
         nome = fonte.get("nome", fonte["url"])
         url = fonte["url"]
@@ -93,7 +119,7 @@ def atualizar(url_especifica=None, nome_especifico=None, pasta_especifica=None, 
 
         print(f"\n[{idx}/{len(fontes_a_processar)}] Atualizando: {nome} ({url})")
         cmd = [
-            sys.executable,
+            py_bin,
             str(extrator_py),
             "--base", url,
             "--saida", str(destino)
@@ -107,7 +133,7 @@ def atualizar(url_especifica=None, nome_especifico=None, pasta_especifica=None, 
 
     print("\n=== Reconstruindo catálogos indexados de busca ===")
     cmd_cat = [
-        sys.executable,
+        py_bin,
         str(catalogo_py),
         str(saida_help),
         str(script_dir)

@@ -1,0 +1,2013 @@
+{
+ "paginas": {
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog": {
+   "versao": null,
+   "hash": "4ce029c93c509a888fdfc1210273cf4dd9416241",
+   "arquivo": "blog/blog-853e8f22.md",
+   "etag": "\"b6828972fe488a76a7a17baae1c91771-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/archive": {
+   "versao": null,
+   "hash": "713a9493b1e2fc791bbfc1ad477a7832ff13c138",
+   "arquivo": "blog/archive-66bf31aa.md",
+   "etag": "\"35ff1c98ea10fb8a227e7859c5d930cd-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/atualizando-icones": {
+   "versao": null,
+   "hash": "daf2e7909b6e5611a3940ad84c35155e30f2ceb4",
+   "arquivo": "blog/atualizando-icones-ae606831.md",
+   "etag": "\"3fbf7c23ec8960adb863ad0362db8ee1-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/authors": {
+   "versao": null,
+   "hash": "3d0e2b08ae9d8e0c7c2120105a8cb36f3574c136",
+   "arquivo": "blog/authors-47ea7ba1.md",
+   "etag": "\"6dfc291ecf64d1851333e398a84eb036-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/boas-praticas-code-review-codificacao": {
+   "versao": null,
+   "hash": "5100ed72f7c91ab6f50da2202862af84bae239cb",
+   "arquivo": "blog/boas-praticas-code-review-codificacao-df67a36d.md",
+   "etag": "\"4e5a745db584d7ace5cb3e4d11d54963-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/boas-praticas-code-review-componentes": {
+   "versao": null,
+   "hash": "73584b08845ab6536133f0f6ec14819b7edfbd7d",
+   "arquivo": "blog/boas-praticas-code-review-componentes-be966ee1.md",
+   "etag": "\"d470bca60564496408e96e619d95da5b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/boas-praticas-usabilidade-ds": {
+   "versao": null,
+   "hash": "af20150edd12e24e80b754624c778eb00ebc87ac",
+   "arquivo": "blog/boas-praticas-usabilidade-ds-d983e64c.md",
+   "etag": "\"ba3969704cf075db22df0b71079157a2-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/como-utilizar-feature-manager": {
+   "versao": null,
+   "hash": "57f3ce7c41e15c1ae1589508b9807c87e0856528",
+   "arquivo": "blog/como-utilizar-feature-manager-3ea80b3a.md",
+   "etag": "\"59ab8afe044974880c8b106cf74926d6-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/criacao-de-blocos": {
+   "versao": null,
+   "hash": "b47321b1bfdacb5c025ba00ca999c836a7fee85d",
+   "arquivo": "blog/criacao-de-blocos-84e34eeb.md",
+   "etag": "\"75560b65419de6e72fdb73542f9851fd-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/criando-exemplos-componentes": {
+   "versao": null,
+   "hash": "b902596ad769ad8f4350ce5f67e7f442909d8ab1",
+   "arquivo": "blog/criando-exemplos-componentes-6a7f525e.md",
+   "etag": "\"7b500c1802e9c75c149b6196c23b2943-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/definindo-bons-element-id": {
+   "versao": null,
+   "hash": "d8f9f82f655e1538c13107a6f573c66205905db3",
+   "arquivo": "blog/definindo-bons-element-id-3e5ab9b4.md",
+   "etag": "\"a13568f99568b22d0c28a28450abeaee-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/diretrizes-de-documentacao": {
+   "versao": null,
+   "hash": "09475f7113bdeecc0e8962a1c5ee32ce50e145bf",
+   "arquivo": "blog/diretrizes-de-documentacao-8dbfa78a.md",
+   "etag": "\"8e9e53286f982d85baeb3174a249d6ba-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/elementos-personalizados-na-taskbar": {
+   "versao": null,
+   "hash": "90dd5a7155a688c6f9906380704e9ba3b13a83f7",
+   "arquivo": "blog/elementos-personalizados-na-taskbar-8ff71388.md",
+   "etag": "\"7f426045fd1e8bc6b910c6b9d17f33c5-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/equivalencias-ds-html5": {
+   "versao": null,
+   "hash": "05942bfd9c18e1000a388b9604e47721e585bf77",
+   "arquivo": "blog/equivalencias-ds-html5-e4d1d141.md",
+   "etag": "\"cb2e8abd7001b6fbf0a3e03f17966ac8-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/guias-personalizadas-no-crud": {
+   "versao": null,
+   "hash": "a3ef29bc4eda305b19368f5da9779bbbdcde902b",
+   "arquivo": "blog/guias-personalizadas-no-crud-fb150a40.md",
+   "etag": "\"1075e3f4a715af78e2f790469767c42e-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/liberacao-telas-ds": {
+   "versao": null,
+   "hash": "980e972f94970bf238b10b183d1764ffe68bca3a",
+   "arquivo": "blog/liberacao-telas-ds-398d82c2.md",
+   "etag": "\"3f4a3c235706ed9b5e2d186a42fbb014-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/link-entre-projetos": {
+   "versao": null,
+   "hash": "e7f06ef492d6f4ab153053b307ac13bf3f57c71a",
+   "arquivo": "blog/link-entre-projetos-a03e4797.md",
+   "etag": "\"c72ec66e73d95b9621dac125aeda0574-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/page/2": {
+   "versao": null,
+   "hash": "6c4fdca0f975f85eba2d84c39d942e65323fea93",
+   "arquivo": "blog/page/2-1a1233e2.md",
+   "etag": "\"2b7eac95f0412d8005064f2243c1c699-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/plano-de-convivencia": {
+   "versao": null,
+   "hash": "ff8ffd96cbe8dbdcd40fa10755ac35a5c8e31d3a",
+   "arquivo": "blog/plano-de-convivencia-3e4016e4.md",
+   "etag": "\"ce30b0d1ca647ccbf7b57f8a25e380cb-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/processo-de-merge-libs-ds": {
+   "versao": null,
+   "hash": "31f41c68ffa36d585d79167e8ee8170c1119d07c",
+   "arquivo": "blog/processo-de-merge-libs-ds-c6c2910e.md",
+   "etag": "\"fa3900395fda3c6b1008cb6dabd3a86e-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags": {
+   "versao": null,
+   "hash": "96e6ceb8701acfe63fa9a3ea8c800abdfe0e9b7c",
+   "arquivo": "blog/tags-7ee41354.md",
+   "etag": "\"b52602083910387fa7f87a865ace39a8-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/atualizar": {
+   "versao": null,
+   "hash": "9a9da36a6365bb65cf88e5a03761fe593c4733db",
+   "arquivo": "blog/tags/atualizar-6118c86c.md",
+   "etag": "\"9219e67295eaa2c882ec2ea3f0cde033-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/beta": {
+   "versao": null,
+   "hash": "bf3d2459ba7dac536fba8a873c34b4f09a993dd9",
+   "arquivo": "blog/tags/beta-ccd5602b.md",
+   "etag": "\"400f7053b391a751b582b191e363bd37-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/code": {
+   "versao": null,
+   "hash": "2e47fe6e40629fc35faacebe820e8db6a663378f",
+   "arquivo": "blog/tags/code-dc60eb7e.md",
+   "etag": "\"6bf5ce47c926d234e45fe1e689b55f59-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/codificacao": {
+   "versao": null,
+   "hash": "2e47fe6e40629fc35faacebe820e8db6a663378f",
+   "arquivo": "blog/tags/codificacao-84f79f74.md",
+   "etag": "\"55ffe0afed0cd743ffec8bf70cdc3c17-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/codigo": {
+   "versao": null,
+   "hash": "2e47fe6e40629fc35faacebe820e8db6a663378f",
+   "arquivo": "blog/tags/codigo-b0a7560d.md",
+   "etag": "\"41e1a86a98242af56eabe9666fd799b1-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/componentes": {
+   "versao": null,
+   "hash": "6c4fdca0f975f85eba2d84c39d942e65323fea93",
+   "arquivo": "blog/tags/componentes-3d18d74f.md",
+   "etag": "\"1d1910839a495a324ebf760f8c53a85e-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/config": {
+   "versao": null,
+   "hash": "8800610f3117485b299c60fa78f526dd0e33ec21",
+   "arquivo": "blog/tags/config-d40a00de.md",
+   "etag": "\"9b5eb6fd51ca4583be7aad6b72576db9-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/convivencia": {
+   "versao": null,
+   "hash": "bf3d2459ba7dac536fba8a873c34b4f09a993dd9",
+   "arquivo": "blog/tags/convivencia-d9a3d06a.md",
+   "etag": "\"157220ac13cba08a73b59c21d6865b78-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/demo": {
+   "versao": null,
+   "hash": "1e277c9d881ef569de96460f8527102f5ab1894b",
+   "arquivo": "blog/tags/demo-56d32461.md",
+   "etag": "\"59431d72923e4ecf32b787838b60e07a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/design-system": {
+   "versao": null,
+   "hash": "bd1a10975ba8467c527e1dbf36797c79da9ebc57",
+   "arquivo": "blog/tags/design-system-6111bf8b.md",
+   "etag": "\"4f6f77affa934640b0491995bf54b077-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/docs": {
+   "versao": null,
+   "hash": "bd1a10975ba8467c527e1dbf36797c79da9ebc57",
+   "arquivo": "blog/tags/docs-78b812ae.md",
+   "etag": "\"1424a3e99b2c52178c0d0e00e4e60caa-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/documentacao": {
+   "versao": null,
+   "hash": "bd1a10975ba8467c527e1dbf36797c79da9ebc57",
+   "arquivo": "blog/tags/documentacao-3a2ca336.md",
+   "etag": "\"2b31772ae5ef6ed05805bb999825a7cb-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/ds": {
+   "versao": null,
+   "hash": "bd1a10975ba8467c527e1dbf36797c79da9ebc57",
+   "arquivo": "blog/tags/ds-fba30a97.md",
+   "etag": "\"88eec53356018532a97114e128234c68-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/elementid": {
+   "versao": null,
+   "hash": "19dc01123db5b2c80e593978c4d98598fad48cfe",
+   "arquivo": "blog/tags/elementid-47d220d8.md",
+   "etag": "\"8e162d5705023916f90a98a89593b99b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/exemplos": {
+   "versao": null,
+   "hash": "1e277c9d881ef569de96460f8527102f5ab1894b",
+   "arquivo": "blog/tags/exemplos-ad618023.md",
+   "etag": "\"0b5f072174119270318256e11ee56ea6-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/feature-flag": {
+   "versao": null,
+   "hash": "8800610f3117485b299c60fa78f526dd0e33ec21",
+   "arquivo": "blog/tags/feature-flag-dd26826d.md",
+   "etag": "\"b51a55f108713f370f4b5f1f2906fb50-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/feature-manager": {
+   "versao": null,
+   "hash": "bf3d2459ba7dac536fba8a873c34b4f09a993dd9",
+   "arquivo": "blog/tags/feature-manager-c112b8a5.md",
+   "etag": "\"70711ebe66dc648100b2156017db785e-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/gate": {
+   "versao": null,
+   "hash": "8800610f3117485b299c60fa78f526dd0e33ec21",
+   "arquivo": "blog/tags/gate-43b070fa.md",
+   "etag": "\"a2bb7c6f7a1415736bf2e3421414ff80-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/html": {
+   "versao": null,
+   "hash": "4ce029c93c509a888fdfc1210273cf4dd9416241",
+   "arquivo": "blog/tags/html-37263bb0.md",
+   "etag": "\"e748164835735bb4a540c5e2a8255d06-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/icones": {
+   "versao": null,
+   "hash": "9a9da36a6365bb65cf88e5a03761fe593c4733db",
+   "arquivo": "blog/tags/icones-d2232d49.md",
+   "etag": "\"f975c0374f9b2c242d4f13169b6e78cc-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/layout": {
+   "versao": null,
+   "hash": "bf3d2459ba7dac536fba8a873c34b4f09a993dd9",
+   "arquivo": "blog/tags/layout-48a2aa8b.md",
+   "etag": "\"b742001aa24f0de01d98578ea7392e76-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/liberar": {
+   "versao": null,
+   "hash": "bd1a10975ba8467c527e1dbf36797c79da9ebc57",
+   "arquivo": "blog/tags/liberar-374e2876.md",
+   "etag": "\"4d378ca3c2beed06ff309d5b9029e637-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/padroes": {
+   "versao": null,
+   "hash": "2e47fe6e40629fc35faacebe820e8db6a663378f",
+   "arquivo": "blog/tags/padroes-cdeb1576.md",
+   "etag": "\"88b3ef2c7342e8fd9a166cbf8a50745b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/personalizado": {
+   "versao": null,
+   "hash": "4ce029c93c509a888fdfc1210273cf4dd9416241",
+   "arquivo": "blog/tags/personalizado-efcb5a03.md",
+   "etag": "\"aa234b4196e7fa1cc41141008565d579-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/playground": {
+   "versao": null,
+   "hash": "1e277c9d881ef569de96460f8527102f5ab1894b",
+   "arquivo": "blog/tags/playground-37a74716.md",
+   "etag": "\"6c346238411140e432f361781049b3bc-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/review": {
+   "versao": null,
+   "hash": "2e47fe6e40629fc35faacebe820e8db6a663378f",
+   "arquivo": "blog/tags/review-d52abfd5.md",
+   "etag": "\"7c51f7f58adcc331b72eeab257d7c666-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/revisao": {
+   "versao": null,
+   "hash": "2e47fe6e40629fc35faacebe820e8db6a663378f",
+   "arquivo": "blog/tags/revisao-da1f3e98.md",
+   "etag": "\"b18bfd7972a8810d4fe1aa4752872411-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/slot": {
+   "versao": null,
+   "hash": "4ce029c93c509a888fdfc1210273cf4dd9416241",
+   "arquivo": "blog/tags/slot-21297e84.md",
+   "etag": "\"a6501b9ad73b9debd6dba9d6b14f4669-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/statsig": {
+   "versao": null,
+   "hash": "8800610f3117485b299c60fa78f526dd0e33ec21",
+   "arquivo": "blog/tags/statsig-e29a1139.md",
+   "etag": "\"01b1d26fcb4511870def3f4eb34241ee-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/stencil": {
+   "versao": null,
+   "hash": "6c4fdca0f975f85eba2d84c39d942e65323fea93",
+   "arquivo": "blog/tags/stencil-58ef933f.md",
+   "etag": "\"98ed6bd0e9bea4bbdd67bfc58d6e2d06-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/switch": {
+   "versao": null,
+   "hash": "8800610f3117485b299c60fa78f526dd0e33ec21",
+   "arquivo": "blog/tags/switch-5eb394ff.md",
+   "etag": "\"8c6dfc2f543c1efd1699b9a04f23c6fb-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/taskbar": {
+   "versao": null,
+   "hash": "4ce029c93c509a888fdfc1210273cf4dd9416241",
+   "arquivo": "blog/tags/taskbar-e2a9a389.md",
+   "etag": "\"80910f11f9992f20904dfd719b0189b8-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/tela": {
+   "versao": null,
+   "hash": "bd1a10975ba8467c527e1dbf36797c79da9ebc57",
+   "arquivo": "blog/tags/tela-9346bb48.md",
+   "etag": "\"efb19eed8128584936e344231f6f6cd2-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/testabilidade": {
+   "versao": null,
+   "hash": "19dc01123db5b2c80e593978c4d98598fad48cfe",
+   "arquivo": "blog/tags/testabilidade-1cf9595b.md",
+   "etag": "\"b0c358c3fa48a74776228e979e771f75-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/testability": {
+   "versao": null,
+   "hash": "19dc01123db5b2c80e593978c4d98598fad48cfe",
+   "arquivo": "blog/tags/testability-9f79fccf.md",
+   "etag": "\"b306ad23b90e4b7e2ef5d15989e9bf75-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/testes": {
+   "versao": null,
+   "hash": "19dc01123db5b2c80e593978c4d98598fad48cfe",
+   "arquivo": "blog/tags/testes-9431b0b1.md",
+   "etag": "\"8caa49b6d4542c640b576900a25bfbc5-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/blog/tags/toggles": {
+   "versao": null,
+   "hash": "8800610f3117485b299c60fa78f526dd0e33ec21",
+   "arquivo": "blog/tags/toggles-e731bcbe.md",
+   "etag": "\"116b14fd03a8726ebd9bcf2f47969e9b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/markdown-page": {
+   "versao": null,
+   "hash": "94c9d75ad29c742e404bd28f8f3ce5a5a7bb7e45",
+   "arquivo": "markdown-page/markdown-page-bbfb438b.md",
+   "etag": "\"3c387ca5bd940274b888dc7f0919e673-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/release-notes": {
+   "versao": null,
+   "hash": "3ba5f6ce1592541e2eac4d497e28d19c088adc89",
+   "arquivo": "release-notes/release-notes-8f4c0fa7.md",
+   "etag": "\"649a2d4063082ebea96cfc5dd32d67a1-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/release-notes/archive": {
+   "versao": null,
+   "hash": "bbe8a2e1422c05c795264976276ea2f35de97c09",
+   "arquivo": "release-notes/archive-0df9f7c0.md",
+   "etag": "\"0c3aed28b939fe3d737f57e8806276e9-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/release-notes/major-release-14-03-2025": {
+   "versao": null,
+   "hash": "2b8f7c72d336cad0c14e3bc02db9afd6c93e1dd6",
+   "arquivo": "release-notes/major-release-14-03-2025-a9c46b9d.md",
+   "etag": "\"aa0750eb12ff68963e8ee97eb5e2cbc5-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/release-notes/major-release-17-09-2025": {
+   "versao": null,
+   "hash": "19d896ab1f556b00a43d4297550aab54934e28a0",
+   "arquivo": "release-notes/major-release-17-09-2025-056a8d12.md",
+   "etag": "\"0f951c91f04dbe4248202e9e324bde3c-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/release-notes/minor-release-03-07-2025": {
+   "versao": null,
+   "hash": "e8bac9507fafa1f4000f0dfee9c30188bc817114",
+   "arquivo": "release-notes/minor-release-03-07-2025-4c90f963.md",
+   "etag": "\"140a80b37a41d532f238a058d5665f1a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/release-notes/minor-release-04-06-2025": {
+   "versao": null,
+   "hash": "b1b22220e6e368da6e599a2bf7df31b9bf7a9492",
+   "arquivo": "release-notes/minor-release-04-06-2025-7ad1487c.md",
+   "etag": "\"9cf4cef1b6bae6d5dd3c746209fbb862-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/release-notes/minor-release-13-08-2025": {
+   "versao": null,
+   "hash": "a5b21d87997ba4dd63a3c2f8b00229a448f7e164",
+   "arquivo": "release-notes/minor-release-13-08-2025-f4bdd5a0.md",
+   "etag": "\"466874cb8cc168325c466182cb3ded4d-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/release-notes/minor-release-22-05-2025": {
+   "versao": null,
+   "hash": "7a1f5e3b583283b49991019d92b91ef91d831704",
+   "arquivo": "release-notes/minor-release-22-05-2025-b5fcaf7e.md",
+   "etag": "\"04bb1923d20a246fa351a905f042d46f-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/release-notes/minor-release-24-06-2025": {
+   "versao": null,
+   "hash": "113d446a2d737becd15d2aa1a32ac648c258fa32",
+   "arquivo": "release-notes/minor-release-24-06-2025-7c591909.md",
+   "etag": "\"ff09437faf0e36c4c80addce8d47b960-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/release-notes/minor-release-25-07-2025": {
+   "versao": null,
+   "hash": "863546b8d5944e5839ccf438c65bbe9d9f311a2a",
+   "arquivo": "release-notes/minor-release-25-07-2025-d5e79f30.md",
+   "etag": "\"406a2f45cb95fed76a2e340f13c95768-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/release-notes/tags": {
+   "versao": null,
+   "hash": "b6ef77f650029f6464d36a5ef5c4aa91cc21c89c",
+   "arquivo": "release-notes/tags-c832c75f.md",
+   "etag": "\"130666a5ff309e67a5a556608b21e49b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/release-notes/tags/changelog": {
+   "versao": null,
+   "hash": "3ba5f6ce1592541e2eac4d497e28d19c088adc89",
+   "arquivo": "release-notes/tags/changelog-0be16d6e.md",
+   "etag": "\"41874c580b061b65e52513f904dda632-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/release-notes/tags/release": {
+   "versao": null,
+   "hash": "3ba5f6ce1592541e2eac4d497e28d19c088adc89",
+   "arquivo": "release-notes/tags/release-a50c0553.md",
+   "etag": "\"3aca10caefe1c59b66749c4e7353a07c-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/search": {
+   "versao": null,
+   "hash": "77574126f86ed59cfe94d42b0ea12b0a018ee360",
+   "arquivo": "search/search-3e490a14.md",
+   "etag": "\"5b1dd849ed8f6ad0eac451afc359d765-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/api-java/sankhya-bff/": {
+   "versao": null,
+   "hash": "ad28d2869aa064e0fcf26bdea3046d6272a3ba09",
+   "arquivo": "docs/api-java/sankhya-bff-0969093b.md",
+   "etag": "\"354e457230ad108049215a7e2a2f2c98-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/api-java/sankhya-bff/ICustomFilterBarResolver/": {
+   "versao": null,
+   "hash": "3db3687f6a11fedf70a7d40882276bcd035791bf",
+   "arquivo": "docs/api-java/icustomfilterbarresolver-299f148d.md",
+   "etag": "\"b78859bd384099b00d8366e7162b57bc-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/api-java/sankhya-bff/IDataExporterInterceptor/": {
+   "versao": null,
+   "hash": "279b3f9f9e8f44c499ed0ec35ac73ad3814d2f67",
+   "arquivo": "docs/api-java/idataexporterinterceptor-56ef6948.md",
+   "etag": "\"db766d52af4a340b3cf9139aa14da9bc-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/api-java/sankhya-bff/IDataUnitCrudListener/": {
+   "versao": null,
+   "hash": "addb139f294daf12895fd7d5413e97af66625c5d",
+   "arquivo": "docs/api-java/idataunitcrudlistener-ded0badc.md",
+   "etag": "\"d3efdcd8ea0a1f8fbcbe444fee6965b7-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/api-java/sankhya-bff/IDataUnitInterceptor/": {
+   "versao": null,
+   "hash": "43e143ce1c656622ca578383ab49bff58ecebc1a",
+   "arquivo": "docs/api-java/idataunitinterceptor-191b0643.md",
+   "etag": "\"75ea4ac7e2c2939ce427b54dfd590872-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/api-java/sankhya-bff/ITotalsResolver/": {
+   "versao": null,
+   "hash": "2d40cfc45017c5d920d4ef551b500c053d679e37",
+   "arquivo": "docs/api-java/itotalsresolver-a4b631ba.md",
+   "etag": "\"d47b26d12b9a953ff7103580d865276a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/api-java/sanmodule/": {
+   "versao": null,
+   "hash": "3091efaf77443f74f8539fbb29b38e65d4b0b121",
+   "arquivo": "docs/api-java/sanmodule-3be9a755.md",
+   "etag": "\"a7749dfddf2263556fdfd0d213bf4948-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/api-java/sanmodule/BootModuleListener/": {
+   "versao": null,
+   "hash": "df329bfd00b0131d9cacb7dd49ba7eb8a01c0e03",
+   "arquivo": "docs/api-java/bootmodulelistener-031fb9f8.md",
+   "etag": "\"15634f450aef5bcaa7419d55c9839617-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/": {
+   "versao": null,
+   "hash": "aa3c661bc010f7e56c991a9c86584096260007e7",
+   "arquivo": "docs/components/components-doc-bbd05e76.md",
+   "etag": "\"0ac6973fbc12c5ea02a02e8b41cbfa46-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-actions-button/": {
+   "versao": null,
+   "hash": "055e49a12e859b6a6dfe7fa745cfe8a67af61aed",
+   "arquivo": "docs/components/ez-actions-button-63eaca3b.md",
+   "etag": "\"6a92172335e0629d053c6d871aebdb75-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-alert-list/": {
+   "versao": null,
+   "hash": "5173f30516083fc865f93095bb74429436141273",
+   "arquivo": "docs/components/ez-alert-list-5c4d53e1.md",
+   "etag": "\"eaf2b45236a51a1b5b69c99f5183e773-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-alert/": {
+   "versao": null,
+   "hash": "41dca73a5d0658e53c78661dfabe167590fd800c",
+   "arquivo": "docs/components/ez-alert-52a81543.md",
+   "etag": "\"149eea4d21c13270922e80d5bb9531a9-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-avatar/": {
+   "versao": null,
+   "hash": "2096d2c853a3104ad286c57778a671c4aadacf45",
+   "arquivo": "docs/components/ez-avatar-f7cfd0fb.md",
+   "etag": "\"15e9042a6700b76979cf28e4a84e05fe-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-badge/": {
+   "versao": null,
+   "hash": "cfe53f14e41d1447a60e3f5da1509297435c7e09",
+   "arquivo": "docs/components/ez-badge-5ca52601.md",
+   "etag": "\"8ddb625ae377b8e5d0d0a70d0746b7ee-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-breadcrumb/": {
+   "versao": null,
+   "hash": "434d723becc0442cfe4d36413c586be1007d539d",
+   "arquivo": "docs/components/ez-breadcrumb-9676e4f7.md",
+   "etag": "\"89f7ad427874b9d11a7a8c1b94975df5-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-button/": {
+   "versao": null,
+   "hash": "ac4150de85b648fb72088b51e74bb752ef961e63",
+   "arquivo": "docs/components/ez-button-4ff91b5d.md",
+   "etag": "\"9a855aff5b48aeb7b5fea8afe7857b2c-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-calendar/": {
+   "versao": null,
+   "hash": "69d3676c44f45428b5f1c40e116ae15dd1273e99",
+   "arquivo": "docs/components/ez-calendar-6a84c0bb.md",
+   "etag": "\"e822257ed273db8490abe94339fe4024-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-card-item/": {
+   "versao": null,
+   "hash": "b0e5fbe102d5ca5f4084e51820e1e6e256d9b150",
+   "arquivo": "docs/components/ez-card-item-4fd974f5.md",
+   "etag": "\"b01f4933cb99d369adc2ac0f92b4f9e2-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-chart/": {
+   "versao": null,
+   "hash": "75d10013fdae2d9e547cdcf8d4211d3d6e6131b1",
+   "arquivo": "docs/components/ez-chart-0839d62b.md",
+   "etag": "\"ad2d3f36b701238db0148afa508090fc-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-check/": {
+   "versao": null,
+   "hash": "b7a38a88a86d5206f70c48ac57b7efa00b6fa747",
+   "arquivo": "docs/components/ez-check-895ab411.md",
+   "etag": "\"d8544037ab882b1e11795082b8591b1a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-chip/": {
+   "versao": null,
+   "hash": "ea503fcd4370223cf9fc960928d97104a1bf31d0",
+   "arquivo": "docs/components/ez-chip-babf1390.md",
+   "etag": "\"a485a301e6da115fec4c8973cf23d283-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-classic-combo-box/": {
+   "versao": null,
+   "hash": "9ee13b70cabcdccec463e48cef484ebf26414678",
+   "arquivo": "docs/components/ez-classic-combo-box-a429964d.md",
+   "etag": "\"366e4c74486a38e7a93cfdaddcf51e85-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-classic-input/": {
+   "versao": null,
+   "hash": "0979dbd4e75194bc11b066772c9ebe84a50c93c9",
+   "arquivo": "docs/components/ez-classic-input-6f609c5a.md",
+   "etag": "\"3d351734dd96ae4e69641aa15e8fabf4-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-classic-text-area/": {
+   "versao": null,
+   "hash": "5a5667a535e520d86b7b691c2a02f06086dd721c",
+   "arquivo": "docs/components/ez-classic-text-area-020fa0a4.md",
+   "etag": "\"5e805e964c68cfb2de58c0b419607189-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-collapsible-box/": {
+   "versao": null,
+   "hash": "6c3cc1ee20c44fa4f41031359f7a855b08ba868e",
+   "arquivo": "docs/components/ez-collapsible-box-d80ab0ab.md",
+   "etag": "\"0c440606f6e99df6810e896f38a94266-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-combo-box/": {
+   "versao": null,
+   "hash": "392f25e868f629383e94f47729d3381be10b6c05",
+   "arquivo": "docs/components/ez-combo-box-93c9966c.md",
+   "etag": "\"38f2f91abd96a4bee95631bb3bc2330d-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-date-input/": {
+   "versao": null,
+   "hash": "1b883f9061355836f1335e1f92c496e4eaff273e",
+   "arquivo": "docs/components/ez-date-input-47f42b6e.md",
+   "etag": "\"8439a6eb3f392fc7cc6b7ea8f7b1e7d2-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-date-time-input/": {
+   "versao": null,
+   "hash": "010858e034a3af963c93c69038b223fc1cc8cf10",
+   "arquivo": "docs/components/ez-date-time-input-5fc53f88.md",
+   "etag": "\"c218359466ffa9dedbe577612cfa1f53-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-dialog/": {
+   "versao": null,
+   "hash": "477b1dc81d1b77ddd90b7c25d16bc3361376c084",
+   "arquivo": "docs/components/ez-dialog-f2d965e0.md",
+   "etag": "\"baf0a81f9ebdcfb9dd18f33671c7cc10-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-double-list/": {
+   "versao": null,
+   "hash": "7f12b4588cf89e54f49bb70dd4c6a837d41d5b2a",
+   "arquivo": "docs/components/ez-double-list-29327218.md",
+   "etag": "\"cf1ef9dddeec0aa6e82f2f529ea16c6b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-dropdown/": {
+   "versao": null,
+   "hash": "ac8316f953214dcd2a4d97989d4b626c64b3e082",
+   "arquivo": "docs/components/ez-dropdown-cdbe6f4a.md",
+   "etag": "\"7ebce18b7567af595215fa7e6efd39d5-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-empty-card/": {
+   "versao": null,
+   "hash": "15b3e4f8ae823a8e74967f94349a30db503504d8",
+   "arquivo": "docs/components/ez-empty-card-e595075d.md",
+   "etag": "\"0f19e71e6a9f3ca68388c07fc3d2017f-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-file-item/": {
+   "versao": null,
+   "hash": "308b103a575f7375e3645193e1320d19c2b737b8",
+   "arquivo": "docs/components/ez-file-item-7865b469.md",
+   "etag": "\"17013a66123c293bf1da8d0a8c6cbd1a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-filter-input/": {
+   "versao": null,
+   "hash": "9eefcadf5177b2de66630c46491a840de743edf9",
+   "arquivo": "docs/components/ez-filter-input-eff77257.md",
+   "etag": "\"5f144cc997340838da0d96847d1474c8-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-filter/": {
+   "versao": null,
+   "hash": "68bebebb0a35a73c390c0b5c664be7a4991c7508",
+   "arquivo": "docs/components/ez-filter-5747d7bc.md",
+   "etag": "\"3885534abc9a3f4b807760e1aec6793f-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-form-view/": {
+   "versao": null,
+   "hash": "40cd1ffcc23609b0201dd60efcc8c3ef11e55845",
+   "arquivo": "docs/components/ez-form-view-4910bb35.md",
+   "etag": "\"979f823e4a4eaefae5ddc2372801d9c2-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-form/": {
+   "versao": null,
+   "hash": "122c101339eaccfe42c7fac6036fce0d05cca3ff",
+   "arquivo": "docs/components/ez-form-3a234c11.md",
+   "etag": "\"4898abe5b765eb06ddafcd6bd220ddbc-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-grid-view/": {
+   "versao": null,
+   "hash": "103509af970bec8313bf8ce477b65a01df18b253",
+   "arquivo": "docs/components/ez-grid-view-66155246.md",
+   "etag": "\"1882c67a92a5dc5c9887a23078fd6f41-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-grid/": {
+   "versao": null,
+   "hash": "ee574696904c222bfb28563a49a88dac89b65579",
+   "arquivo": "docs/components/ez-grid-e513b0e6.md",
+   "etag": "\"acec71651d556ceacd6bdeea652c6a93-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-guide-navigator/": {
+   "versao": null,
+   "hash": "57fe77d0eb908cf6fa70d60d4b3d331d5570b40e",
+   "arquivo": "docs/components/ez-guide-navigator-acf7405c.md",
+   "etag": "\"c76e96a77aa49e6e328ae6bbbde7d809-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-icon/": {
+   "versao": null,
+   "hash": "257bde264b87264826099acd61ef0fddcd4721ea",
+   "arquivo": "docs/components/ez-icon-f4fb6a29.md",
+   "etag": "\"b1dcadf7d9420f8525c67f84a5a83ac3-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-list-item/": {
+   "versao": null,
+   "hash": "82659a057c80c03c0b14d14ad1ee255e896402c0",
+   "arquivo": "docs/components/ez-list-item-29da1918.md",
+   "etag": "\"d1066169420a32c282580860b7d70ed4-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-list/": {
+   "versao": null,
+   "hash": "b7360f5f8913574f0b3da3b3bcd989d5af8879ca",
+   "arquivo": "docs/components/ez-list-e0982691.md",
+   "etag": "\"45367bff9612b3e298f898d3398ec529-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-modal-container/": {
+   "versao": null,
+   "hash": "d2d292773dc69c090190d03e41a81b4e0cdb7bc8",
+   "arquivo": "docs/components/ez-modal-container-566eb7e1.md",
+   "etag": "\"738fd75c834f94123c9fa7d4d1ec7cae-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-modal/": {
+   "versao": null,
+   "hash": "be70fadf82fbb645ae763f560d402718afdb1ec6",
+   "arquivo": "docs/components/ez-modal-67cb0ae9.md",
+   "etag": "\"bafc726e7557e73b9eb8938999b4fb7a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-multi-select-input/": {
+   "versao": null,
+   "hash": "4b92d10248d4d593f3b4f005b9746baef6e3de2b",
+   "arquivo": "docs/components/ez-multi-select-input-b94c2ee8.md",
+   "etag": "\"1e04a014b1333aabfbf5a1ec5ec997af-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-multi-selection-list/": {
+   "versao": null,
+   "hash": "841997499b677839b26d32a15f2d6671dbafe693",
+   "arquivo": "docs/components/ez-multi-selection-list-ab50eb9b.md",
+   "etag": "\"fce7578a264d144f5cbb18f0fc2851da-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-number-input/": {
+   "versao": null,
+   "hash": "5e08375a377af3866772d52b3a3e59033912ee98",
+   "arquivo": "docs/components/ez-number-input-f0603553.md",
+   "etag": "\"d1baa95779177f88c33b6c2102aeb44a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-pagination/": {
+   "versao": null,
+   "hash": "e61bff34f68d5623b87a4e7b38f52360cc419b3a",
+   "arquivo": "docs/components/ez-pagination-2d22bd00.md",
+   "etag": "\"de5216e7817391c856b311d39eb54af7-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-popover-plus/": {
+   "versao": null,
+   "hash": "76e3c3878b10126a261ee56f41a57f4d3af857d1",
+   "arquivo": "docs/components/ez-popover-plus-3ce8570e.md",
+   "etag": "\"64574494f315b10065985eed3197d4d4-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-popover/": {
+   "versao": null,
+   "hash": "d0db339117f33f9eb68b42e18b4f97f4eaa699bc",
+   "arquivo": "docs/components/ez-popover-54d43b9c.md",
+   "etag": "\"2d82d072b4dc11438b5ad365b950e065-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-popup/": {
+   "versao": null,
+   "hash": "341cc6db17c58d8981cf22967bbdf2853341fc8c",
+   "arquivo": "docs/components/ez-popup-d45742f7.md",
+   "etag": "\"92150cf86697aa2ac8abfbe65ce5bcbf-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-progress-bar/": {
+   "versao": null,
+   "hash": "57b664f185426cfd505085d5d82e35cf2b141e81",
+   "arquivo": "docs/components/ez-progress-bar-adfc93f0.md",
+   "etag": "\"08904816b701b6a8704efcfda973f3c4-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-radio-button/": {
+   "versao": null,
+   "hash": "4cd2323afdcf0d3ab783f740ac9aa6202a01934d",
+   "arquivo": "docs/components/ez-radio-button-b8e7a264.md",
+   "etag": "\"409b69353753184c8fb2cbddbbb77e0c-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-rich-text/": {
+   "versao": null,
+   "hash": "5ad72b7ac627e4d0244f074c2d53c0197e115844",
+   "arquivo": "docs/components/ez-rich-text-3d9a2583.md",
+   "etag": "\"2a5143f7fcfe6972bea512a8fddec681-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-scrim/": {
+   "versao": null,
+   "hash": "8e5c961379c3edaf7c7baced0bef499303d6d0f8",
+   "arquivo": "docs/components/ez-scrim-c5b0c109.md",
+   "etag": "\"85d89476cc4fd3c3338b8af6dd410906-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-scroller/": {
+   "versao": null,
+   "hash": "b71836c7f7c01272c37f00b0fe3059f509dfe938",
+   "arquivo": "docs/components/ez-scroller-321bc85f.md",
+   "etag": "\"3d8b5b74d73b6bc3240ba3a29a93d58d-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-search-plus/": {
+   "versao": null,
+   "hash": "c5404fe5a9d593a84d9b77fbab2c20ffb93a4ee5",
+   "arquivo": "docs/components/ez-search-plus-c59f0dbb.md",
+   "etag": "\"7ccda59a72c23fa82f5d4a9f47919ae3-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-search/": {
+   "versao": null,
+   "hash": "dc9f0ec90898455d49be5eb1b808ac76d5bd0225",
+   "arquivo": "docs/components/ez-search-45973147.md",
+   "etag": "\"bd83d2be31414f45664c3498da410f8b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-sidebar-button/": {
+   "versao": null,
+   "hash": "283d9c808e8aaf4aa3fc097bee829c19804037d8",
+   "arquivo": "docs/components/ez-sidebar-button-4a64bcd0.md",
+   "etag": "\"c9040ea535bb2d3297ff74fc62cbe389-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-sidebar-navigator/": {
+   "versao": null,
+   "hash": "b1b2c64fa9e145a01249773d0d67ba81b5868b9b",
+   "arquivo": "docs/components/ez-sidebar-navigator-f02b3c79.md",
+   "etag": "\"4c951b2abafe0f45333bd007d3d4310a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-skeleton/": {
+   "versao": null,
+   "hash": "bd3dceb314f480ef10470ba4d19e8d7f182911eb",
+   "arquivo": "docs/components/ez-skeleton-da46d490.md",
+   "etag": "\"9282f6646c1109d5727216e1d0e8ad0f-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-sortable-list/": {
+   "versao": null,
+   "hash": "c6419ee2f0910ff7256e35fcc3eb002488dadbfb",
+   "arquivo": "docs/components/ez-sortable-list-cbc053d8.md",
+   "etag": "\"ea0f757a771f5bfaa0c16dc597e36d07-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-spinner/": {
+   "versao": null,
+   "hash": "bf22a2abf1d8e5bdae2ecce4dc175c3427ffdc81",
+   "arquivo": "docs/components/ez-spinner-96be1eb7.md",
+   "etag": "\"9ff8c5eebf8bc01cd5ef204579e7740e-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-split-button/": {
+   "versao": null,
+   "hash": "9643cc7b0497f66b9a9423c4c17df93369675252",
+   "arquivo": "docs/components/ez-split-button-619facdd.md",
+   "etag": "\"3dec72414a5e6a3b6008248fda2a4ace-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-split-panel/": {
+   "versao": null,
+   "hash": "7b2062c7a20238fd4fd067e8a79480ac992db6b3",
+   "arquivo": "docs/components/ez-split-panel-1f2299d8.md",
+   "etag": "\"0f41e778d1556699cc3822b1cb377ce3-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-tabselector/": {
+   "versao": null,
+   "hash": "f389289c3fb65c18c3270ba89d30ca28afcad129",
+   "arquivo": "docs/components/ez-tabselector-527404df.md",
+   "etag": "\"96b954dbb78237d503acaf5f8ef794fc-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-tag-input/": {
+   "versao": null,
+   "hash": "506900ab1829981d196254576db314171839f6d0",
+   "arquivo": "docs/components/ez-tag-input-d4370621.md",
+   "etag": "\"e1502b00e633c5bf2ad4a51ad9285b50-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-tag/": {
+   "versao": null,
+   "hash": "81674f45f4713c6cd04d058448df4b623dafdd63",
+   "arquivo": "docs/components/ez-tag-18f049ae.md",
+   "etag": "\"f4e6be0bc34410e341c0304bbbd8e2e8-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-text-area/": {
+   "versao": null,
+   "hash": "ef7d066e6198d9e64f808bd6a4d36a51bb75e8b8",
+   "arquivo": "docs/components/ez-text-area-90c71458.md",
+   "etag": "\"24613181e94fb19616eecffcac13f036-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-text-edit/": {
+   "versao": null,
+   "hash": "f4b6aff770a7101221217e02e551f12b137aecc0",
+   "arquivo": "docs/components/ez-text-edit-9ba1c072.md",
+   "etag": "\"9777334a42194b2d56e8a2d43015f27a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-text-input/": {
+   "versao": null,
+   "hash": "3cfaaa6278f141a7a8b8b5bbe5bde83830b19a93",
+   "arquivo": "docs/components/ez-text-input-0c7b72b2.md",
+   "etag": "\"579b9f848fc8ecf211793234f7f09fb6-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-tile-medium/": {
+   "versao": null,
+   "hash": "f53389da8dd9fde823c6477c1101f8a775fbb9e1",
+   "arquivo": "docs/components/ez-tile-medium-d67817e4.md",
+   "etag": "\"feeee679cd5e2de204b510727bdeae0a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-tile/": {
+   "versao": null,
+   "hash": "a0c527c03e8bdb7bb743db40dba85d3e875fcf2e",
+   "arquivo": "docs/components/ez-tile-8b3eab31.md",
+   "etag": "\"f4aa7776788e2d478498143ad52df8d5-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-time-input/": {
+   "versao": null,
+   "hash": "f429f2a8563dd71a50bff404b3fa98413ef979ad",
+   "arquivo": "docs/components/ez-time-input-0ba23098.md",
+   "etag": "\"0c829b9084670d0226a45bf48c3f0376-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-toast/": {
+   "versao": null,
+   "hash": "05581679252cb95691b7f12fa44a719bb3d5642c",
+   "arquivo": "docs/components/ez-toast-d37f51ce.md",
+   "etag": "\"3d396a3f256c4bd46fc9dcb4204556fe-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-tooltip/": {
+   "versao": null,
+   "hash": "3cce925129f9e8cd484f5b8e9c9ea87c8c658d89",
+   "arquivo": "docs/components/ez-tooltip-e217f66e.md",
+   "etag": "\"30ce16a1373ff1766238252b799c9a07-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-tree/": {
+   "versao": null,
+   "hash": "eda336c072672b46613a0fd5fcd33e99ae1aab98",
+   "arquivo": "docs/components/ez-tree-ab437600.md",
+   "etag": "\"e4ad15698bdfbf575f4ff5359e4a9bd0-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-underface/": {
+   "versao": null,
+   "hash": "ec077f4ae2c33f290b75f7608b4d13f3d60de12e",
+   "arquivo": "docs/components/ez-underface-3f4780dc.md",
+   "etag": "\"c23edb74748520f680bc20b89dabd059-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/components-doc/ez-upload/": {
+   "versao": null,
+   "hash": "7a3b93f1e56d06c2a30aeb48b51459243b7b3141",
+   "arquivo": "docs/components/ez-upload-f10d823b.md",
+   "etag": "\"2f0f16b35e2543f84d25c68a49706b1b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/getting-started/collaborate": {
+   "versao": null,
+   "hash": "0f6a254f86a1311cd0d1902b9855c36712f512c5",
+   "arquivo": "docs/components/collaborate-be3f95c1.md",
+   "etag": "\"f0f74198b3f6393b5a1ab810ccc4b4dc-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/getting-started/configure": {
+   "versao": null,
+   "hash": "f206eabc4e893def2c595b16b3ceb1fa96570d83",
+   "arquivo": "docs/components/configure-e126c802.md",
+   "etag": "\"82f658bbe94038dffe5befc47d980d2a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/getting-started/overview": {
+   "versao": null,
+   "hash": "35e0080a9bc6b2489a5492e9c1444d4a3e6b3488",
+   "arquivo": "docs/components/overview-3c876861.md",
+   "etag": "\"4292b078c9cbe29a97b2404fa2c6c229-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/acorde/": {
+   "versao": null,
+   "hash": "94a2c43b47517ad5a1b82ff62c08a077fc78dab1",
+   "arquivo": "docs/components/acorde-2c5d35be.md",
+   "etag": "\"0ef3060c40d151c122e9dcc10f637f03-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/acorde/bordas/": {
+   "versao": null,
+   "hash": "32c56d8294a91670eeeaa897629501e97295de5e",
+   "arquivo": "docs/components/bordas-295c28bf.md",
+   "etag": "\"464b1808fd575c874146128c88dde15e-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/acorde/cores/": {
+   "versao": null,
+   "hash": "7367ba41779630d26dea0e96f9cbef7ad508f7ec",
+   "arquivo": "docs/components/cores-c367bcd7.md",
+   "etag": "\"b4589a1eadedae276a415daeb3526839-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/acorde/espacamentos/": {
+   "versao": null,
+   "hash": "a01edfc31d7e8e453e6c75ad6b45eec9bab6c822",
+   "arquivo": "docs/components/espacamentos-10fb2de7.md",
+   "etag": "\"1adac2a59964262b2e10a7caf1664b87-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/acorde/tipografia/": {
+   "versao": null,
+   "hash": "fa31845cb309e2b82e2479772de4c6e74df91bf5",
+   "arquivo": "docs/components/tipografia-872c7e84.md",
+   "etag": "\"1b857a58a3839f47452d8056a91d244a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/acorde/tokens/": {
+   "versao": null,
+   "hash": "fe1f3fc35c5865709ab6bf7a00dc58a43776d277",
+   "arquivo": "docs/components/tokens-8461d8e8.md",
+   "etag": "\"b6fbd681e1afd9af7587dc859a2337a2-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/box/": {
+   "versao": null,
+   "hash": "3346e562347e369b992a3d239fdb210f193d62cd",
+   "arquivo": "docs/components/box-3e26a382.md",
+   "etag": "\"aefa359159e94665013963fdd7d1b829-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/content/": {
+   "versao": null,
+   "hash": "8481f5542a8b0a25eeb4bd1ea76778b6d093f96c",
+   "arquivo": "docs/components/content-7f66bcae.md",
+   "etag": "\"ad35315f30727add410874afa1aefa7a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/flexbox-system/": {
+   "versao": null,
+   "hash": "720c9b8077ba9cd1506350fdaeeb6f3053ad8bcc",
+   "arquivo": "docs/components/flexbox-system-619f1931.md",
+   "etag": "\"8b75eab7a3170225cab5dd32e37e0cf7-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/grid-system/": {
+   "versao": null,
+   "hash": "e515067c0652d77ab5f766d3455ae871e89cf37b",
+   "arquivo": "docs/components/grid-system-062934e2.md",
+   "etag": "\"7167ff1fa5b97ee3eca52c4d6ab8c67b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/icons/": {
+   "versao": null,
+   "hash": "b7ff6b9ade8d9de45f0a48f1c59294b00a445d4c",
+   "arquivo": "docs/components/icons-87d63e19.md",
+   "etag": "\"e3eac8a097a00cc7c99af14386eff6bc-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/labels/": {
+   "versao": null,
+   "hash": "052c495535fd0c00fd64da5c431cc108e6541b8a",
+   "arquivo": "docs/components/labels-cecbc605.md",
+   "etag": "\"fcebdf131f23ce0af3cc09f2b9e4bec3-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/margin/": {
+   "versao": null,
+   "hash": "ab7a89a524ffcf976c1622a70e0c1009d5216bac",
+   "arquivo": "docs/components/margin-7e20ec7d.md",
+   "etag": "\"1313f72151f8ce4b12e3dc4e58a84b8b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/padding/": {
+   "versao": null,
+   "hash": "9752c1102f9c59815fb47c7415a9f175a8fc0f32",
+   "arquivo": "docs/components/padding-de12a576.md",
+   "etag": "\"6dfb92e1870b2c6e78c5756f719562eb-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/text/": {
+   "versao": null,
+   "hash": "134303bbf5083323219f31f77419d39c26c069e2",
+   "arquivo": "docs/components/text-bd887357.md",
+   "etag": "\"c9f8f6189bd180f1e13070cec260e394-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/layout-doc/title/": {
+   "versao": null,
+   "hash": "c2e2bb92927d863eeaf583e8cc40b7d07052ede7",
+   "arquivo": "docs/components/title-f316ad6e.md",
+   "etag": "\"4087bd23c521258d1940330687e1f5f0-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/": {
+   "versao": null,
+   "hash": "c87c9a82bdbb7f3a5bd83706abd0b6d6f77a73b2",
+   "arquivo": "docs/components/sankhya-erp-componentes-d12f94c2.md",
+   "etag": "\"f34308e34c82b78d8f146852abd632e8-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-application/": {
+   "versao": null,
+   "hash": "b8e1adb4d087bac4793bae2bfae93b930f606f6f",
+   "arquivo": "docs/components/snk-application-584f4932.md",
+   "etag": "\"7020117bf26ae22b2fe17d5dfecda785-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-attach/": {
+   "versao": null,
+   "hash": "0263e46b766f4601c68c45e703fdd90081418d2e",
+   "arquivo": "docs/components/snk-attach-247aaa0b.md",
+   "etag": "\"523cf151d4fd9bb1091cb1e45c681db7-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-crud/": {
+   "versao": null,
+   "hash": "862dd365aa594fcc2e96515b59761dfcbb4891d8",
+   "arquivo": "docs/components/snk-crud-2171bb88.md",
+   "etag": "\"2701abb9bb9fc6a6db0ae532d405d0e9-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-data-exporter/": {
+   "versao": null,
+   "hash": "efe47a6860076236f3c5f4052fc1bdb7fe2886f2",
+   "arquivo": "docs/components/snk-data-exporter-af7bc8d6.md",
+   "etag": "\"fa454f6c7582ec867f8ebb404cb8611b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-data-unit/": {
+   "versao": null,
+   "hash": "15149e1be531af86ed2e9a8cd187f50fca719309",
+   "arquivo": "docs/components/snk-data-unit-5098a253.md",
+   "etag": "\"5cb1fdfbd61a0844b9ce137d35837663-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-entity-list/": {
+   "versao": null,
+   "hash": "530989eb1daaae01efb00f1f1f68ade6b3b1fb88",
+   "arquivo": "docs/components/snk-entity-list-3f77bd55.md",
+   "etag": "\"a4c1e52318df6682c261e60e2986f4ee-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-filter-bar/": {
+   "versao": null,
+   "hash": "3bbadd72efe1e557e858fcedcfcc5636344b7509",
+   "arquivo": "docs/components/snk-filter-bar-b87fda9b.md",
+   "etag": "\"79ec9fc8d6641d3301a0dc33d63dd30d-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-filter-field-search/": {
+   "versao": null,
+   "hash": "af8aaeac9fcc249bee9684ab7ed05ba2672430f9",
+   "arquivo": "docs/components/snk-filter-field-search-8412fa8f.md",
+   "etag": "\"80a9be94e7878451e7b38bce87ef8c15-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-form/": {
+   "versao": null,
+   "hash": "077c97b626dbc8badceb83136938188b1c82d92a",
+   "arquivo": "docs/components/snk-form-fddf6f85.md",
+   "etag": "\"db5e5e5404c0e9b87b73b04cae863636-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-grid/": {
+   "versao": null,
+   "hash": "7ba782f4f6b60dc2a656d692c4dcf76e43d5f098",
+   "arquivo": "docs/components/snk-grid-8cc712e7.md",
+   "etag": "\"9ec0f26306e84500267ed23e30939b8e-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-layout-form-config/": {
+   "versao": null,
+   "hash": "a27f0611c395d324209fa4546c6026295fc59f77",
+   "arquivo": "docs/components/snk-layout-form-config-65826749.md",
+   "etag": "\"a755c45444ed6332265d6464cbe94b6c-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-message-builder/": {
+   "versao": null,
+   "hash": "95c6eadb4b2757d25cfe748fdbf7c02fca730f88",
+   "arquivo": "docs/components/snk-message-builder-9dac7378.md",
+   "etag": "\"34ea861ef0533f52b73dc76d73db4953-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-personalized-filter/": {
+   "versao": null,
+   "hash": "2cc2ee54519e3fb9a4520225460b89aec1c71aff",
+   "arquivo": "docs/components/snk-personalized-filter-22be7218.md",
+   "etag": "\"82382db52af7646ae84344fc6c49ef25-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-pesquisa/": {
+   "versao": null,
+   "hash": "086b66750dde2f6bb008713d71f396b7a5d92ddf",
+   "arquivo": "docs/components/snk-pesquisa-ea03252a.md",
+   "etag": "\"9447488e88da97cc803ee6f1433d661f-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-print-selector/": {
+   "versao": null,
+   "hash": "e27064b2974a611fbc6e0b54cd3ba023c40cda2d",
+   "arquivo": "docs/components/snk-print-selector-82564b4a.md",
+   "etag": "\"180845ca5006ddfad9df95970d66fbda-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-simple-bar/": {
+   "versao": null,
+   "hash": "cc4f8942862549ea6a454df8f5a5c58bab607c00",
+   "arquivo": "docs/components/snk-simple-bar-809ffcf3.md",
+   "etag": "\"022bf9a6a38f5fc35a011e1b3941387c-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-simple-crud/": {
+   "versao": null,
+   "hash": "b5a8ca4a52ddce24fc77a8594768fd38f76aa7cf",
+   "arquivo": "docs/components/snk-simple-crud-31be2f22.md",
+   "etag": "\"1e79b9027c3c8d2ee751321590660b07-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-simple-form-config/": {
+   "versao": null,
+   "hash": "3441b9bf10f80af81f4ed9e92ab91952891e9c83",
+   "arquivo": "docs/components/snk-simple-form-config-390649aa.md",
+   "etag": "\"0e56e3d87a1b7180d5682191fb72e449-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/components/sankhya-erp-componentes/snk-taskbar/": {
+   "versao": null,
+   "hash": "a14a101691fd0a42f2ee534d3bd3abad87b2e13e",
+   "arquivo": "docs/components/snk-taskbar-ab2a38b8.md",
+   "etag": "\"4546b65e49d483b02cf60023e42a851d-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/onboarding/onboarding/bff/": {
+   "versao": null,
+   "hash": "daaa4af6d840c2e53652125560f56de0961cdd22",
+   "arquivo": "docs/onboarding/bff-5b8c2f03.md",
+   "etag": "\"8e193b22aad0292c05b54aeb8a194815-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/": {
+   "versao": null,
+   "hash": "8fd0dbfe5c572fd25dc9fcfb399423d4d9f83186",
+   "arquivo": "docs/utilities/api-395380ed.md",
+   "etag": "\"3e5ac7c56ba3069d0ddcac4f4759c533-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/ApplicationContext": {
+   "versao": null,
+   "hash": "56d4e7773b4aac27c2e264d3c7c905e1915a1ce3",
+   "arquivo": "docs/utilities/applicationcontext-ea3dd9e7.md",
+   "etag": "\"323d0ac0d6b3067fe3c1a8d774fd93e6-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/ArrayUtils": {
+   "versao": null,
+   "hash": "617c938585d46c7c09d8b894af437f0ce48e0fcc",
+   "arquivo": "docs/utilities/arrayutils-3c80a820.md",
+   "etag": "\"2163279a1957badd5f85eaf60b3059d3-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/AuthorizedServiceCaller": {
+   "versao": null,
+   "hash": "c192989ee35a226c4fa910b37bc15f9ad5f3023d",
+   "arquivo": "docs/utilities/authorizedservicecaller-2e1b8654.md",
+   "etag": "\"110f61f161ba3e26e3bd813e586545d0-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/Base64Utils": {
+   "versao": null,
+   "hash": "306c2dee303836c3562c7f7bfddc3e4a5cda8ec3",
+   "arquivo": "docs/utilities/base64utils-d5f24188.md",
+   "etag": "\"fdd8d1e4048d44827777846b43ba6aaf-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/Change": {
+   "versao": null,
+   "hash": "cb8d942edf099ff68d137ad7d33683393c1bf36a",
+   "arquivo": "docs/utilities/change-f2e734b4.md",
+   "etag": "\"0a179c7e447ea047e29b63de4bcdaee3-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/ColumnFilterManager": {
+   "versao": null,
+   "hash": "ce18225ca4ea248286b359f7bab332890d284f08",
+   "arquivo": "docs/utilities/columnfiltermanager-779a7c0b.md",
+   "etag": "\"f1e9bffebadd27d4d42dd66a6b4ab965-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/DataBinder/": {
+   "versao": null,
+   "hash": "07bb77fe7bafd92ce5bc07ba805662bf6cdf338e",
+   "arquivo": "docs/utilities/databinder-c66ef79b.md",
+   "etag": "\"9a2b652a5bdfb0e0c383b29b29c8dcdd-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/DataUnit": {
+   "versao": null,
+   "hash": "9c3935a9d3c3218ed773a2b26841f34dd0f01c5d",
+   "arquivo": "docs/utilities/dataunit-c3de4e07.md",
+   "etag": "\"a47e382e1d56a4978f09ec6546c6590a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/DataUnitAction": {
+   "versao": null,
+   "hash": "59bad24ca048896aed212df67727ef5e26fca5fa",
+   "arquivo": "docs/utilities/dataunitaction-31901b7d.md",
+   "etag": "\"c2a3756b633cd46aa9254b90b936c905-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/DataUnitInMemoryLoader": {
+   "versao": null,
+   "hash": "f3980c8ad2ba8a22292acf4f1fab6f58355fd5a3",
+   "arquivo": "docs/utilities/dataunitinmemoryloader-c48549f2.md",
+   "etag": "\"e27cea1249ca1777e20149a9cec21542-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/DataUnitLoaderUtils": {
+   "versao": null,
+   "hash": "3e8bdfb4913d901a0ae008af2beb6bc9eb5b84fb",
+   "arquivo": "docs/utilities/dataunitloaderutils-c078ce30.md",
+   "etag": "\"fb85349b1065f5feeb9f03311e7004e8-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/DataUnitStorage": {
+   "versao": null,
+   "hash": "bf020cc89ed986d04f62fa18cc07db5ac0da53f3",
+   "arquivo": "docs/utilities/dataunitstorage-be6d403a.md",
+   "etag": "\"428dfc0a4940742cbca3f28773f44815-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/DateUtils": {
+   "versao": null,
+   "hash": "84170b39815fb943e00c41bc102c579df3f0e58b",
+   "arquivo": "docs/utilities/dateutils-a7e44066.md",
+   "etag": "\"660028a09f7c82a489f4aeb5b42fcb25-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/ElementIDUtils": {
+   "versao": null,
+   "hash": "c25c6d4ae571f4bcbc8701826d395c6d719d960f",
+   "arquivo": "docs/utilities/elementidutils-ae6ade58.md",
+   "etag": "\"ef3e6d5ee65a6daf7f300a1b73fd6ee1-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/ErrorException": {
+   "versao": null,
+   "hash": "194990811179c37c5398333a698008997d2ce2e2",
+   "arquivo": "docs/utilities/errorexception-dfb7680e.md",
+   "etag": "\"b154bfa5ac6bd0936474b378d64a3662-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/ErrorTracking": {
+   "versao": null,
+   "hash": "d5291cd623e5fa2649601a7b5c2ca0e35dec3fd7",
+   "arquivo": "docs/utilities/errortracking-fba2cefa.md",
+   "etag": "\"7b15e58339aba9e0a82a89cd867968a8-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/FieldComparator": {
+   "versao": null,
+   "hash": "67ee756f2f7f72f9bd7d369cede354f239c896c8",
+   "arquivo": "docs/utilities/fieldcomparator-ea9eaa10.md",
+   "etag": "\"3e134fec16b5dc1939fb10735603945b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/FloatingManager": {
+   "versao": null,
+   "hash": "7ea070d4561e062febebffd34842ff394f58554f",
+   "arquivo": "docs/utilities/floatingmanager-0e358383.md",
+   "etag": "\"0dbfaf74c2fb3f57b3dc13e853d0ce8a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/HTMLBuilder": {
+   "versao": null,
+   "hash": "91cf070ef8e8c11d6cb3f207af959b5a1bf8502a",
+   "arquivo": "docs/utilities/htmlbuilder-cd9f9c49.md",
+   "etag": "\"281b00c496d0deed57c55340ef8209e3-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/HttpProvider": {
+   "versao": null,
+   "hash": "459398f30343edfde50f688bbb6359aec16b591a",
+   "arquivo": "docs/utilities/httpprovider-cd560262.md",
+   "etag": "\"f99911a9db78bb5f3276c5069586017d-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/IDBRepository": {
+   "versao": null,
+   "hash": "fae7535a9cdfde0c1d1cbc03c4c89edfc028bf21",
+   "arquivo": "docs/utilities/idbrepository-049d3ea4.md",
+   "etag": "\"61183b4387e3d2b03afcb767ed0f9518-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/JSUtils": {
+   "versao": null,
+   "hash": "0dda60c2815c81a61a012f52f0012016f3c04f1a",
+   "arquivo": "docs/utilities/jsutils-be552a25.md",
+   "etag": "\"da82301fc014ca0f09755e3393f4ac14-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/KeyboardManager": {
+   "versao": null,
+   "hash": "a0f44b9ffe71d0d73c0c075b3fb8fa8c4e8a72fa",
+   "arquivo": "docs/utilities/keyboardmanager-ac6e8e1b.md",
+   "etag": "\"6aa05d451f60367ba7380603e0a41a00-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/LangUtils": {
+   "versao": null,
+   "hash": "09fea2deb6936a12d620330798a664bc801848fd",
+   "arquivo": "docs/utilities/langutils-730b36ae.md",
+   "etag": "\"4c41d6650bf623540ee766b434521329-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/LockManager": {
+   "versao": null,
+   "hash": "8c1f5ab8c0964fee0c6454c7420b26c85c8cd0ea",
+   "arquivo": "docs/utilities/lockmanager-00a56a7c.md",
+   "etag": "\"b03944297b563054dcab84b37cea5309-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/MaskFormatter": {
+   "versao": null,
+   "hash": "0a61a5144beec042ccc7f251958e7348c344dccb",
+   "arquivo": "docs/utilities/maskformatter-0fff97ca.md",
+   "etag": "\"a6060336f6b9a23e4fabc7dd5337a749-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/NumberUtils": {
+   "versao": null,
+   "hash": "503a82dee26d929883307f6dc1be46af226cb162",
+   "arquivo": "docs/utilities/numberutils-b58364f5.md",
+   "etag": "\"aeecc75edeaa00ef6d43e5a128d2b29a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/ObjectUtils": {
+   "versao": null,
+   "hash": "8e54db6ca2991c574eb0b142dabd36f925d27050",
+   "arquivo": "docs/utilities/objectutils-6f29d94d.md",
+   "etag": "\"031811937ea1bb0c7d13753995901ca9-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/OnboardingUtils": {
+   "versao": null,
+   "hash": "fc288b09cc955dd382b3c1607505a52be1cfdf51",
+   "arquivo": "docs/utilities/onboardingutils-c8de577a.md",
+   "etag": "\"3e27370ff87a524cf61cb7db17a81c6b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/OverflowWatcher": {
+   "versao": null,
+   "hash": "4237642559f19a24aab581f452522f7086315345",
+   "arquivo": "docs/utilities/overflowwatcher-e88c0c18.md",
+   "etag": "\"382fc6c29b72d92e1e8adf11a128a1cb-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/PromiseSync": {
+   "versao": null,
+   "hash": "1dbd6cb03c802122e82f351d894a44849fb71aca",
+   "arquivo": "docs/utilities/promisesync-f52252c4.md",
+   "etag": "\"867dbd408956cdfa0ddba8aff820c36a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/ReadyUtil": {
+   "versao": null,
+   "hash": "11488b1e2f2e53bd45ce6f4b26b178dbce4b46b4",
+   "arquivo": "docs/utilities/readyutil-98303e11.md",
+   "etag": "\"e79f1c14e958f07756f9e76c3fb3fa56-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/RequestMetadata": {
+   "versao": null,
+   "hash": "e07d3c3a6b9f00aebf094750609c41989e848429",
+   "arquivo": "docs/utilities/requestmetadata-51177f2b.md",
+   "etag": "\"8cc84e9abecbe2c559b49e279ea01731-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/SearchUtils": {
+   "versao": null,
+   "hash": "7da06fbfc13f6d84c317da53f8de40bb1729f9ee",
+   "arquivo": "docs/utilities/searchutils-b2780828.md",
+   "etag": "\"a9657825aea11e4e5f85d0d250860071-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/SelectionInfo": {
+   "versao": null,
+   "hash": "f1476932d1d231be7a418b420802b90769bae8e6",
+   "arquivo": "docs/utilities/selectioninfo-d3a89604.md",
+   "etag": "\"a899132c351c24718ce7db654371154a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/ServiceCanceledException": {
+   "versao": null,
+   "hash": "767037cfbcfee97f2e97936482e5ffb2f636c381",
+   "arquivo": "docs/utilities/servicecanceledexception-151ca1f3.md",
+   "etag": "\"545fb631309c22e35f0def5dd58ecd71-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/ServiceUtils": {
+   "versao": null,
+   "hash": "3674fd73bd7c2003198745f99e7ab65ba1537934",
+   "arquivo": "docs/utilities/serviceutils-e2aa3adf.md",
+   "etag": "\"4f2f845e46b45bdf624c5676d8113b86-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/SilentException": {
+   "versao": null,
+   "hash": "0975b1af31417d4a1677851bd9f6d0af47ed2053",
+   "arquivo": "docs/utilities/silentexception-8985adb2.md",
+   "etag": "\"31854b7014da6d126bfbe70d4a47a2eb-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/SkwHttpProvider": {
+   "versao": null,
+   "hash": "89075281f0066ccb939411257e2fa3268544ebd2",
+   "arquivo": "docs/utilities/skwhttpprovider-fc9581c1.md",
+   "etag": "\"98038ec2bd151a213553e8e2b7dc638b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/StringUtils": {
+   "versao": null,
+   "hash": "1a22db6a125ae901570a61916de0b99992ed43b9",
+   "arquivo": "docs/utilities/stringutils-7da46a36.md",
+   "etag": "\"a0ebff5147e2d2b6ccf9feca44e350a1-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/TimeFormatter": {
+   "versao": null,
+   "hash": "a4789ffbe92e5b049d4d0292925a054d0359aab3",
+   "arquivo": "docs/utilities/timeformatter-e37a6efc.md",
+   "etag": "\"724bb767820bbec60b04786712c18f96-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/UserAgentUtils": {
+   "versao": null,
+   "hash": "6b4af1c60ddbe9d87d30a52ced856e7707e80bbf",
+   "arquivo": "docs/utilities/useragentutils-f4c9f34f.md",
+   "etag": "\"3efce4bb426e30177531c5e985868b2b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/VersionUtils": {
+   "versao": null,
+   "hash": "6600ff639621abfded0035ec90be5478d4fed151",
+   "arquivo": "docs/utilities/versionutils-cffa5b09.md",
+   "etag": "\"3d68305dbaa63641397718749c644d66-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/WaitingChangeException": {
+   "versao": null,
+   "hash": "86c6842e2e59cb9e56295525c1a00d2790e5e8ce",
+   "arquivo": "docs/utilities/waitingchangeexception-57c55689.md",
+   "etag": "\"a8349bfbebdc89637711bb7e0dcd1a6f-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/classes/WarningException": {
+   "versao": null,
+   "hash": "c64e1515d4ac298a9b4f41755494b5d04d325eb2",
+   "arquivo": "docs/utilities/warningexception-2441cb8d.md",
+   "etag": "\"896f10be8cb3a3e7aae711ece11b2c01-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/enumerations/Action": {
+   "versao": null,
+   "hash": "a040d75ffb0fa3cd22b14578cc73e8a326053fa1",
+   "arquivo": "docs/utilities/action-dfa1643b.md",
+   "etag": "\"ccf2ab2f323e22cc1fca87dcf1e92eb8-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/enumerations/ChangeOperation": {
+   "versao": null,
+   "hash": "367e27cb2c7a46876cc42271d2c1b5232c63315f",
+   "arquivo": "docs/utilities/changeoperation-ff9c97e2.md",
+   "etag": "\"09055fa9a63ef4dd3dceadf1980cfd2d-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/enumerations/DataType": {
+   "versao": null,
+   "hash": "4f0ea0b642bd0fc7058ae08fa25cda19bcbdd103",
+   "arquivo": "docs/utilities/datatype-cb265a42.md",
+   "etag": "\"120fe5de09eec883ea91af7a349f4284-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/enumerations/DependencyType": {
+   "versao": null,
+   "hash": "9d9a9a7e0c56be1c74263ca95761b3888dbb5db2",
+   "arquivo": "docs/utilities/dependencytype-7bf2c0a9.md",
+   "etag": "\"8c7b4f475f65418c99ab1d0f8f9ec590-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/enumerations/LockManagerOperation": {
+   "versao": null,
+   "hash": "06873a5a760c9322396841741502762570a84c25",
+   "arquivo": "docs/utilities/lockmanageroperation-99326b99.md",
+   "etag": "\"58fcf7f0efaf8421871a64009d89ead2-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/enumerations/OverflowDirection": {
+   "versao": null,
+   "hash": "638409bee3a29a9fda8c4df01c8c6f8a958e533a",
+   "arquivo": "docs/utilities/overflowdirection-9ce52456.md",
+   "etag": "\"857bc433ee52392dd75bed3ab69dc81e-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/enumerations/RECORD_DATE_FORMAT": {
+   "versao": null,
+   "hash": "5b575627695d68b8b9d981eba20a6296d5a1cd80",
+   "arquivo": "docs/utilities/record-date-format-91ef47b7.md",
+   "etag": "\"b63da1e3de6f5155b415ca2a53fa91d6-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/enumerations/SelectionMode": {
+   "versao": null,
+   "hash": "097167fb1315f46d06b0f887618c5de88dc6a6d2",
+   "arquivo": "docs/utilities/selectionmode-2f993b69.md",
+   "etag": "\"fa9b78ab83323dc962303098ce0a3e47-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/enumerations/SortMode": {
+   "versao": null,
+   "hash": "41776e0ae4715b7af65509e96c75e87edeac1713",
+   "arquivo": "docs/utilities/sortmode-215a0789.md",
+   "etag": "\"7edb36214d477cd53181432fb312b77d-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/enumerations/StorageType": {
+   "versao": null,
+   "hash": "678605e57ebbb6ed39b443302e028f3c129bdffb",
+   "arquivo": "docs/utilities/storagetype-be549d7d.md",
+   "etag": "\"0e2d9a3d67cce11c145130b4a4160977-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/enumerations/UserInterface": {
+   "versao": null,
+   "hash": "b9a5622e982d3b95e610403cc64ecb60504f491a",
+   "arquivo": "docs/utilities/userinterface-1ccd53a8.md",
+   "etag": "\"d6a3a8626817b76189d6a318ba44b47c-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/functions/defaultDataLoader": {
+   "versao": null,
+   "hash": "06fe795d2d4b6e1f6cb5f520d6def5ba4ea434d7",
+   "arquivo": "docs/utilities/defaultdataloader-d5d02358.md",
+   "etag": "\"5efa4b35bd6752697be749d9adb8e583-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/globals": {
+   "versao": null,
+   "hash": "7e100cb3218c76e003a636b02429b87d285f8b51",
+   "arquivo": "docs/utilities/globals-7d2724c4.md",
+   "etag": "\"8979f69e93e8232083f83a025e352463-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/ChildDescriptor": {
+   "versao": null,
+   "hash": "184b196756ef39ebccbcb766b3dc228d94353984",
+   "arquivo": "docs/utilities/childdescriptor-9a9cc39e.md",
+   "etag": "\"347db442c99e118f562b12b52bcba76f-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/ChildLink": {
+   "versao": null,
+   "hash": "a161e86441354b302b235410793c0ec4254fa879",
+   "arquivo": "docs/utilities/childlink-2109114f.md",
+   "etag": "\"502575d08ba4307c4540300553775a87-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/DataUnitInMemoryLoaderConfig": {
+   "versao": null,
+   "hash": "671766a182d11685db09d48a04f182b410e81bec",
+   "arquivo": "docs/utilities/dataunitinmemoryloaderconfig-e5785a18.md",
+   "etag": "\"1f068277dac6c0ff86f28d66452a6a4d-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/DUActionInterceptor": {
+   "versao": null,
+   "hash": "d0cc5a1baccafcb2cea1cd7ab850191a1e55f676",
+   "arquivo": "docs/utilities/duactioninterceptor-5f1ddb6c.md",
+   "etag": "\"8cdd46b6d0a185aeb4edd89510ad675a-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/ExecutionContext": {
+   "versao": null,
+   "hash": "52edf996365eaa722820ac32fd444d67690f1d46",
+   "arquivo": "docs/utilities/executioncontext-5dfe5de4.md",
+   "etag": "\"b7eafa0648d0482f6b18b1723f2a3108-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/FieldDescriptor": {
+   "versao": null,
+   "hash": "61fb3c16bd96575d84b86b3eeb0385b6fbf0c6fd",
+   "arquivo": "docs/utilities/fielddescriptor-b0eaac5c.md",
+   "etag": "\"12ca6bba17c7e43999eaf791597ca8da-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/Filter": {
+   "versao": null,
+   "hash": "b50ffd27e71a780c5dafd20ab3a3a56e23d97532",
+   "arquivo": "docs/utilities/filter-b8fbf5e2.md",
+   "etag": "\"38abdf616fd1cfcd535db8a1414c410b-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/IElementIDInfo": {
+   "versao": null,
+   "hash": "c5088f6bd17b756fff52b866d1dca91b86173960",
+   "arquivo": "docs/utilities/ielementidinfo-ef765e9a.md",
+   "etag": "\"f8b75a5a89849f93b6ca1db756f3c778-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/ILoadResult": {
+   "versao": null,
+   "hash": "ca3879d640f7bb2e686da02a89f642b448b2ed0f",
+   "arquivo": "docs/utilities/iloadresult-9d04d59b.md",
+   "etag": "\"7f9c3a5903635047d1715140f382b5ec-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/IRepository": {
+   "versao": null,
+   "hash": "89c6ce049ec2052114d5a7ef1c94ca216101ffa7",
+   "arquivo": "docs/utilities/irepository-1d61233b.md",
+   "etag": "\"60beb9041fa6a393b97930e84e29cf55-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/IRepositoryIndex": {
+   "versao": null,
+   "hash": "cf0467c23ec2858451260ab58d6d9e6102c79a63",
+   "arquivo": "docs/utilities/irepositoryindex-50ee4514.md",
+   "etag": "\"952e247a20e9a40b88e543f71c0bc385-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/LoadDataRequest": {
+   "versao": null,
+   "hash": "69321aa279e92f284e672a5657a524c36ce1ece4",
+   "arquivo": "docs/utilities/loaddatarequest-b9c9741c.md",
+   "etag": "\"32567033a522010b8750e9b53dfc5f63-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/LoadDataResponse": {
+   "versao": null,
+   "hash": "55691b7be7cb41b14083a1ae466343b76455b45d",
+   "arquivo": "docs/utilities/loaddataresponse-c88c8cf1.md",
+   "etag": "\"de42059cfea3e007584917ea4f52d924-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/OverFlowWatcherParams": {
+   "versao": null,
+   "hash": "94baed187a0a7d96cb2f38172abcc87f993daf7c",
+   "arquivo": "docs/utilities/overflowwatcherparams-78c3657c.md",
+   "etag": "\"b54c6ed88f89e7b11986ddc9fcca6950-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/PageRequest": {
+   "versao": null,
+   "hash": "488743630f85e1042334a1d18b4103b102c28686",
+   "arquivo": "docs/utilities/pagerequest-2bba1941.md",
+   "etag": "\"e122cc45b8a88a15afe315d685c80fa9-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/PaginationInfo": {
+   "versao": null,
+   "hash": "5635cbbadb824d8c6c44c627087a9259de4589c8",
+   "arquivo": "docs/utilities/paginationinfo-404afce7.md",
+   "etag": "\"90dc2142c6c3da7b78abab7f959bdb98-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/PaginationInfoBuilderParams": {
+   "versao": null,
+   "hash": "ab549976f6fbded206b8ca22adc5e4ca27a36c78",
+   "arquivo": "docs/utilities/paginationinfobuilderparams-46ba5db5.md",
+   "etag": "\"972261e0a06df89f28c3013b524dc852-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/PromiseSyncCallback": {
+   "versao": null,
+   "hash": "817f5c133a2f1392fbfad684fbd22a94fa5b1723",
+   "arquivo": "docs/utilities/promisesynccallback-57fba1fa.md",
+   "etag": "\"c934bec5342c1f17fe7db2704e96015e-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/QuickFilter": {
+   "versao": null,
+   "hash": "94400299741494422afee60047b3063ae81e1d17",
+   "arquivo": "docs/utilities/quickfilter-e144b62f.md",
+   "etag": "\"04d3a394303373e8a268833f6fc1c301-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/Record": {
+   "versao": null,
+   "hash": "fd37ae19b4440ae96e76c9f6e6969c5004b3d644",
+   "arquivo": "docs/utilities/record-1002031b.md",
+   "etag": "\"5432755101ca1b2a986c3da01d8bcb7c-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/SavedRecord": {
+   "versao": null,
+   "hash": "d201a00f3ec3ab7109f7e929d1dbe29e154d7520",
+   "arquivo": "docs/utilities/savedrecord-d688321d.md",
+   "etag": "\"8cd0dc4effff6bd95590b937b77cc698-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/Sort": {
+   "versao": null,
+   "hash": "00a5bbd507f795e45c188d3fdddbe0c90668e7df",
+   "arquivo": "docs/utilities/sort-74efb3ca.md",
+   "etag": "\"cb2423b2cc7e021a69591e85684b92a3-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/SortingProvider": {
+   "versao": null,
+   "hash": "b4f1969c97bb48e0d8e9ab16958a11c853da3df0",
+   "arquivo": "docs/utilities/sortingprovider-6fd0ac4e.md",
+   "etag": "\"32075215acab7d205f298361f31ec05c-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/UnitMetadata": {
+   "versao": null,
+   "hash": "45a2c988c1541d9669a5f4a6c20127beae5de804",
+   "arquivo": "docs/utilities/unitmetadata-24b22d0e.md",
+   "etag": "\"5d5853723b62fcfe93cf906012dd82e1-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/interfaces/WaitingChange": {
+   "versao": null,
+   "hash": "6f8fae4205a93003a66101249f2aa97991ed19c6",
+   "arquivo": "docs/utilities/waitingchange-f07a5c18.md",
+   "etag": "\"dc01ae1d0380d80af802b53bf64b8b21-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/namespaces/MaskFormatter/": {
+   "versao": null,
+   "hash": "7a795ee3de28110a81f2dd645cb71ded0120179d",
+   "arquivo": "docs/utilities/maskformatter-e0233f2c.md",
+   "etag": "\"ecc41770f18f33d8df7cdfa228f74e50-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/namespaces/MaskFormatter/type-aliases/MaskCharacter": {
+   "versao": null,
+   "hash": "3273f5dd614e5f8870ee7977bc2416ded21bd796",
+   "arquivo": "docs/utilities/maskcharacter-ec80be9e.md",
+   "etag": "\"719837151748e6d0aec34d8d9894bc09-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/namespaces/MaskFormatter/variables/MaskCharacter": {
+   "versao": null,
+   "hash": "1539d92cf87c1779be673615938520e5dceffa84",
+   "arquivo": "docs/utilities/maskcharacter-74bbfd42.md",
+   "etag": "\"6b09a561c468aee696f8c5f985f5f018-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/type-aliases/DataUnitEventOptions": {
+   "versao": null,
+   "hash": "64521914a11f7d11a3aa038dcd0eddc287048eca",
+   "arquivo": "docs/utilities/datauniteventoptions-6c202dcb.md",
+   "etag": "\"ac3e8e7abdc9ac286803c5b3f1799500-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/type-aliases/OnOverflowCallBack": {
+   "versao": null,
+   "hash": "885c05b7f702cca98089817ef9211baad01cf0dd",
+   "arquivo": "docs/utilities/onoverflowcallback-1cba21a5.md",
+   "etag": "\"2a1299bf0a332329b416fd2adfb44387-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/api/variables/OVERFLOWED_CLASS_NAME": {
+   "versao": null,
+   "hash": "bf94645bde3415247415f993a073ab4a7dea0d1c",
+   "arquivo": "docs/utilities/overflowed-class-name-1df2bdeb.md",
+   "etag": "\"fd7de5fc5682c4e3e2bcad0c009bef48-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/components/dataunit/": {
+   "versao": null,
+   "hash": "078f9b345068ff46b866589dde86af393c80be60",
+   "arquivo": "docs/utilities/dataunit-75ccf1d2.md",
+   "etag": "\"a6e16ea86770befdc84a071f6821b0f5-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/components/dataUnitInMemoryLoader/": {
+   "versao": null,
+   "hash": "a9de1ea07ec24ac624c930a893b08ea58d95f6de",
+   "arquivo": "docs/utilities/dataunitinmemoryloader-4564e7f2.md",
+   "etag": "\"a0487b1d850122507e1e501e3edc1342-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/docs/utilities/components/dataUnitLoaderUtils/": {
+   "versao": null,
+   "hash": "eb1d3374080caf6e0cd52df0f306421e13bdeb83",
+   "arquivo": "docs/utilities/dataunitloaderutils-fc6e01cc.md",
+   "etag": "\"f57a10b1ce19f0deda2b563227efa631-ssl\"",
+   "last_modified": null
+  },
+  "https://gilded-nasturtium-6b64dd.netlify.app/": {
+   "versao": null,
+   "hash": "8164cc420f53d32991d9399db6b10ca9941f37d5",
+   "arquivo": "inicio/index-216c69e8.md",
+   "etag": "\"0eec8bf6a9d2a82a1c4b7c79a966ce42-ssl\"",
+   "last_modified": null
+  }
+ }
+}
